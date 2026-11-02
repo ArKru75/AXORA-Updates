@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "version": "2.1.10",
+  "hardware": "HW1",
+  "mcu": "atmega32u4",
+  "programmer": "avr109",
+  "baud": 57600,
+  "application_limit": 28672,
+  "vid": "256F",
+  "pid": "C631",
+  "calibration_schema": 1,
+  "min_calibrator": "1.0.16",
+  "path": "updates/firmware/AXORA-2.1.10-CAD.hex",
+  "size": 79402,
+  "sha256": "608cd1a1f539849225ad96caecabb20b1f5fde37f6b6262d4bbd82b9b7111169",
+  "source_commit": "e67c48ae9913f663f476427a9222bf48de1d5c5f",
+  "notes_uk": "2.1.10: крайні показники ADC 0–1023 більше не блокують звичайні рухи. Перевірка центру та навчання залишається 9–1022. Калібрування й налаштування зберігаються.",
+  "notes_en": "2.1.10: ADC endpoints 0–1023 no longer block normal motion. Center and training checks remain 9–1022. Calibration and preferences are preserved."
+}
