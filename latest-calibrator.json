@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.1.3",
-  "path": "calibrator/AXORA-Calibrator-1.1.3.zip",
-  "size": 2911773,
-  "sha256": "c6dd3e649c87e9ef06d36b854db7fbcbf284a0a339e6b472ada5c5557244ff72",
+  "version": "1.1.4",
+  "path": "calibrator/AXORA-Calibrator-1.1.4.zip",
+  "size": 2912766,
+  "sha256": "c80742f0c3edd4a199a7a37a6e792681cad22987ecf9846227a6f7e601a16f8e",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Публічні оновлення без токена та погоджені об’ємні стрілки навчання.",
-  "notes_en": "Public updates without credentials and the approved 3D learning artwork."
+  "notes_uk": "Навчену матрицю й стан центру показано окремо; відновлення через «Лише центр».",
+  "notes_en": "Learned matrix and center readiness are shown separately; center-only recovery."
 }
