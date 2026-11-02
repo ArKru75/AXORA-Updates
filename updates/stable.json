@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2.1.10",
+  "version": "2.1.11",
   "hardware": "HW1",
   "mcu": "atmega32u4",
   "programmer": "avr109",
@@ -10,10 +10,10 @@
   "pid": "C631",
   "calibration_schema": 1,
   "min_calibrator": "1.0.16",
-  "path": "updates/firmware/AXORA-2.1.10-CAD.hex",
-  "size": 79402,
-  "sha256": "608cd1a1f539849225ad96caecabb20b1f5fde37f6b6262d4bbd82b9b7111169",
-  "source_commit": "e67c48ae9913f663f476427a9222bf48de1d5c5f",
-  "notes_uk": "2.1.10: крайні показники ADC 0–1023 більше не блокують звичайні рухи. Перевірка центру та навчання залишається 9–1022. Калібрування й налаштування зберігаються.",
-  "notes_en": "2.1.10: ADC endpoints 0–1023 no longer block normal motion. Center and training checks remain 9–1022. Calibration and preferences are preserved."
+  "path": "updates/firmware/AXORA-2.1.11-CAD.hex",
+  "size": 79631,
+  "sha256": "1681fd538915f29fd4cf56afb53dd26f81d7f87a0363d041f434788277d69532",
+  "source_commit": "c0ddb4cb3765b5b244ad18d85fcfc14c6a88ac88",
+  "notes_uk": "2.1.11: усі три WS2812B періодично отримують повний RGB-кадр, навіть коли колір не змінюється. Пропущений кадр більше не залишає випадковий колір назавжди. Матриця, центри й налаштування зберігаються.",
+  "notes_en": "2.1.11: periodically refresh the complete RGB frame for all three WS2812B, including unchanged colors. Missed frames no longer leave random colors latched indefinitely. Calibration and preferences are preserved."
 }
