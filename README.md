@@ -2,9 +2,9 @@
 
 Готові оновлення AXORA. Завантаження **без токена, пароля чи акаунта GitHub**.
 
-## Калібратор Windows 1.1.5
+## Калібратор Windows 1.1.6
 
-[Завантажити AXORA Calibrator 1.1.5](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.5.zip)
+[Завантажити AXORA Calibrator 1.1.6](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.6.zip)
 
 Розпакуйте ZIP та запустіть **AxoraCalibrator.exe**. У розділі **Прошивка**
 натисніть **Перевірити GitHub**, потім **Оновити прошивку**, якщо доступна новіша версія.
@@ -12,23 +12,20 @@
 Перед записом калібратор створює резервну копію та перевіряє HEX/SHA-256.
 Після запису перевіряє версію й збережені дані.
 
+Кнопка **CAD** у верхній частині вікна вмикає та вимикає керування моделлю
+з будь-якої вкладки. Стан підтверджується пристроєм; повторні кліки під час
+перемикання блокуються. Окремих кнопок CAD/HID у «Перевірка рухів» більше немає.
+
 Після підключення індикатори окремо показують навчену матрицю та стан центру.
 Якщо видно **Матриця навчена / Центр не підтверджено**, відпустіть рукоятку й
-кнопки та зачекайте автоматичної повторної перевірки. Якщо центр так і не
-підтверджується, виконайте **Лише центр**. Навчена матриця зберігається;
-повне навчання не потрібне.
+кнопки й зачекайте повторної перевірки приблизно 3–5 секунд у прошивці 2.1.14.
+Якщо центр не підтверджується, виконайте **Лише центр**. Матриця зберігається.
 
 ## Прошивка 2.1.14
 
-Після тимчасового шуму, руху рукоятки або натискання кнопки під час запуску
-перевірка збереженого центру повторюється автоматично. Відпустіть рукоятку й усі
-кнопки та зачекайте приблизно 3–5 секунд: пауза 1 с, вимір 1,6 с і нейтраль 0,4 с.
-Центр і матриця не перезаписуються. Постійне зміщення або шум не розблоковують
-рухи; за потреби виконайте **Лише центр**. Ручна процедура та **Скасувати**
-мають пріоритет над автоматичними повторами.
-
-У калібраторі 1.1.5 розділ **RGB** дозволяє змінювати яскравість 0–100%,
-зберігати її в AXORA та запускати R/G/B/W або циклічний тест на 10 секунд.
+У калібраторі відкрийте **RGB** — яскравість 0–100%, попередній
+перегляд без EEPROM і кнопка **Зберегти яскравість**. R/G/B/W або циклічний тест
+припиняється через 10 секунд чи кнопкою **Зупинити тест**. Матриця зберігається.
 
 AXORA HW1 / ATmega32U4, CAD USB VID **256F**, PID **C631**.
 Використовуйте калібратор для перевірки сумісності та запису.
@@ -44,8 +41,5 @@ Ready-to-install AXORA updates. No token, password or GitHub account is needed.
 Download the Windows ZIP above, extract it and run AxoraCalibrator.exe.
 Use **Firmware → Check GitHub → Update firmware**. The calibrator validates the
 download, backs up calibration and verifies the programmed version and retained data.
+Use the global **CAD** button to turn model control on or off from any workspace.
 This repository distributes binaries and update metadata only.
-
-Firmware 2.1.14 automatically retries a rejected startup check after a one-second
-button-free delay. Release the handle/buttons and allow about 3-5 seconds. The saved
-center/matrix are never rewritten; persistent displacement or noise stays blocked.

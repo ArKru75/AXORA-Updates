@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.1.5",
-  "path": "calibrator/AXORA-Calibrator-1.1.5.zip",
-  "size": 2917420,
-  "sha256": "e04d84277059d89a08c9f1c7ed72c066e30899c6deb6b2f9b3efa4046cc6d29d",
+  "version": "1.1.6",
+  "path": "calibrator/AXORA-Calibrator-1.1.6.zip",
+  "size": 2919281,
+  "sha256": "49b3a3430823d79fc7987187e3f85d6489caf8caecce3d4d6c4c12194823b71c",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Яскравість 0–100%, збереження в AXORA та керований тест RGB.",
-  "notes_en": "Persistent 0–100% brightness and controlled RGB tests."
+  "notes_uk": "Кнопка CAD у головному вікні вмикає та вимикає керування моделлю; старі кнопки CAD/HID прибрані.",
+  "notes_en": "The global CAD button turns model control on or off; the old CAD/HID buttons are removed."
 }
