@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2.1.13",
+  "version": "2.1.14",
   "hardware": "HW1",
   "mcu": "atmega32u4",
   "programmer": "avr109",
@@ -10,10 +10,10 @@
   "pid": "C631",
   "calibration_schema": 1,
   "min_calibrator": "1.0.16",
-  "path": "updates/firmware/AXORA-2.1.13-CAD.hex",
-  "size": 79124,
-  "sha256": "36a8053d5ebd072f152d4fadca53f5ec6631a07a7d687fc26426b368c837fb35",
-  "source_commit": "d2e9af967d64c5a06cfc9e3ea809d8a6d71af8af",
-  "notes_uk": "2.1.13: яскравість 0–100% зі збереженням у пристрої, попередній перегляд і тест RGB/білого через калібратор 1.1.5. Матриця та налаштування рухів зберігаються.",
-  "notes_en": "2.1.13: persistent 0–100% brightness, live preview and RGB/white tests through Calibrator 1.1.5. Calibration and motion settings are preserved."
+  "path": "updates/firmware/AXORA-2.1.14-CAD.hex",
+  "size": 79721,
+  "sha256": "14e3af6418c7e43b7f26abbdb45e1cb287a35ba385cd4b4ad1fef5a2814adfbc",
+  "source_commit": "c22b5d46152b84ef6b5acc9ef138c139a1860ce5",
+  "notes_uk": "2.1.14: автоматичний повтор стартової перевірки після тимчасової нестабільності. Відпустіть рукоятку та всі кнопки й зачекайте приблизно 3–5 секунд. Збережені центр, матриця та налаштування не перезаписуються.",
+  "notes_en": "2.1.14: retry startup verification automatically after temporary instability. Release the buttons and handle and allow about 3-5 seconds. Saved center, matrix and settings are not rewritten."
 }
