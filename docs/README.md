@@ -17,3 +17,9 @@
 [Завантажити PDF напряму](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-UA.pdf)
 
 SHA-256: `6ef5e638696c9f7e434c9a1c8ad951af60bb6691f97aa6ddab4982c108814a44`.
+
+## Доповнення для калібратора 1.1.10
+
+[Автоматичне встановлення та перепрошивання Pro Micro](AXORA-Board-Installation-UA.md).
+[Сервісний режим із мастер-паролем](AXORA-Service-Mode-UA.md).
+PDF за постійним посиланням збережено; нові функції описані в цих доповненнях.

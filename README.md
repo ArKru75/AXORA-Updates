@@ -8,14 +8,24 @@
 [Пряме посилання на PDF для NFC](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-UA.pdf).
 Адреса посібника не містить номера версії та зберігається при оновленнях.
 
-## Калібратор Windows 1.1.7
+[Встановлення та перепрошивання плати](docs/AXORA-Board-Installation-UA.md) · [Сервісний доступ](docs/AXORA-Service-Mode-UA.md)
 
-**Завантаження 1.1.7 тимчасово призупинено.**
+## Калібратор Windows 1.1.10
 
-Microsoft Defender блокує ZIP із виявленням `Program:Script/Wacapew.A!ml`.
-Причина перевіряється; хибне спрацювання поки не підтверджено.
-Не відновлюйте цей пакет із карантину та не додавайте його до винятків.
-Пакет знято з поточного розповсюдження до завершення перевірки.
+[Завантажити AXORA Calibrator 1.1.10](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.10.zip)
+
+Розпакуйте ZIP та запустіть **AxoraCalibrator.exe**. У розділі **Прошивка**
+натисніть **Перевірити GitHub**, потім **Оновити прошивку**, якщо доступна новіша версія.
+Для запису потрібен AVRDUDE з установленого пакета Arduino AVR Boards.
+При звичайному оновленні AXORA створюється резервна копія. HEX/SHA-256
+перевіряються перед записом в обох режимах.
+Для нової плати або повторного запису відкрийте **Встановлення / перепрошивання**,
+виберіть USB-порт і підтвердьте Pro Micro 5 В / 16 МГц із Caterina.
+Цей сервісний режим потребує мастер-пароля на кожен запис.
+Кнопка **Прошити плату автоматично** не потребує ручного RESET, якщо поточний
+скетч підтримує USB COM і перезапуск на 1200 бод. Інакше потрібен ISP.
+Попередній скетч замінюється без копії; після першого запису виконайте навчання.
+Після запису перевіряє версію й збережені дані.
 
 Кнопка **CAD** у верхній частині вікна вмикає та вимикає керування моделлю
 з будь-якої вкладки. Стан підтверджується пристроєм; повторні кліки під час
@@ -43,11 +53,23 @@ AXORA HW1 / ATmega32U4, CAD USB VID **256F**, PID **C631**.
 Вихідний код і персональні файли калібрування тут не публікуються.
 Пакети версій зберігаються під незмінними іменами.
 
+## Попередній пакет 1.1.7
+
+Пакет 1.1.7 залишається вилученим через виявлення Microsoft Defender
+Program:Script/Wacapew.A!ml. Його не перевидавали; причина попереднього
+виявлення не оголошується хибним спрацюванням. Версія 1.1.10 є окремою
+збіркою з новими функціями; її EXE та ZIP перевірені локальним Defender
+03.11.2026 без виявлень.
+
 ## English
 
 Ready-to-install AXORA updates. No token, password or GitHub account is needed.
-Calibrator 1.1.7 is temporarily withdrawn while the Defender detection Program:Script/Wacapew.A!ml is investigated. Do not bypass the antivirus block.
+Download the Windows ZIP above, extract it and run AxoraCalibrator.exe.
 Use **Firmware → Check GitHub → Update firmware**. The calibrator validates the
 download, backs up calibration and verifies the programmed version and retained data.
 Use the global **CAD** button to turn model control on or off from any workspace.
 This repository distributes binaries and update metadata only.
+
+The Install / reflash board service mode requires the owner-configured master
+password for each flash. Normal AXORA updates do not require this password.
+Version 1.1.7 remains withdrawn; its detection has not been reclassified.

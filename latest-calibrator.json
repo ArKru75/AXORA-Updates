@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "version": "1.1.7",
-  "path": "calibrator/AXORA-Calibrator-1.1.7.zip",
-  "size": 2920653,
-  "sha256": "b9a75aa4766a8d390ceb4bdeb667ac611f4747ce6ef94e644f80c2c4032dddf5",
+  "version": "1.1.10",
+  "path": "calibrator/AXORA-Calibrator-1.1.10.zip",
+  "size": 2927572,
+  "sha256": "8c468f923f5ba9747d9b1f5ddd7e8444d3d66e87634693e88d0625e97d5e8046",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Завантаження 1.1.7 призупинено: Microsoft Defender Program:Script/Wacapew.A!ml. Причина перевіряється; не обходьте блокування.",
-  "notes_en": "Version 1.1.7 download suspended pending review of Microsoft Defender Program:Script/Wacapew.A!ml. Do not bypass the block.",
-  "available": false,
-  "status": "blocked_pending_review",
-  "detection": "Program:Script/Wacapew.A!ml"
+  "notes_uk": "Встановлення / перепрошивання нових плат захищено мастер-паролем на один запис. Звичайні оновлення AXORA доступні без мастер-пароля.",
+  "notes_en": "Install / reflash board is protected by a master password granting one flash. Normal AXORA updates remain available without the master password.",
+  "available": true,
+  "status": "available",
+  "source_commit": "c1ad43ce0051d5e3c6c9f04124f6ec6a0f8ad923"
 }
