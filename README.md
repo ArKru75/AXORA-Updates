@@ -10,13 +10,12 @@
 
 ## Калібратор Windows 1.1.7
 
-[Завантажити AXORA Calibrator 1.1.7](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.7.zip)
+**Завантаження 1.1.7 тимчасово призупинено.**
 
-Розпакуйте ZIP та запустіть **AxoraCalibrator.exe**. У розділі **Прошивка**
-натисніть **Перевірити GitHub**, потім **Оновити прошивку**, якщо доступна новіша версія.
-Для запису потрібен AVRDUDE з установленого пакета Arduino AVR Boards.
-Перед записом калібратор створює резервну копію та перевіряє HEX/SHA-256.
-Після запису перевіряє версію й збережені дані.
+Microsoft Defender блокує ZIP із виявленням `Program:Script/Wacapew.A!ml`.
+Причина перевіряється; хибне спрацювання поки не підтверджено.
+Не відновлюйте цей пакет із карантину та не додавайте його до винятків.
+Пакет знято з поточного розповсюдження до завершення перевірки.
 
 Кнопка **CAD** у верхній частині вікна вмикає та вимикає керування моделлю
 з будь-якої вкладки. Стан підтверджується пристроєм; повторні кліки під час
@@ -47,7 +46,7 @@ AXORA HW1 / ATmega32U4, CAD USB VID **256F**, PID **C631**.
 ## English
 
 Ready-to-install AXORA updates. No token, password or GitHub account is needed.
-Download the Windows ZIP above, extract it and run AxoraCalibrator.exe.
+Calibrator 1.1.7 is temporarily withdrawn while the Defender detection Program:Script/Wacapew.A!ml is investigated. Do not bypass the antivirus block.
 Use **Firmware → Check GitHub → Update firmware**. The calibrator validates the
 download, backs up calibration and verifies the programmed version and retained data.
 Use the global **CAD** button to turn model control on or off from any workspace.

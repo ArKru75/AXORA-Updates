@@ -5,6 +5,9 @@
   "size": 2920653,
   "sha256": "b9a75aa4766a8d390ceb4bdeb667ac611f4747ce6ef94e644f80c2c4032dddf5",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Кількість світлодіодів 1-16, типово 3; збереження в AXORA через RGB (потрібна прошивка 2.1.15).",
-  "notes_en": "Set and save LED count1-16, default3, in RGB (firmware2.1.15 required)."
+  "notes_uk": "Завантаження 1.1.7 призупинено: Microsoft Defender Program:Script/Wacapew.A!ml. Причина перевіряється; не обходьте блокування.",
+  "notes_en": "Version 1.1.7 download suspended pending review of Microsoft Defender Program:Script/Wacapew.A!ml. Do not bypass the block.",
+  "available": false,
+  "status": "blocked_pending_review",
+  "detection": "Program:Script/Wacapew.A!ml"
 }
