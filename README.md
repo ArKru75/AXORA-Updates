@@ -2,6 +2,19 @@
 
 Готові оновлення AXORA. Завантаження **без токена, пароля чи акаунта GitHub**.
 
+## Посібник користувача
+
+[Відкрити ілюстрований посібник українською (PDF)](docs/AXORA-User-Guide-UA.pdf)
+
+Актуальна редакція: калібратор **1.1.6**, прошивка **2.1.14**, 25 сторінок.
+Посібник охоплює підключення, 12 положень, перемикач CAD, кнопки, RGB,
+оновлення прошивки, ручні центри та діагностику.
+
+Постійне посилання для NFC:
+[AXORA User Guide](https://github.com/ArKru75/AXORA-Updates/blob/main/docs/AXORA-User-Guide-UA.pdf).
+Адреса не містить номера версії та зберігається під час оновлень посібника.
+[Пряме завантаження PDF](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-UA.pdf).
+
 ## Калібратор Windows 1.1.6
 
 [Завантажити AXORA Calibrator 1.1.6](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.6.zip)

@@ -3,3 +3,4 @@
 d2d2084b49582574137f868769f795e7dae1e6602a87ba4e8d24c8d71659e46a  latest-calibrator.json
 14e3af6418c7e43b7f26abbdb45e1cb287a35ba385cd4b4ad1fef5a2814adfbc  updates/firmware/AXORA-2.1.14-CAD.hex
 27aefb340699e8d088fdaec1e91090d86421f748d39ec10306418e0d5b154cd6  updates/stable.json
+6ef5e638696c9f7e434c9a1c8ad951af60bb6691f97aa6ddab4982c108814a44  docs/AXORA-User-Guide-UA.pdf
