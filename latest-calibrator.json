@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.1.6",
-  "path": "calibrator/AXORA-Calibrator-1.1.6.zip",
-  "size": 2919281,
-  "sha256": "49b3a3430823d79fc7987187e3f85d6489caf8caecce3d4d6c4c12194823b71c",
+  "version": "1.1.7",
+  "path": "calibrator/AXORA-Calibrator-1.1.7.zip",
+  "size": 2920653,
+  "sha256": "b9a75aa4766a8d390ceb4bdeb667ac611f4747ce6ef94e644f80c2c4032dddf5",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Кнопка CAD у головному вікні вмикає та вимикає керування моделлю; старі кнопки CAD/HID прибрані.",
-  "notes_en": "The global CAD button turns model control on or off; the old CAD/HID buttons are removed."
+  "notes_uk": "Кількість світлодіодів 1-16, типово 3; збереження в AXORA через RGB (потрібна прошивка 2.1.15).",
+  "notes_en": "Set and save LED count1-16, default3, in RGB (firmware2.1.15 required)."
 }
