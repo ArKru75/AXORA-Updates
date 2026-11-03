@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2.1.12",
+  "version": "2.1.13",
   "hardware": "HW1",
   "mcu": "atmega32u4",
   "programmer": "avr109",
@@ -10,10 +10,10 @@
   "pid": "C631",
   "calibration_schema": 1,
   "min_calibrator": "1.0.16",
-  "path": "updates/firmware/AXORA-2.1.12-CAD.hex",
-  "size": 78702,
-  "sha256": "76a62d12c6ffbcd2ca571706f699eb2a26194ffc0bd5468c35ec1a27e8ec3b48",
-  "source_commit": "8168954131b38eb738836d87a698b4602533d36c",
-  "notes_uk": "2.1.12: окремий драйвер WS2812B для Pro Micro 5V/16MHz, імпульси 0,375/0,750 мкс, повний GRB-кадр і RGB-тест при запуску. Матриця та налаштування зберігаються.",
-  "notes_en": "2.1.12: dedicated Pro Micro 5V/16MHz WS2812B sender, 0.375/0.750 us pulses, full GRB frames and a startup RGB check. Calibration and preferences are preserved."
+  "path": "updates/firmware/AXORA-2.1.13-CAD.hex",
+  "size": 79124,
+  "sha256": "36a8053d5ebd072f152d4fadca53f5ec6631a07a7d687fc26426b368c837fb35",
+  "source_commit": "d2e9af967d64c5a06cfc9e3ea809d8a6d71af8af",
+  "notes_uk": "2.1.13: яскравість 0–100% зі збереженням у пристрої, попередній перегляд і тест RGB/білого через калібратор 1.1.5. Матриця та налаштування рухів зберігаються.",
+  "notes_en": "2.1.13: persistent 0–100% brightness, live preview and RGB/white tests through Calibrator 1.1.5. Calibration and motion settings are preserved."
 }
