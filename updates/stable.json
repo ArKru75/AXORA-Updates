@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2.1.15",
+  "version": "2.1.16",
   "hardware": "HW1",
   "mcu": "atmega32u4",
   "programmer": "avr109",
@@ -10,10 +10,10 @@
   "pid": "C631",
   "calibration_schema": 1,
   "min_calibrator": "1.0.16",
-  "path": "updates/firmware/AXORA-2.1.15-CAD.hex",
-  "size": 80101,
-  "sha256": "fa987b5ea41df5bcc3fdd2bca1a22b30df60f363c0fd7331eec1cfe48167eca6",
-  "source_commit": "e29e5ad6adaa0ef680d94b285e0bb953539a3610",
-  "notes_uk": "2.1.15: кількість LED 1-16 (типово 3) зі збереженням через калібратор 1.1.7. Збережені яскравість, матриця та параметри рухів підтримуються.",
-  "notes_en": "2.1.15: persistent LED count1-16 (default3) through Calibrator1.1.7. Saved brightness, calibration and motion settings are preserved."
+  "path": "updates/firmware/AXORA-2.1.16-CAD.hex",
+  "size": 79901,
+  "sha256": "9e66ea53d467b79c63029beff8b48824dc67bbf76f378b3d4fdeca412313999b",
+  "source_commit": "7fc5d5de74d13688c2f9641f21b51adcbd612769",
+  "notes_uk": "2.1.16: усунуто приховані затримки 10 мс у перевірках USB Serial, які сповільнювали передавання рухів у CAD. Для калібратора 1.1.10. Матриця й налаштування зберігаються. Після оновлення перевірте плавність у Viewer та КОМПАСі.",
+  "notes_en": "2.1.16: removes hidden 10 ms delays in USB Serial checks that slowed CAD motion reports. Compatible with Calibrator 1.1.10. Calibration and settings are retained. Check smoothness in Viewer and CAD after updating."
 }
