@@ -2,11 +2,17 @@
 
 Готові оновлення AXORA. Завантаження **без токена, пароля чи акаунта GitHub**.
 
-## Посібник користувача
+## Посібники користувача / User guides
 
-[Ілюстрований PDF-посібник українською](docs/AXORA-User-Guide-UA.pdf).
-[Пряме посилання на PDF для NFC](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-UA.pdf).
-Адреса посібника не містить номера версії та зберігається при оновленнях.
+Два прості ілюстровані посібники для **калібратора 1.1.10**: по 13 сторінок,
+усі 12 рухів калібрування, налаштування, підсвічування та швидка допомога.
+Редакція від **05.11.2026**.
+
+- [Українською - PDF](docs/AXORA-User-Guide-UA.pdf) · [Завантажити](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-UA.pdf)
+- [English - PDF](docs/AXORA-User-Guide-EN.pdf) · [Download](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-EN.pdf)
+
+Обидві адреси не містять номера версії. Чинне українське посилання для NFC збережено.
+[Усі посилання та NFC](docs/README.md).
 
 [Встановлення та перепрошивання плати](docs/AXORA-Board-Installation-UA.md) · [Сервісний доступ](docs/AXORA-Service-Mode-UA.md)
 
@@ -75,6 +81,10 @@ Program:Script/Wacapew.A!ml. Його не перевидавали; причи�
 ## English
 
 Ready-to-install AXORA updates. No token, password or GitHub account is needed.
+
+[English user guide (PDF)](docs/AXORA-User-Guide-EN.pdf) · [Ukrainian user guide (PDF)](docs/AXORA-User-Guide-UA.pdf).
+Both guides cover Calibrator 1.1.10 in 13 illustrated pages.
+
 Download the Windows ZIP above, extract it and run AxoraCalibrator.exe.
 Use **Firmware → Check GitHub → Update firmware**. The calibrator validates the
 download, backs up calibration and verifies the programmed version and retained data.
