@@ -16,6 +16,12 @@
 
 [Встановлення та перепрошивання плати](docs/AXORA-Board-Installation-UA.md) · [Сервісний доступ](docs/AXORA-Service-Mode-UA.md)
 
+## Драйвер для CAD / CAD driver
+
+Для роботи AXORA з CAD-програмами встановіть **3Dconnexion 3DxWare** для Windows.
+[Офіційне завантаження / Official download](https://3dconnexion.com/us/drivers/).
+To use AXORA in CAD, install **3Dconnexion 3DxWare** on your computer.
+
 ## Калібратор Windows 1.1.10
 
 [Завантажити AXORA Calibrator 1.1.10](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.10.zip)

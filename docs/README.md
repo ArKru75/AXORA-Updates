@@ -11,6 +11,16 @@
 | Українська | [PDF-посібник](AXORA-User-Guide-UA.pdf) | [Завантажити PDF](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-UA.pdf) |
 | English | [PDF user guide](AXORA-User-Guide-EN.pdf) | [Download PDF](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-EN.pdf) |
 
+## Драйвер для CAD / CAD driver
+
+Для роботи з CAD-програмами на комп’ютері потрібен **3Dconnexion 3DxWare** для Windows.
+Цю вимогу та активні посилання додано на сторінках 2 і 8 обох посібників.
+
+[Завантажити драйвер з офіційного сайту 3Dconnexion](https://3dconnexion.com/us/drivers/).
+
+CAD use requires **3Dconnexion 3DxWare** for Windows.
+[Download from the official 3Dconnexion website](https://3dconnexion.com/us/drivers/).
+
 ## Посилання для NFC
 
 Чинна адреса українського посібника збережена. Перезаписувати наявні мітки не потрібно.
