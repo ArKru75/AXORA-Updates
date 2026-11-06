@@ -6,7 +6,7 @@
 
 Два прості ілюстровані посібники для **калібратора 1.1.10**: по 13 сторінок,
 усі 12 рухів калібрування, налаштування, підсвічування та швидка допомога.
-Редакція від **05.11.2026**.
+Редакція від **06.11.2026**.
 
 - [Українською - PDF](docs/AXORA-User-Guide-UA.pdf) · [Завантажити](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-UA.pdf)
 - [English - PDF](docs/AXORA-User-Guide-EN.pdf) · [Download](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/docs/AXORA-User-Guide-EN.pdf)
@@ -18,9 +18,10 @@
 
 ## Драйвер для CAD / CAD driver
 
-Для роботи AXORA з CAD-програмами встановіть **3Dconnexion 3DxWare** для Windows.
+Для роботи AXORA з CAD-програмами встановіть **3Dconnexion 3DxWare** для Windows або macOS.
 [Офіційне завантаження / Official download](https://3dconnexion.com/us/drivers/).
-To use AXORA in CAD, install **3Dconnexion 3DxWare** on your computer.
+To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
+Калібратор працює у Windows. / The calibrator runs on Windows.
 
 ## Калібратор Windows 1.1.10
 

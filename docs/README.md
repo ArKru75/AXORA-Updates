@@ -1,7 +1,7 @@
 # Посібники AXORA / AXORA user guides
 
 Прості ілюстровані інструкції для **AXORA Calibrator 1.1.10**.
-Редакція від **05.11.2026**, по **13 сторінок** українською та англійською.
+Редакція від **06.11.2026**, по **13 сторінок** українською та англійською.
 Підключення, калібрування всіх 12 рухів, перевірки, особисті налаштування,
 резервна копія, підсвічування, оновлення та швидка допомога.
 У PDF є закладки розділів і переходи з обкладинки.
@@ -13,13 +13,32 @@
 
 ## Драйвер для CAD / CAD driver
 
-Для роботи з CAD-програмами на комп’ютері потрібен **3Dconnexion 3DxWare** для Windows.
+Для роботи з CAD-програмами на комп’ютері потрібен **3Dconnexion 3DxWare** для Windows або macOS.
 Цю вимогу та активні посилання додано на сторінках 2 і 8 обох посібників.
 
 [Завантажити драйвер з офіційного сайту 3Dconnexion](https://3dconnexion.com/us/drivers/).
 
-CAD use requires **3Dconnexion 3DxWare** for Windows.
+CAD use requires **3Dconnexion 3DxWare** for Windows or macOS.
 [Download from the official 3Dconnexion website](https://3dconnexion.com/us/drivers/).
+
+## Кнопки під час калібрування / Calibration buttons
+
+На сторінці 4 описано два способи вимірювання положення: кнопкою у програмі
+або кнопкою 1 на AXORA. Для другого способу спочатку відведіть рукоятку в потрібний бік,
+потім натисніть і відпустіть кнопку 1, утримуючи рукоятку до результату.
+
+Для оновлення центру без калібратора закрийте програму, відпустіть рукоятку,
+утримуйте всі три кнопки 3-5 секунд і відпустіть їх. Не торкайтеся рукоятки
+до завершення виміру. Навчена матриця зберігається.
+
+Page 4 explains both capture methods: the application button or physical button 1.
+For the latter, first move the handle into position, then press and release button 1.
+Keep the handle still until the result appears.
+
+To update the center without the calibrator, close the application, release the handle,
+hold all three buttons together for 3-5 seconds, then release them. Leave the handle
+untouched until the measurement finishes. Full calibration is preserved.
+The calibrator application runs on Windows; 3DxWare drivers are available for Windows and macOS.
 
 ## Посилання для NFC
 
