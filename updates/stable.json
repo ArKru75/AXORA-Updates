@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2.1.17",
+  "version": "2.1.18",
   "hardware": "HW1",
   "mcu": "atmega32u4",
   "programmer": "avr109",
@@ -10,10 +10,10 @@
   "pid": "C631",
   "calibration_schema": 1,
   "min_calibrator": "1.0.16",
-  "path": "updates/firmware/AXORA-2.1.17-CAD.hex",
-  "size": 80625,
-  "sha256": "743f8b9c78940739b2b50f2a21226b883defc8b046cac7b1484f701af7a8bd76",
-  "source_commit": "d6b8e8e2c6188a4fa9421fa8afc3682b882b056c",
-  "notes_uk": "2.1.17: 9 кнопок CAD: D2=1, D3=2, D7=3, D0=FIT, D1=Rotation Lock, D10=Roll+, D14=TopView, D15=RightView, D16=FrontView. Кнопки між піном і GND. Старі комбінації на перших трьох збережено. Калібратор 1.1.10 сумісний; його тест показує перші 3 кнопки. Матриця, параметри рухів і RGB зберігаються.",
-  "notes_en": "2.1.17: 9 CAD buttons: D2=1, D3=2, D7=3, D0=FIT, D1=Rotation Lock, D10=Roll+, D14=TopView, D15=RightView, D16=FrontView. Wire each button to GND. Original three-key service chords are retained. Compatible with Calibrator1.1.10; its button test covers the first3 only. Calibration, motion settings and RGB are retained."
+  "path": "updates/firmware/AXORA-2.1.18-CAD.hex",
+  "size": 78768,
+  "sha256": "e23f062bde77b3480a84d18c87f1d1db93abb90681e625f43c3e0afd576069fb",
+  "source_commit": "963bc31d6d505d0ba60aacd605d744ee223be64b",
+  "notes_uk": "У «Перевірці кнопок» виберіть для кожної кнопки одне з 15 HID-призначень SpaceMouse Pro Wireless, наприклад Escape. Натисніть «Зберегти HID» і ввімкніть CAD. Для переназначення потрібні калібратор 1.1.13 та прошивка 2.1.18. AXORA Pro перевіряє всі дев’ять фізичних кнопок із призупиненим CAD.",
+  "notes_en": "In Button test, select one of 15 SpaceMouse Pro Wireless HID assignments for each physical button, such as Escape. Click Save HID assignments, then enable CAD. Remapping requires Calibrator 1.1.13 and firmware 2.1.18. AXORA Pro tests all nine physical buttons with CAD paused."
 }

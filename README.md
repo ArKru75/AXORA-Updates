@@ -23,9 +23,9 @@
 To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 Калібратор працює у Windows. / The calibrator runs on Windows.
 
-## Калібратор Windows 1.1.12
+## Калібратор Windows 1.1.13
 
-[Завантажити AXORA Calibrator 1.1.12](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.12.zip)
+[Завантажити AXORA Calibrator 1.1.13](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.13.zip)
 
 Розпакуйте ZIP та запустіть **AxoraCalibrator.exe**. У розділі **Прошивка**
 натисніть **Перевірити GitHub**, потім **Оновити прошивку**, якщо доступна новіша версія.
@@ -49,25 +49,21 @@ To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 кнопки й зачекайте повторної перевірки приблизно 3–5 секунд у прошивці 2.1.14.
 Якщо центр не підтверджується, виконайте **Лише центр**. Матриця зберігається.
 
-## Прошивка 2.1.17 — дев’ять кнопок CAD
+## Прошивка 2.1.18 — призначення кнопок HID
 
-Додано шість кнопок: **FIT, Rotation Lock, Roll+, TopView, RightView, FrontView**.
-Початкові кнопки 1, 2, 3 та їхні сервісні комбінації збережено.
-[Піни, підключення до GND та перевірка](docs/AXORA-Nine-Buttons-UA.md).
+У калібраторі 1.1.13 відкрийте **Перевірка кнопок** і виберіть одну з
+15 кнопок SpaceMouse Pro Wireless для кожної фізичної кнопки AXORA.
+Наприклад, для кнопки 1 виберіть **Escape**. Натисніть **Зберегти HID**,
+щоб записати призначення в AXORA, і ввімкніть CAD.
+У режимі **AXORA Pro** тест перевіряє всі дев’ять фізичних кнопок із призупиненим CAD.
 
-Збережено виправлення затримок USB Serial з 2.1.16. Матриця калібрування,
-параметри рухів та RGB сумісні. Додаткові кнопки працюють у CAD;
-у Slicer початкові три кнопки зберігають попередню поведінку.
+Для встановлення відкрийте **Прошивка → Перевірити GitHub → Оновити прошивку**.
+Калібратор створює резервну копію калібрування, перевіряє HEX, версію
+та збережені дані. Збірка 2.1.18 перевірена для ATmega32U4. Переназначення
+перевірено автоматичними тестами калібратора та звірено з профілем 3DxWare.
+На фізичній платі цю версію ще не перевіряли.
 
-Оновлення: **калібратор 1.1.12 → Прошивка → Перевірити GitHub → Оновити прошивку**.
-Відпустіть рукоятку й усі кнопки під час перезапуску. Калібратор створює
-резервну копію, перевіряє HEX, версію та збережені дані.
-У калібраторі 1.1.12 виберіть **AXORA Pro → Перевірка кнопок**. Після перевірки
-кнопок 1–3 калібратор тимчасово вмикає CAD для перевірки кнопок 4–9.
-Тримайте рукоятку в нейтралі й натисніть **Завершити перевірку**, щоб призупинити CAD.
-Збірка пройшла CI; фізичне підключення нових кнопок потребує перевірки після встановлення.
-
-[HEX 2.1.17](updates/firmware/AXORA-2.1.17-CAD.hex) · [Опис оновлення](updates/stable.json)
+[HEX 2.1.18](updates/firmware/AXORA-2.1.18-CAD.hex) · [Опис оновлення](updates/stable.json) · [Схема підключення кнопок](docs/AXORA-Nine-Buttons-UA.md)
 
 У калібраторі відкрийте **RGB**. **Кількість світлодіодів**: 1-16, типово 3;
 натисніть **Зберегти кількість**, щоб застосувати її до індикації та тестів
@@ -103,7 +99,7 @@ Download the Windows ZIP above, extract it and run AxoraCalibrator.exe.
 Use **Firmware → Check GitHub → Update firmware**. The calibrator validates the
 download, backs up calibration and verifies the programmed version and retained data.
 Use the global **CAD** button to turn model control on or off from any workspace.
-Firmware **2.1.17** adds FIT, Rotation Lock, Roll+, TopView, RightView and FrontView on six free Pro Micro GPIOs. Original buttons1/2/3 and service chords are retained. Select **AXORA Pro → Button test** in Calibrator 1.1.12 to test all nine buttons. Each normally open button connects its GPIO to GND. See the wiring table above.
+In Button test, select one of 15 SpaceMouse Pro Wireless HID assignments for each physical button, such as Escape. Click Save HID assignments, then enable CAD. Remapping requires Calibrator 1.1.13 and firmware 2.1.18. AXORA Pro tests all nine physical buttons with CAD paused.
 This repository distributes binaries and update metadata only.
 
 The Install / reflash board service mode requires the owner-configured master
