@@ -1,12 +1,10 @@
 {
   "schema": 1,
-  "version": "1.1.18",
-  "path": "calibrator/AXORA-Calibrator-1.1.18.zip",
-  "size": 2943278,
-  "sha256": "1fe006ed6e7c2fffd8a50c86e499fb78cd503d098d7e9273a9d18eab87b5c9be",
+  "version": "1.1.19",
+  "path": "calibrator/AXORA-Calibrator-1.1.19.zip",
+  "size": 2943754,
+  "sha256": "9981eb8d51c174a2ee1c76787358a4dc5881a67baa0a24e8bb1bef0ff92a7f53",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "У «Підсвічуванні» доступні яскравість і один тест «Веселка». Прошивка 2.1.19 зберігає профіль за вибраною моделлю: AXORA — 3 світлодіоди, AXORA Pro — 7. Тест показує сім кольорів по одному за секунду.",
-  "notes_en": "Lighting offers brightness controls and one Rainbow test. Firmware 2.1.19 stores the selected model profile: 3 LEDs for AXORA or 7 for AXORA Pro. The test shows seven colors, one per second.",
-  "available": true,
-  "status": "available"
+  "notes_uk": "З прошивкою 2.1.20 кольори тесту «Веселка» плавно рухаються від першого світлодіода до останнього.",
+  "notes_en": "With firmware 2.1.20, the Rainbow test colors flow smoothly from the first LED to the last."
 }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2.1.19",
+  "version": "2.1.20",
   "hardware": "HW1",
   "mcu": "atmega32u4",
   "programmer": "avr109",
@@ -10,10 +10,10 @@
   "pid": "C631",
   "calibration_schema": 1,
   "min_calibrator": "1.0.16",
-  "path": "updates/firmware/AXORA-2.1.19-CAD.hex",
-  "size": 80596,
-  "sha256": "664ae7675c279d2af63da8d09a71e3f0e8c3b16aa5c94f147f5644779ef2f129",
-  "source_commit": "e28d1515faddddd51c5adcc0b7a4a8393e8102ec",
-  "notes_uk": "Профіль підсвічування зберігається в AXORA: 3 світлодіоди для AXORA і 7 для AXORA Pro. Виберіть модель у калібраторі 1.1.18. Тест «Веселка» показує сім кольорів по черзі та відновлює звичайну індикацію.",
-  "notes_en": "The lighting profile is stored on the device: 3 LEDs for AXORA and 7 for AXORA Pro. Select the model in Calibrator 1.1.18. Rainbow shows seven colors in sequence and restores normal indication."
+  "path": "updates/firmware/AXORA-2.1.20-CAD.hex",
+  "size": 80040,
+  "sha256": "659d5be05fd11dfcc73d7b5898bfcbd7bb3fee0c4ed94db035e8e87d2fbeb913",
+  "source_commit": "36695794ea2278eddd0772f0dc92a07dd1a98cb2",
+  "notes_uk": "Кольори тесту «Веселка» плавно рухаються від першого світлодіода до останнього на AXORA та AXORA Pro.",
+  "notes_en": "Rainbow test colors flow smoothly from the first LED to the last on AXORA and AXORA Pro."
 }
