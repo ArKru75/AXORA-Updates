@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "1.1.13",
-  "path": "calibrator/AXORA-Calibrator-1.1.13.zip",
-  "size": 2935779,
-  "sha256": "f5f5f57ff0f3972212f54abf1ac3ed8b785d67dea76a1fac7f7e62d6e5c8551e",
+  "version": "1.1.14",
+  "path": "calibrator/AXORA-Calibrator-1.1.14.zip",
+  "size": 2936643,
+  "sha256": "6c2e58996c7e0d1901dbd74d8a800b59552885abc32964efe702beada69c143f",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "У «Перевірці кнопок» виберіть для кожної кнопки одне з 15 HID-призначень SpaceMouse Pro Wireless, наприклад Escape. Натисніть «Зберегти HID» і ввімкніть CAD. Для переназначення потрібні калібратор 1.1.13 та прошивка 2.1.18. AXORA Pro перевіряє всі дев’ять фізичних кнопок із призупиненим CAD.",
-  "notes_en": "In Button test, select one of 15 SpaceMouse Pro Wireless HID assignments for each physical button, such as Escape. Click Save HID assignments, then enable CAD. Remapping requires Calibrator 1.1.13 and firmware 2.1.18. AXORA Pro tests all nine physical buttons with CAD paused.",
+  "notes_uk": "У «Перевірці кнопок» зайняті HID-призначення зникають зі списків інших кнопок. Якщо AXORA вже має дублікати, усуньте їх перед збереженням. Для переназначення потрібна прошивка 2.1.18 або новіша.",
+  "notes_en": "In Button test, used HID assignments are excluded from the other buttons’ lists. Resolve any existing duplicates before saving. Remapping requires firmware 2.1.18 or later.",
   "available": true,
   "status": "available"
 }
