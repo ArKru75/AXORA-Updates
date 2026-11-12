@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "1.1.15",
-  "path": "calibrator/AXORA-Calibrator-1.1.15.zip",
-  "size": 2937243,
-  "sha256": "b17eb97be6b770b6c5a765d8eef5697c567e81bc4d8fff642c0f0404f6bb03b1",
+  "version": "1.1.16",
+  "path": "calibrator/AXORA-Calibrator-1.1.16.zip",
+  "size": 2943500,
+  "sha256": "a048012c70284e6f2ab2e65653d536394967f39545e3c33fefb01fe2973103a6",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Компактний інтерфейс українською та англійською. Підключення і CAD у спільній верхній панелі. У таблиці AXORA Pro видно всі дев’ять кнопок. Журнал і центри датчиків доступні в «Додатково», встановлення плати — в розділі «Оновлення».",
-  "notes_en": "A compact Ukrainian and English interface. Connection and CAD share the top bar. All nine AXORA Pro buttons fit in the test table. Open Advanced for the log and sensor centers, or Updates for service installation.",
+  "notes_uk": "Виправлено накладання тексту та обрізання підписів. Розміри заголовків, меню й кнопок враховують розмір шрифту. У вузькому вікні верхня панель перебудовується, а довгі підказки переносяться.",
+  "notes_en": "Fixed overlapping text and clipped captions. Headings, navigation and buttons account for font size. The top bar reflows in narrow windows and long hints wrap.",
   "available": true,
   "status": "available"
 }
