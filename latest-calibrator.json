@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "1.1.17",
-  "path": "calibrator/AXORA-Calibrator-1.1.17.zip",
-  "size": 2944282,
-  "sha256": "bb98524896e7da741145169dc0377f9d30590cd7174bd193d479a0721eaa91b6",
+  "version": "1.1.18",
+  "path": "calibrator/AXORA-Calibrator-1.1.18.zip",
+  "size": 2943278,
+  "sha256": "1fe006ed6e7c2fffd8a50c86e499fb78cd503d098d7e9273a9d18eab87b5c9be",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Поруч із моделлю виберіть режим «Звичайний» або «Експерт». У звичайному доступні Калібрування, Налаштування та Підсвічування. У режимі «Експерт» доступні всі розділи, зокрема Центри датчиків і Журнал. Вибір зберігається між запусками.",
-  "notes_en": "Select Normal or Expert next to the model. Normal shows Calibration, Settings and Lighting. Expert shows all sections, including Sensor centers and Log. Your selection is saved between launches.",
+  "notes_uk": "У «Підсвічуванні» доступні яскравість і один тест «Веселка». Прошивка 2.1.19 зберігає профіль за вибраною моделлю: AXORA — 3 світлодіоди, AXORA Pro — 7. Тест показує сім кольорів по одному за секунду.",
+  "notes_en": "Lighting offers brightness controls and one Rainbow test. Firmware 2.1.19 stores the selected model profile: 3 LEDs for AXORA or 7 for AXORA Pro. The test shows seven colors, one per second.",
   "available": true,
   "status": "available"
 }

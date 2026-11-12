@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2.1.18",
+  "version": "2.1.19",
   "hardware": "HW1",
   "mcu": "atmega32u4",
   "programmer": "avr109",
@@ -10,10 +10,10 @@
   "pid": "C631",
   "calibration_schema": 1,
   "min_calibrator": "1.0.16",
-  "path": "updates/firmware/AXORA-2.1.18-CAD.hex",
-  "size": 78768,
-  "sha256": "e23f062bde77b3480a84d18c87f1d1db93abb90681e625f43c3e0afd576069fb",
-  "source_commit": "963bc31d6d505d0ba60aacd605d744ee223be64b",
-  "notes_uk": "У «Перевірці кнопок» виберіть для кожної кнопки одне з 15 HID-призначень SpaceMouse Pro Wireless, наприклад Escape. Натисніть «Зберегти HID» і ввімкніть CAD. Для переназначення потрібні калібратор 1.1.13 та прошивка 2.1.18. AXORA Pro перевіряє всі дев’ять фізичних кнопок із призупиненим CAD.",
-  "notes_en": "In Button test, select one of 15 SpaceMouse Pro Wireless HID assignments for each physical button, such as Escape. Click Save HID assignments, then enable CAD. Remapping requires Calibrator 1.1.13 and firmware 2.1.18. AXORA Pro tests all nine physical buttons with CAD paused."
+  "path": "updates/firmware/AXORA-2.1.19-CAD.hex",
+  "size": 80596,
+  "sha256": "664ae7675c279d2af63da8d09a71e3f0e8c3b16aa5c94f147f5644779ef2f129",
+  "source_commit": "e28d1515faddddd51c5adcc0b7a4a8393e8102ec",
+  "notes_uk": "Профіль підсвічування зберігається в AXORA: 3 світлодіоди для AXORA і 7 для AXORA Pro. Виберіть модель у калібраторі 1.1.18. Тест «Веселка» показує сім кольорів по черзі та відновлює звичайну індикацію.",
+  "notes_en": "The lighting profile is stored on the device: 3 LEDs for AXORA and 7 for AXORA Pro. Select the model in Calibrator 1.1.18. Rainbow shows seven colors in sequence and restores normal indication."
 }

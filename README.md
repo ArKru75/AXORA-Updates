@@ -23,9 +23,11 @@
 To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 Калібратор працює у Windows. / The calibrator runs on Windows.
 
-## Калібратор Windows 1.1.17
+## Калібратор Windows 1.1.18
 
-[Завантажити AXORA Calibrator 1.1.17](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.17.zip)
+[Завантажити AXORA Calibrator 1.1.18](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.18.zip)
+
+У «Підсвічуванні» доступні яскравість і один тест «Веселка». Прошивка 2.1.19 зберігає профіль за вибраною моделлю: AXORA — 3 світлодіоди, AXORA Pro — 7. Тест показує сім кольорів по одному за секунду.
 
 Поруч із моделлю виберіть режим «Звичайний» або «Експерт». У звичайному доступні Калібрування, Налаштування та Підсвічування. У режимі «Експерт» доступні всі розділи, зокрема Центри датчиків і Журнал. Вибір зберігається між запусками.
 
@@ -51,9 +53,16 @@ To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 кнопки й зачекайте повторної перевірки приблизно 3–5 секунд у прошивці 2.1.14.
 Якщо центр не підтверджується, виконайте **Лише центр**. Матриця зберігається.
 
-## Прошивка 2.1.18 — призначення кнопок HID
+## Прошивка 2.1.19 — підсвічування
 
-У калібраторі 1.1.17 відкрийте **Експерт → Кнопки** і виберіть одну з
+Виберіть модель у калібраторі. Пристрій зберігає профіль із **3 світлодіодами
+для AXORA** або **7 для AXORA Pro**. Яскравість можна змінити й зберегти
+в розділі **Підсвічування**. Кнопка **Тест «Веселка»** показує сім кольорів
+і повертає звичайну індикацію. Повторне натискання зупиняє тест.
+
+### Призначення кнопок
+
+У калібраторі 1.1.18 відкрийте **Експерт → Кнопки** і виберіть одну з
 15 кнопок SpaceMouse Pro Wireless для кожної фізичної кнопки AXORA.
 Наприклад, для кнопки 1 виберіть **Escape**. Натисніть **Зберегти призначення**,
 щоб записати призначення в AXORA, і ввімкніть CAD.
@@ -63,18 +72,11 @@ To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 
 Для встановлення відкрийте **Експерт → Оновлення → Перевірити оновлення → Оновити прошивку**.
 Калібратор створює резервну копію калібрування, перевіряє HEX, версію
-та збережені дані. Збірка 2.1.18 перевірена для ATmega32U4. Переназначення
+та збережені дані. Збірка 2.1.19 перевірена для ATmega32U4. Переназначення
 перевірено автоматичними тестами калібратора та звірено з профілем 3DxWare.
 На фізичній платі цю версію ще не перевіряли.
 
-[HEX 2.1.18](updates/firmware/AXORA-2.1.18-CAD.hex) · [Опис оновлення](updates/stable.json) · [Схема підключення кнопок](docs/AXORA-Nine-Buttons-UA.md)
-
-У калібраторі відкрийте **Підсвічування**. **Кількість світлодіодів**: 1-16, типово 3;
-натисніть **Зберегти кількість**, щоб застосувати її до індикації та тестів
-і залишити після перепідключення. Для цього потрібна прошивка 2.1.15.
-Також доступні яскравість 0–100%, попередній
-перегляд без EEPROM і кнопка **Зберегти яскравість**. R/G/B/W або циклічний тест
-припиняється через 10 секунд чи кнопкою **Зупинити тест**. Матриця зберігається.
+[HEX 2.1.19](updates/firmware/AXORA-2.1.19-CAD.hex) · [Опис оновлення](updates/stable.json) · [Схема підключення кнопок](docs/AXORA-Nine-Buttons-UA.md)
 
 AXORA HW1 / ATmega32U4, CAD USB VID **256F**, PID **C631**.
 Використовуйте калібратор для перевірки сумісності та запису.
@@ -104,7 +106,9 @@ Select Normal or Expert next to the model. Normal shows Calibration, Settings an
 Use **Expert → Updates → Check for updates → Update firmware**. The calibrator validates the
 download, backs up calibration and verifies the programmed version and retained data.
 Use the global **CAD** button to turn model control on or off from any workspace.
-In Expert → Buttons, select one of 15 SpaceMouse Pro Wireless HID assignments for each physical button, such as Escape. Click Save assignments, then enable CAD. Remapping requires Calibrator 1.1.17 and firmware 2.1.18. AXORA Pro tests all nine physical buttons with CAD paused.
+Lighting offers brightness controls and one Rainbow test. Firmware 2.1.19 stores the selected model profile: 3 LEDs for AXORA or 7 for AXORA Pro. The test shows seven colors, one per second.
+
+In Expert → Buttons, select one of 15 SpaceMouse Pro Wireless HID assignments for each physical button, such as Escape. Click Save assignments, then enable CAD. Remapping requires Calibrator 1.1.18 and firmware 2.1.18. AXORA Pro tests all nine physical buttons with CAD paused.
 This repository distributes binaries and update metadata only.
 
 The Install / reflash board service mode requires the owner-configured master
