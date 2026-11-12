@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.1.20",
-  "path": "calibrator/AXORA-Calibrator-1.1.20.zip",
-  "size": 2947703,
-  "sha256": "6b4262fcad3910e59d45fa109a73c109bab260ce53f805bc6da2755e13f8feef",
+  "version": "1.1.21",
+  "path": "calibrator/AXORA-Calibrator-1.1.21.zip",
+  "size": 2948235,
+  "sha256": "d379ad0055df41354b1902770cb37d59e0f3ee01cb866e5ba4f9f4c7bd6cca40",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Відкрийте «3Dconnexion» у звичайному або експертному режимі, щоб завантажити та встановити 3DxWare.",
-  "notes_en": "Open 3Dconnexion in Normal or Expert mode to download and install 3DxWare."
+  "notes_uk": "Відкрийте «3Dconnexion» у звичайному або експертному режимі, щоб завантажити та встановити 3DxWare.\nAXORA показує 13 доступних HID-призначень для кожної з трьох кнопок.",
+  "notes_en": "Open 3Dconnexion in Normal or Expert mode to download and install 3DxWare.\nAXORA offers 13 available HID assignments for each of its three buttons."
 }
