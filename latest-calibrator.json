@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "1.1.16",
-  "path": "calibrator/AXORA-Calibrator-1.1.16.zip",
-  "size": 2943500,
-  "sha256": "a048012c70284e6f2ab2e65653d536394967f39545e3c33fefb01fe2973103a6",
+  "version": "1.1.17",
+  "path": "calibrator/AXORA-Calibrator-1.1.17.zip",
+  "size": 2944282,
+  "sha256": "bb98524896e7da741145169dc0377f9d30590cd7174bd193d479a0721eaa91b6",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Виправлено накладання тексту та обрізання підписів. Розміри заголовків, меню й кнопок враховують розмір шрифту. У вузькому вікні верхня панель перебудовується, а довгі підказки переносяться.",
-  "notes_en": "Fixed overlapping text and clipped captions. Headings, navigation and buttons account for font size. The top bar reflows in narrow windows and long hints wrap.",
+  "notes_uk": "Поруч із моделлю виберіть режим «Звичайний» або «Експерт». У звичайному доступні Калібрування, Налаштування та Підсвічування. У режимі «Експерт» доступні всі розділи, зокрема Центри датчиків і Журнал. Вибір зберігається між запусками.",
+  "notes_en": "Select Normal or Expert next to the model. Normal shows Calibration, Settings and Lighting. Expert shows all sections, including Sensor centers and Log. Your selection is saved between launches.",
   "available": true,
   "status": "available"
 }
