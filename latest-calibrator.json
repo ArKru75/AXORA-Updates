@@ -1,13 +1,12 @@
 {
   "schema": 1,
-  "version": "1.1.10",
-  "path": "calibrator/AXORA-Calibrator-1.1.10.zip",
-  "size": 2927572,
-  "sha256": "8c468f923f5ba9747d9b1f5ddd7e8444d3d66e87634693e88d0625e97d5e8046",
+  "version": "1.1.12",
+  "path": "calibrator/AXORA-Calibrator-1.1.12.zip",
+  "size": 2933891,
+  "sha256": "484cfcd93565eb4b3ccb201db72c9efa2b39f407751e5b77ec6bf03358242dcf",
   "requires": "Windows / .NET Framework 4.8",
-  "notes_uk": "Встановлення / перепрошивання нових плат захищено мастер-паролем на один запис. Звичайні оновлення AXORA доступні без мастер-пароля.",
-  "notes_en": "Install / reflash board is protected by a master password granting one flash. Normal AXORA updates remain available without the master password.",
+  "notes_uk": "Для перевірки дев’яти кнопок виберіть AXORA Pro і відкрийте «Перевірка кнопок». Перевірте кнопки 1–3, потім 4–9. На другому етапі CAD вмикається автоматично. Тримайте рукоятку в нейтралі. «Завершити перевірку» призупиняє CAD.",
+  "notes_en": "Select AXORA Pro and open Button test to test all nine buttons. Test buttons 1–3 first, then 4–9. CAD turns on automatically for the second stage. Keep the handle neutral. Finish test pauses CAD.",
   "available": true,
-  "status": "available",
-  "source_commit": "c1ad43ce0051d5e3c6c9f04124f6ec6a0f8ad923"
+  "status": "available"
 }

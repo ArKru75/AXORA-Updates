@@ -23,9 +23,9 @@
 To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 Калібратор працює у Windows. / The calibrator runs on Windows.
 
-## Калібратор Windows 1.1.10
+## Калібратор Windows 1.1.12
 
-[Завантажити AXORA Calibrator 1.1.10](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.10.zip)
+[Завантажити AXORA Calibrator 1.1.12](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.12.zip)
 
 Розпакуйте ZIP та запустіть **AxoraCalibrator.exe**. У розділі **Прошивка**
 натисніть **Перевірити GitHub**, потім **Оновити прошивку**, якщо доступна новіша версія.
@@ -59,10 +59,12 @@ To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 параметри рухів та RGB сумісні. Додаткові кнопки працюють у CAD;
 у Slicer початкові три кнопки зберігають попередню поведінку.
 
-Оновлення: **калібратор 1.1.10 → Прошивка → Перевірити GitHub → Оновити прошивку**.
+Оновлення: **калібратор 1.1.12 → Прошивка → Перевірити GitHub → Оновити прошивку**.
 Відпустіть рукоятку й усі кнопки під час перезапуску. Калібратор створює
 резервну копію, перевіряє HEX, версію та збережені дані.
-Його тест кнопок показує лише початкові три; нові шість перевіряйте у 3DxWare.
+У калібраторі 1.1.12 виберіть **AXORA Pro → Перевірка кнопок**. Після перевірки
+кнопок 1–3 калібратор тимчасово вмикає CAD для перевірки кнопок 4–9.
+Тримайте рукоятку в нейтралі й натисніть **Завершити перевірку**, щоб призупинити CAD.
 Збірка пройшла CI; фізичне підключення нових кнопок потребує перевірки після встановлення.
 
 [HEX 2.1.17](updates/firmware/AXORA-2.1.17-CAD.hex) · [Опис оновлення](updates/stable.json)
@@ -101,7 +103,7 @@ Download the Windows ZIP above, extract it and run AxoraCalibrator.exe.
 Use **Firmware → Check GitHub → Update firmware**. The calibrator validates the
 download, backs up calibration and verifies the programmed version and retained data.
 Use the global **CAD** button to turn model control on or off from any workspace.
-Firmware **2.1.17** adds FIT, Rotation Lock, Roll+, TopView, RightView and FrontView on six free Pro Micro GPIOs. Original buttons1/2/3 and service chords are retained. Calibrator1.1.10 remains compatible; its button test covers the original three only. Each normally open button connects its GPIO to GND. See the wiring table above.
+Firmware **2.1.17** adds FIT, Rotation Lock, Roll+, TopView, RightView and FrontView on six free Pro Micro GPIOs. Original buttons1/2/3 and service chords are retained. Select **AXORA Pro → Button test** in Calibrator 1.1.12 to test all nine buttons. Each normally open button connects its GPIO to GND. See the wiring table above.
 This repository distributes binaries and update metadata only.
 
 The Install / reflash board service mode requires the owner-configured master
