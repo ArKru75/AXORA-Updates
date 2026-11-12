@@ -23,16 +23,18 @@
 To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 Калібратор працює у Windows. / The calibrator runs on Windows.
 
-## Калібратор Windows 1.1.14
+## Калібратор Windows 1.1.15
 
-[Завантажити AXORA Calibrator 1.1.14](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.14.zip)
+[Завантажити AXORA Calibrator 1.1.15](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.15.zip)
 
-Розпакуйте ZIP та запустіть **AxoraCalibrator.exe**. У розділі **Прошивка**
-натисніть **Перевірити GitHub**, потім **Оновити прошивку**, якщо доступна новіша версія.
+Компактний інтерфейс українською та англійською. Підключення і CAD у спільній верхній панелі. У таблиці AXORA Pro видно всі дев’ять кнопок. Журнал і центри датчиків доступні в «Додатково», встановлення плати — в розділі «Оновлення».
+
+Розпакуйте ZIP та запустіть **AxoraCalibrator.exe**. У розділі **Оновлення**
+натисніть **Перевірити оновлення**, потім **Оновити прошивку**, якщо доступна новіша версія.
 Для запису потрібен AVRDUDE з установленого пакета Arduino AVR Boards.
 При звичайному оновленні AXORA створюється резервна копія. HEX/SHA-256
 перевіряються перед записом в обох режимах.
-Для нової плати або повторного запису відкрийте **Встановлення / перепрошивання**,
+Для нової плати або повторного запису відкрийте **Оновлення → Сервісне встановлення**,
 виберіть USB-порт і підтвердьте Pro Micro 5 В / 16 МГц із Caterina.
 Цей сервісний режим потребує мастер-пароля на кожен запис.
 Кнопка **Прошити плату автоматично** не потребує ручного RESET, якщо поточний
@@ -45,21 +47,21 @@ To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 перемикання блокуються. Окремих кнопок CAD/HID у «Перевірка рухів» більше немає.
 
 Після підключення індикатори окремо показують навчену матрицю та стан центру.
-Якщо видно **Матриця навчена / Центр не підтверджено**, відпустіть рукоятку й
+Якщо видно **Калібрування збережено / Центр не підтверджено**, відпустіть рукоятку й
 кнопки й зачекайте повторної перевірки приблизно 3–5 секунд у прошивці 2.1.14.
 Якщо центр не підтверджується, виконайте **Лише центр**. Матриця зберігається.
 
 ## Прошивка 2.1.18 — призначення кнопок HID
 
-У калібраторі 1.1.14 відкрийте **Перевірка кнопок** і виберіть одну з
+У калібраторі 1.1.15 відкрийте **Кнопки** і виберіть одну з
 15 кнопок SpaceMouse Pro Wireless для кожної фізичної кнопки AXORA.
-Наприклад, для кнопки 1 виберіть **Escape**. Натисніть **Зберегти HID**,
+Наприклад, для кнопки 1 виберіть **Escape**. Натисніть **Зберегти призначення**,
 щоб записати призначення в AXORA, і ввімкніть CAD.
 Зайняті HID-призначення зникають зі списків інших кнопок. Якщо на пристрої
 вже є дублікати, усуньте їх перед збереженням.
 У режимі **AXORA Pro** тест перевіряє всі дев’ять фізичних кнопок із призупиненим CAD.
 
-Для встановлення відкрийте **Прошивка → Перевірити GitHub → Оновити прошивку**.
+Для встановлення відкрийте **Оновлення → Перевірити оновлення → Оновити прошивку**.
 Калібратор створює резервну копію калібрування, перевіряє HEX, версію
 та збережені дані. Збірка 2.1.18 перевірена для ATmega32U4. Переназначення
 перевірено автоматичними тестами калібратора та звірено з профілем 3DxWare.
@@ -67,7 +69,7 @@ To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 
 [HEX 2.1.18](updates/firmware/AXORA-2.1.18-CAD.hex) · [Опис оновлення](updates/stable.json) · [Схема підключення кнопок](docs/AXORA-Nine-Buttons-UA.md)
 
-У калібраторі відкрийте **RGB**. **Кількість світлодіодів**: 1-16, типово 3;
+У калібраторі відкрийте **Підсвічування**. **Кількість світлодіодів**: 1-16, типово 3;
 натисніть **Зберегти кількість**, щоб застосувати її до індикації та тестів
 і залишити після перепідключення. Для цього потрібна прошивка 2.1.15.
 Також доступні яскравість 0–100%, попередній
@@ -98,10 +100,10 @@ Ready-to-install AXORA updates. No token, password or GitHub account is needed.
 Both guides cover Calibrator 1.1.10 in 13 illustrated pages.
 
 Download the Windows ZIP above, extract it and run AxoraCalibrator.exe.
-Use **Firmware → Check GitHub → Update firmware**. The calibrator validates the
+Use **Updates → Check for updates → Update firmware**. The calibrator validates the
 download, backs up calibration and verifies the programmed version and retained data.
 Use the global **CAD** button to turn model control on or off from any workspace.
-In Button test, select one of 15 SpaceMouse Pro Wireless HID assignments for each physical button, such as Escape. Click Save HID assignments, then enable CAD. Remapping requires Calibrator 1.1.14 and firmware 2.1.18. AXORA Pro tests all nine physical buttons with CAD paused.
+In Button test, select one of 15 SpaceMouse Pro Wireless HID assignments for each physical button, such as Escape. Click Save assignments, then enable CAD. Remapping requires Calibrator 1.1.15 and firmware 2.1.18. AXORA Pro tests all nine physical buttons with CAD paused.
 This repository distributes binaries and update metadata only.
 
 The Install / reflash board service mode requires the owner-configured master
