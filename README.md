@@ -18,18 +18,24 @@
 
 ## Драйвер для CAD / CAD driver
 
-Для роботи AXORA з CAD-програмами встановіть **3Dconnexion 3DxWare** для Windows або macOS.
+Відкрийте **3Dconnexion** у звичайному або експертному режимі. Кнопка
+**Завантажити 3DxWare** відкриває офіційний сайт. Після завантаження натисніть
+**Встановити 3DxWare**, виберіть файл і виконайте вказівки майстра.
+Калібратор перевіряє підпис 3Dconnexion перед запуском інсталятора.
+
+In Normal or Expert mode, open **3Dconnexion**. Select **Download 3DxWare**
+to open the official website, then **Install 3DxWare** to select and run
+the downloaded installer. The calibrator checks the publisher's signature.
+
 [Офіційне завантаження / Official download](https://3dconnexion.com/us/drivers/).
-To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
-Калібратор працює у Windows. / The calibrator runs on Windows.
 
-## Калібратор Windows 1.1.19
+## Калібратор Windows 1.1.20
 
-[Завантажити AXORA Calibrator 1.1.19](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.19.zip)
+[Завантажити AXORA Calibrator 1.1.20](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/main/calibrator/AXORA-Calibrator-1.1.20.zip)
 
 У «Підсвічуванні» доступні яскравість і один тест «Веселка». Прошивка 2.1.20 зберігає профіль за вибраною моделлю: AXORA — 3 світлодіоди, AXORA Pro — 7. Кольори плавно рухаються від першого світлодіода до останнього.
 
-Поруч із моделлю виберіть режим «Звичайний» або «Експерт». У звичайному доступні Калібрування, Налаштування та Підсвічування. У режимі «Експерт» доступні всі розділи, зокрема Центри датчиків і Журнал. Вибір зберігається між запусками.
+Поруч із моделлю виберіть режим «Звичайний» або «Експерт». У звичайному доступні Калібрування, Налаштування, Підсвічування та 3Dconnexion. У режимі «Експерт» доступні всі розділи, зокрема Центри датчиків і Журнал. Вибір зберігається між запусками.
 
 Розпакуйте ZIP та запустіть **AxoraCalibrator.exe**. У режимі **Експерт** у розділі **Оновлення**
 натисніть **Перевірити оновлення**, потім **Оновити прошивку**, якщо доступна новіша версія.
@@ -62,7 +68,7 @@ To use AXORA in CAD, install **3Dconnexion 3DxWare** for Windows or macOS.
 
 ### Призначення кнопок
 
-У калібраторі 1.1.19 відкрийте **Експерт → Кнопки** і виберіть одну з
+У калібраторі 1.1.20 відкрийте **Експерт → Кнопки** і виберіть одну з
 15 кнопок SpaceMouse Pro Wireless для кожної фізичної кнопки AXORA.
 Наприклад, для кнопки 1 виберіть **Escape**. Натисніть **Зберегти призначення**,
 щоб записати призначення в AXORA, і ввімкніть CAD.
