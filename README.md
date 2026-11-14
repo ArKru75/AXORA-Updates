@@ -1,15 +1,15 @@
-# AXORA ESP32-S3 · 2.0.0
+# AXORA ESP32-S3 · 2.0.1
 
-[Завантажити AXORA ESP32-S3 2.0.0](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/axora-esp32/AXORA-ESP32-S3-2.0.0.zip) · [SHA-256](SHA256SUMS.txt)
+[Завантажити AXORA ESP32-S3 2.0.1](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/axora-esp32/AXORA-ESP32-S3-2.0.1.zip) · [SHA-256](SHA256SUMS.txt)
 
 Прошивка для **ESP32-S3 Super Mini** з нативним USB-C і від 4 МБ flash. Один USB-кабель передає HID для CAD та підключає вебкалібратор. Wi-Fi не використовується.
 
 ## Перший запис
 
-Розпакуйте ZIP і запишіть файл **build/AXORA-ESP32-2.0.0-factory.bin** з адреси 0x0. За потреби затисніть BOOT, коротко натисніть RESET і відпустіть BOOT. Після запису натисніть RESET. Замініть COM7 номером порту плати.
+Розпакуйте ZIP і запишіть файл **build/AXORA-ESP32-2.0.1-factory.bin** з адреси 0x0. За потреби затисніть BOOT, коротко натисніть RESET і відпустіть BOOT. Після запису натисніть RESET. Замініть COM7 номером порту плати.
 
 ~~~powershell
-python -m esptool --chip esp32s3 --port COM7 write_flash 0x0 build/AXORA-ESP32-2.0.0-factory.bin
+python -m esptool --chip esp32s3 --port COM7 write_flash 0x0 build/AXORA-ESP32-2.0.1-factory.bin
 ~~~
 
 Для оновлення вже прошитої AXORA ESP32 через вебкалібратор виберіть **build/axora-esp32.bin**.
@@ -35,9 +35,11 @@ python -m esptool --chip esp32s3 --port COM7 write_flash 0x0 build/AXORA-ESP32-2
 
 ## Пам’ять
 
-Збірка ESP-IDF 5.5.2 перевірила образ 2.0.0 із вбудованим вебінтерфейсом. Він займає **566 096 байтів (552,8 КіБ)**. У кожному слоті застосунку розміром 1 МіБ залишається **482 480 байтів (471,2 КіБ)**. Розкладка для 4 МБ flash має початковий слот і два слоти оновлення.
+Образ із вбудованим вебкалібратором займає **673 888 байтів**. У слоті розміром 1 МіБ залишається **374 688 байтів**. Розкладка для 4 МБ flash має початковий слот і два слоти оновлення.
 
 ## Вебкалібратор
+
+У шапці є оригінальний логотип AXORA. Під час повного калібрування відображаються всі 12 ілюстрацій зі стрілками з Windows-калібратора.
 
 Підключіть плату USB-кабелем передачі даних. Після появи мережевого адаптера відкрийте **http://axora.local/**. Якщо комп’ютер не розпізнає ім’я mDNS, відкрийте **http://192.168.77.1/**. AXORA видає адресу лише USB-адаптеру й не оголошує шлюз або DNS для доступу в інтернет. Нативний драйвер USB NCM документований для Windows 11. [Таблиця драйверів Microsoft](https://learn.microsoft.com/en-us/windows-hardware/drivers/usbcon/supported-usb-classes)
 
