@@ -1,18 +1,18 @@
-# AXORA ESP32-S3 · 2.0.6
+# AXORA ESP32-S3 · 2.0.7
 
-[Завантажити AXORA ESP32-S3 2.0.6](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/axora-esp32/AXORA-ESP32-S3-2.0.6.zip) · [SHA-256](SHA256SUMS.txt)
+[Завантажити AXORA ESP32-S3 2.0.7](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/axora-esp32/AXORA-ESP32-S3-2.0.7.zip) · [SHA-256](SHA256SUMS.txt)
 
 Прошивка для **ESP32-S3 Super Mini** з нативним USB-C і від 4 МБ flash. Один USB-кабель передає HID для CAD та підключає вебкалібратор. Wi-Fi не використовується.
 
 ## Перший запис
 
-Розпакуйте ZIP і запишіть файл **build/AXORA-ESP32-2.0.6-factory.bin** з адреси 0x0. За потреби затисніть BOOT, коротко натисніть RESET і відпустіть BOOT. Після запису натисніть RESET. Замініть COM7 номером порту плати.
+Розпакуйте ZIP і запишіть файл **build/AXORA-ESP32-2.0.7-factory.bin** з адреси 0x0. За потреби затисніть BOOT, коротко натисніть RESET і відпустіть BOOT. Після запису натисніть RESET. Замініть COM7 номером порту плати.
 
 ~~~powershell
-python -m esptool --chip esp32s3 --port COM7 write_flash 0x0 build/AXORA-ESP32-2.0.6-factory.bin
+python -m esptool --chip esp32s3 --port COM7 write_flash 0x0 build/AXORA-ESP32-2.0.7-factory.bin
 ~~~
 
-Для переходу з 2.0.1 або 2.0.2 відкрийте **Експерт → Оновлення** у вебкалібраторі й виберіть **build/axora-esp32.bin** з архіву 2.0.6. Плата перезапуститься автоматично.
+Для переходу з 2.0.1 або 2.0.2 відкрийте **Експерт → Оновлення** у вебкалібраторі й виберіть **build/axora-esp32.bin** з архіву 2.0.7. Плата перезапуститься автоматично.
 
 ## Підключення
 
