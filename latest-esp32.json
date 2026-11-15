@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "target": "axora-esp32",
-  "version": "2.0.8",
-  "size": 690736,
-  "sha256": "7ea8e2284c02212d5bdb3e7e4824bfd6ddb5efd5bf8f8a00332e2ff969d4287f"
+  "version": "2.0.9",
+  "size": 690960,
+  "sha256": "64fb1630f6f19027a9cced1d2e0fa45912713b786bbd2dc08d475710f306ef07"
 }
