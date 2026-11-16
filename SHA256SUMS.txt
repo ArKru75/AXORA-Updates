@@ -42,3 +42,7 @@ fe75906494482f8a2355ffca15a26dcca3e7d950cc59468ff293baf372ec879c  AXORA-LAN-Wind
 60e11fb232412718d8c0fd6c0898fd0b55199787834b0ae3dc11e6f07f718037  axora-esp32-wireless-rx-2.1.10.bin
 aa9b03fb445e43aa9075e9c05b3b6448607acac659cc0080ce14e6620ddcebb5  axora-esp32-wireless-rx-2.1.10-factory.bin
 976cc2ac3c786490a85105315c8c3ff7b6e55f71c477e0d55231a9eb5a684c6c  axora-esp32-wireless-tx-compat-2.1.10.bin
+3e1c969ee64c374c559c54d27b3e820d89b6433dce232c74ea029c27541f1480  AXORA-ESP32-S3-Wireless-rx-2.1.11.zip
+f9706152df05e6879c148ba42d12741ae789e221fb2f8e8b22ff1ea043a79669  axora-esp32-wireless-rx-2.1.11.bin
+456ba593554b1a119b37cb36d35c734cba3a6c084ee6cb76aec8154a4db30bb1  axora-esp32-wireless-rx-2.1.11-factory.bin
+5c437096824d41ef84dc714bb3a4db980feef6531f30a38215005dc0a6fd456e  axora-esp32-wireless-tx-compat-2.1.11.bin
