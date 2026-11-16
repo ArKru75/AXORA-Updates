@@ -33,3 +33,8 @@ f3c1ded0ac6409c8edeb9798aef818042d44742fff012d987be447d6e3981c2a  axora-esp32-wi
 8dcd7e65ddaa77df9036da066c3837d04da3c7eb882a91c379614f0914e86374  axora-esp32-wireless-rx-2.1.8.bin
 4587c72beded8c8f0c059e7c362c7e9e4beabf3f8f218048814ae3a2982fbb34  axora-esp32-wireless-rx-2.1.8-factory.bin
 e6134eae30fa8fef1c5a9aea1dde39ec6e30343de42eb88426d94a4741469dd7  axora-esp32-wireless-tx-compat-2.1.8.bin
+2445ff9564e9e9beb65aff7e59a8511118fbe6ce7aecd6a6e50d66709bd00dfc  AXORA-ESP32-S3-Wireless-rx-2.1.9.zip
+6eafb3ea01910baf7c2f0e7de3281b9b84296e9a9a13a55eb5c13e3826d0bf9a  axora-esp32-wireless-rx-2.1.9.bin
+edef18c718569b5ac53f396cf6ec307d204d88ae9a0fbf81871c766ece4ae87a  axora-esp32-wireless-rx-2.1.9-factory.bin
+1a5d259c169dbf961120602f947a6b4d313f5140217fd21a7401707c3944b6cc  axora-esp32-wireless-tx-compat-2.1.9.bin
+fe75906494482f8a2355ffca15a26dcca3e7d950cc59468ff293baf372ec879c  AXORA-LAN-Windows-x64-1.0.0.zip
