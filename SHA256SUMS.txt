@@ -62,3 +62,7 @@ c1ea7dceac93214486903b289892fb64d0c6022d2964a980d1afb7e69667db4c  axora-esp32-wi
 90b5a77a0623bd69bc7ff03d3d8d58422dada331dbc77d3d8497617e712a7f5f  axora-esp32-wireless-rx-2.1.15.bin
 f65e1ab0fe2b6230ef9dc29c441cd4946db9585f45d5385a7606fb80199edd46  axora-esp32-wireless-rx-2.1.15-factory.bin
 01d9cd32498df65785fd979db49d313471ad68298c493a48399c87fb75a13071  axora-esp32-wireless-tx-compat-2.1.15.bin
+aa556f1b2df5092a82e375e0870dfa82c1aa9657ac7b5e86715647deb97d89df  AXORA-ESP32-S3-Wireless-rx-2.1.16.zip
+a33bd28bc3d25ebf18b5d0ebcf68d86036a6119ac176b52874d28e7fd7031723  axora-esp32-wireless-rx-2.1.16.bin
+2d0f91d555db491eba79e46dbf2330db3301c48ad2ea8177c6ae4ed89754f6ca  axora-esp32-wireless-rx-2.1.16-factory.bin
+082ecce3772b923700b0a4518b3fdf95b925590b2225e029812dd76e5849dc41  axora-esp32-wireless-tx-compat-2.1.16.bin
