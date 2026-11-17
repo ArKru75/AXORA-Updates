@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "target": "axora-esp32-wireless-tx-compat",
-  "version": "2.1.28",
-  "size": 980240,
-  "sha256": "29b73659645c9697699c5aed35038ec6f414ca1ab10f9def620f8d0ab8db85a3"
+  "version": "2.1.29",
+  "size": 980544,
+  "sha256": "316dcf9f50505c0c72c71757e26e69cadf30ddb6b535b476ac67cb8ba5c937f3"
 }
