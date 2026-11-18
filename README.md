@@ -1,4 +1,4 @@
-# AXORA 2.1.33 · AXORA AIR 2.1.25
+# AXORA 2.1.33 · AXORA AIR 2.1.26
 
 Два ESP32-S3 Super Mini з 4 МБ flash. Передавач підключений до датчиків, кнопок і підсвічування AXORA. Приймач підключений до ПК через USB-C та працює як пристрій 3Dconnexion і USB-мережевий адаптер для вебкалібратора. Плати обмінюються даними через ESP-NOW на каналі 6, без підключення до роутера.
 
@@ -9,6 +9,8 @@
 Інструкція актуальна для AXORA 2.1.30 та AXORA AIR 2.1.23. Кнопка **Інструкція** біля логотипа AXORA або AXORA AIR завантажує PDF вибраною мовою.
 
 ## Прошивки
+
+У AXORA AIR 2.1.26 під час встановлення власної прошивки RGB-індикатор блимає синім. Синій сигнал має пріоритет над індикацією зв’язку до автоматичного перезапуску. Якщо встановлення перервано, повертається зелений або червоний сигнал зв’язку. Ця індикація працюватиме під час наступних оновлень після встановлення 2.1.26.
 
 У AXORA 2.1.33 та AXORA AIR 2.1.25 виправлено перехід зі сторінки `/wireless` до калібратора. Кнопка **AXORA** активна при прямому USB-підключенні AXORA, незалежно від збереженої радіопари. Після заміни USB-приймача на AXORA на вже відкритій сторінці кнопка активується після перевірки підключення. Для AIR потрібен активний радіозв’язок із AXORA. Оновіть обидва прилади й один раз перезавантажте вже відкриту сторінку, щоб браузер завантажив виправлений код.
 
@@ -73,9 +75,9 @@
 | Роль | Перший запис за адресою 0x0 | Оновлення відповідної ролі |
 | --- | --- | --- |
 | AXORA | [Запис через ESP-IDF](https://github.com/ArKru75/AXORA/tree/axora-esp32-wireless/firmware/esp32) | [Сумісний файл AXORA](axora-esp32-wireless-tx-compat-2.1.33.bin) |
-| AXORA AIR | [Заводський образ](axora-esp32-wireless-rx-2.1.25-factory.bin) | [Файл оновлення](axora-esp32-wireless-rx-2.1.25.bin) |
+| AXORA AIR | [Заводський образ](axora-esp32-wireless-rx-2.1.26-factory.bin) | [Файл оновлення](axora-esp32-wireless-rx-2.1.26.bin) |
 
-[Архів AXORA AIR](AXORA-ESP32-S3-Wireless-rx-2.1.25.zip) і [контрольні суми SHA‑256](SHA256SUMS.txt).
+[Архів AXORA AIR](AXORA-ESP32-S3-Wireless-rx-2.1.26.zip) і [контрольні суми SHA‑256](SHA256SUMS.txt).
 
 Для радіозв’язку обидві плати мають працювати на 2.1.4 або новішій версії. Оновлюйте кожну плату напряму через USB. Якщо на AXORA AIR ще встановлено 2.1.3 і зв’язку з AXORA немає, завантажте файл AXORA AIR із таблиці та відкрийте **Бездротовий зв’язок → Оновлення з файла**. Починаючи з 2.1.4 приймач може перевіряти GitHub і встановлювати наступні версії зі своєї сторінки **Бездротовий зв’язок → Оновлення приймача** навіть із вимкненим передавачем. Збережена пара й калібрування доступні після оновлення.
 
@@ -90,7 +92,7 @@
 Для першого запису AXORA AIR під’єднайте приймач USB-кабелем і виберіть його COM-порт. За потреби затисніть BOOT, коротко натисніть RESET і відпустіть BOOT.
 
 ~~~powershell
-python -m esptool --chip esp32s3 --port COM7 write_flash 0x0 axora-esp32-wireless-rx-2.1.25-factory.bin
+python -m esptool --chip esp32s3 --port COM7 write_flash 0x0 axora-esp32-wireless-rx-2.1.26-factory.bin
 ~~~
 
 ## Спарювання через вебсторінку приймача
@@ -131,4 +133,4 @@ idf.py -B build-tx-compat -D IDF_TARGET=esp32s3 -D AXORA_ROLE=tx -D SDKCONFIG=sd
 idf.py -B build-rx -D IDF_TARGET=esp32s3 -D AXORA_ROLE=rx -D SDKCONFIG=sdkconfig-rx build
 ~~~
 
-Образ AXORA займає 988 048 байтів у слоті 1 МіБ. Образ AXORA AIR займає 945 552 байти у слоті 1 310 720 байтів. [Документація Espressif ESP-NOW](https://docs.espressif.com/projects/esp-idf/en/v5.5.2/esp32s3/api-reference/network/esp_now.html).
+Образ AXORA займає 988 048 байтів у слоті 1 МіБ. Образ AXORA AIR займає 945 632 байти у слоті 1 310 720 байтів. [Документація Espressif ESP-NOW](https://docs.espressif.com/projects/esp-idf/en/v5.5.2/esp32s3/api-reference/network/esp_now.html).
