@@ -6,7 +6,7 @@
 
 [Завантажити PDF українською](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/axora-esp32-wireless/AXORA-User-Guide-UK.pdf) · [Download the English PDF](https://raw.githubusercontent.com/ArKru75/AXORA-Updates/axora-esp32-wireless/AXORA-User-Guide-EN.pdf)
 
-У прошивці 2.1.17 кнопка **Інструкція** біля логотипа AXORA або AXORA AIR завантажує PDF вибраною мовою.
+Інструкція актуальна для AXORA 2.1.30 та AXORA AIR 2.1.23. Кнопка **Інструкція** біля логотипа AXORA або AXORA AIR завантажує PDF вибраною мовою.
 
 ## Прошивки
 
