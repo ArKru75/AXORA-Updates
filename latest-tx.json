@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.2.1",
-  "size": 1009984,
-  "sha256": "e9b5322ded985d986b5399ed29fe587a1ec5a5d9aa66ba0aef1506eddaf6752c"
+  "version": "2.2.2",
+  "size": 1012896,
+  "sha256": "067eecdc6262276b36bc6fe39ee3c94127c84655a7f5e62c04f1eb3df72d2055"
 }
