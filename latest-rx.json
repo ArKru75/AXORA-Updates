@@ -1,7 +1,11 @@
 {
   "schema": 1,
   "target": "axora-esp32-wireless-rx",
-  "version": "2.1.27",
-  "size": 925568,
-  "sha256": "2a239f4b6340f63953f9c2af79fcb0df46a994d88c3b874fd1477e454fc95fd2"
+  "version": "2.1.28",
+  "size": 926256,
+  "sha256": "8a0afd0353c5bbd32934563f3ec1108c9595bdcfda6024075eeec8e965ec4b03",
+  "notes": {
+    "uk": "Окремі стани збереженої пари, відповіді AXORA й доступності калібратора; помітна кнопка «Відкрити AXORA». Радіопротокол і збережена пара не змінюються.",
+    "en": "Separate saved-pairing, AXORA-response and calibrator-availability states, with a prominent Open AXORA button. The radio protocol and saved pairing are unchanged."
+  }
 }
