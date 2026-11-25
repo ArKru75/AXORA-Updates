@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "target": "axora-max-tx",
+  "version": "2.5.0",
+  "size": 996944,
+  "sha256": "ecdb6e567bf983891c8748e0a1ebb9ae106ac5825668238c369d6e533888ee15",
+  "transport": "ble",
+  "experimental": true,
+  "source": {
+    "repository": "ArKru75/AXORA",
+    "branch": "codex/axora-bluetooth",
+    "commit": "ec9406519f6ff9eb9d7a6ed789d0bc8af37c90c6"
+  },
+  "notes": {
+    "uk": "Експериментальна Bluetooth-версія. Потрібне оновлення AXORA та AXORA AIR і створення нової Bluetooth-пари. USB і вебкалібратор збережені. ESP-NOW відсутній.",
+    "en": "Experimental Bluetooth firmware. Update both AXORA and AXORA AIR and create a new Bluetooth pair. USB and the web calibrator are retained. ESP-NOW is removed."
+  },
+  "hardware": {
+    "maxButtons": "pcf8575-p07-v1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "target": "axora-esp32-wireless-rx",
+  "version": "2.5.0",
+  "size": 636304,
+  "sha256": "71ca2eeba96f3a9b6c71e5503cd5e6e0d9659bb1cfcdb395ba3385b1257f218a",
+  "transport": "ble",
+  "experimental": true,
+  "source": {
+    "repository": "ArKru75/AXORA",
+    "branch": "codex/axora-bluetooth",
+    "commit": "ec9406519f6ff9eb9d7a6ed789d0bc8af37c90c6"
+  },
+  "notes": {
+    "uk": "Експериментальна Bluetooth-версія. Потрібне оновлення AXORA та AXORA AIR і створення нової Bluetooth-пари. USB і вебкалібратор збережені. ESP-NOW відсутній.",
+    "en": "Experimental Bluetooth firmware. Update both AXORA and AXORA AIR and create a new Bluetooth pair. USB and the web calibrator are retained. ESP-NOW is removed."
+  }
+}
