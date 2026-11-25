@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.4.0",
-  "size": 1015280,
-  "sha256": "614d345d1f9b0690dd26184e64aff4c298e898d8c58b6a05a231c5fb455af5d3",
+  "version": "2.4.1",
+  "size": 1015504,
+  "sha256": "648fefda40e65115a12a1920cd99e0a657078fd0259a03f5fa3d29107cab641a",
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
   },
   "notes": {
-    "uk": "Нові мобільні налаштування біля куба, компактні центри датчиків і кнопки, відновлення чернеток для конкретної AXORA, 12 кроків калібрування та зрозуміліша діагностика. Підключення Max відповідає 2.3.4: P00 — B7, P07 — резерв. Для старого монтажу Max потрібне перепідключення. Калібрування й пара зберігаються.",
-    "en": "Mobile controls beside the cube, compact sensor centers and buttons, device-specific draft recovery, 12 calibration steps and clearer diagnostics. Max uses the 2.3.4 wiring: P00 is B7; P07 is reserved. Max devices with the older wiring must be rewired. Calibration and pairing are preserved."
+    "uk": "Повернено написи CAD увімкнено / CAD вимкнено. У звичайному режимі розділ Кнопки дозволяє лише перегляд і перевірку. Зміна та збереження призначень доступні тільки в експертному режимі. Усі можливості 2.4.0 збережені; AXORA AIR оновлювати не потрібно.",
+    "en": "Restored the CAD enabled / CAD disabled button labels. Normal mode allows viewing and testing buttons only. Assignment editing and saving are available only in Expert mode. All 2.4.0 features are preserved; AXORA AIR does not need an update."
   }
 }
