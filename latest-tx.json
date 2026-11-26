@@ -1,23 +1,23 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.6.0",
-  "size": 990400,
-  "sha256": "24cc1cd4572cbe5fbe81eb0c0cda6365abb7da8940523c40cde0e8d428797d1b",
+  "version": "2.6.1",
+  "size": 990336,
+  "sha256": "36490b2fce86fb4828c25ec7157fccd5ccc7940456fcb6c0d2e5b0ffdf2a911c",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "42ebe42f0acdd568762071e45b9562368d9035e5"
+    "commit": "1187e5a9ef3053f59efb494b0b864d5abab0f6b0"
   },
   "notes": {
-    "uk": "Дві моделі: AXORA з чотирма кнопками Escape, Fit, 1, 2 на GPIO10–13; AXORA Pro — колишня Max із 15 кнопками PCF8575. В обох сім світлодіодів на GPIO21. Оновлено зображення, 12 стрілок калібрування й схеми кнопок. Стара дев’ятикнопкова Pro вилучена. Калібрування, профілі, яскравість і Bluetooth-пара зберігаються. AIR 2.5.1 оновлювати не потрібно.",
-    "en": "Two models: AXORA with four Escape, Fit, 1 and 2 buttons on GPIO10–13; AXORA Pro is the former Max with 15 PCF8575 buttons. Both use seven LEDs on GPIO21. Updated product illustrations, 12 calibration arrows and button layouts. The old nine-button Pro is retired. Calibration, motion profiles, brightness and Bluetooth pairing are preserved. AIR 2.5.1 needs no update."
+    "uk": "Оновлено спільну сторінку бездротового з’єднання: прибрано верхню кнопку AXORA після прапорців, стани перевірок показуються зеленою ✓ або червоним ✕. Основна кнопка відкриття калібратора збережена. Дві моделі, призначення кнопок, калібрування та Bluetooth-пара працюють як раніше. Для сторінки приймача оновіть AXORA AIR до 2.5.2.",
+    "en": "Updated the shared wireless page: removed the AXORA header button after the language flags and replaced readiness labels with green checks or red crosses. The main calibrator button remains. Both models, button assignments, calibration and Bluetooth pairing are preserved. Update AXORA AIR to 2.5.2 for its receiver page."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
   },
   "compatibleAirVersion": "2.5.0",
-  "recommendedAirVersion": "2.5.1"
+  "recommendedAirVersion": "2.5.2"
 }

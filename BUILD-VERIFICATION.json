@@ -1,38 +1,37 @@
 {
-  "version": "2.6.0",
-  "airVersion": "2.5.1",
-  "sourceCommit": "42ebe42f0acdd568762071e45b9562368d9035e5",
+  "version": "2.6.1",
+  "airVersion": "2.5.2",
+  "sourceCommit": "1187e5a9ef3053f59efb494b0b864d5abab0f6b0",
   "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
   "ci": {
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/45873284058",
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/45889048742",
     "status": "success"
   },
   "records": [
     {
       "device": "AXORA / AXORA Pro",
       "role": "tx",
-      "version": "2.6.0",
-      "file": "axora-max-tx-2.6.0.bin",
-      "bytes": 990400,
+      "version": "2.6.1",
+      "file": "axora-max-tx-2.6.1.bin",
+      "bytes": 990336,
       "capacity": 1048576,
-      "free": 58176,
-      "sha256": "24cc1cd4572cbe5fbe81eb0c0cda6365abb7da8940523c40cde0e8d428797d1b",
+      "free": 58240,
+      "sha256": "36490b2fce86fb4828c25ec7157fccd5ccc7940456fcb6c0d2e5b0ffdf2a911c",
       "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
     },
     {
       "device": "AXORA AIR",
       "role": "rx",
-      "version": "2.5.1",
-      "file": "axora-esp32-wireless-rx-2.5.1.bin",
-      "bytes": 637744,
+      "version": "2.5.2",
+      "file": "axora-esp32-wireless-rx-2.5.2.bin",
+      "bytes": 637680,
       "capacity": 1310720,
-      "free": 672976,
-      "sha256": "130c26a6bb41db8efacbb26424b6ed0924e0c86fda93315f17d011a2396f7a49",
+      "free": 673040,
+      "sha256": "1ef24dadb03144511ba5285a6fe7957cae1ac8d089fbe2e346b47c41ec479841",
       "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533"
     }
   ],
   "hardwareTested": false,
-  "airRepublished": false,
   "models": [
     {
       "id": 0,
@@ -61,11 +60,11 @@
     }
   ],
   "checks": [
-    "Native regressions, HID bits, all four-button combinations, Pro port decoding, saved model and brightness migration passed",
-    "Seven different rainbow positions tested for both models; all twelve existing arrow overlays visually inspected",
-    "Five Playwright suites passed including four-key row at 320/390/1280px, USB/AIR startup, English/Ukrainian, old backup migration and mobile drafts",
-    "Both official firmware builds passed; public AIR BIN and latest-rx.json left byte-identical to published 2.5.1",
-    "TX partition table and flash header unchanged; factory/OTA applications byte-identical; all six gzip assets decode and all product/arrow WebP bytes are embedded",
-    "Project name, hardware marker, BLE service, framing, pairing and OTA partitions remain compatible with existing web updaters"
+    "Native and BLE regressions passed; five Playwright suites passed",
+    "AIR header has two language controls and no duplicate calibrator button; main button preserves availability guard and navigates correctly",
+    "Readiness states show green check/red cross with Ukrainian/English accessible names; desktop/mobile screenshots inspected",
+    "Both official builds fit original OTA partitions; previous chip/project identities and partition tables retained",
+    "All gzip assets decode and include the header/readiness change; TX UI version matches 2.6.1",
+    "Existing updater acceptance, SHA256, factory/OTA byte equality and no ESP-NOW entry points verified"
   ]
 }
