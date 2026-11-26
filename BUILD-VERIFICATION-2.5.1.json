@@ -1,0 +1,38 @@
+{
+  "version": "2.5.1",
+  "sourceCommit": "aca640b28e99febb32b5f0c6d4132cff8d024e68",
+  "builder": "local Windows, official ESP-IDF v5.5.2 (30aaf64524299d3bde422ca9a2848090d1bc5d0f), GCC 14.2.0 esp-14.2.0_20251107",
+  "ci": {
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/45809508845",
+    "status": "not started: GitHub account billing/spending restriction; local build and tests used instead"
+  },
+  "records": [
+    {
+      "device": "AXORA / Pro / Max",
+      "version": "2.5.1",
+      "file": "axora-max-tx-2.5.1.bin",
+      "bytes": 997328,
+      "capacity": 1048576,
+      "free": 51248,
+      "sha256": "3fe2944e89bd1a720e28e47af589df669a073ab92c76824a76ead465e8ac1d65",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
+    },
+    {
+      "device": "AXORA AIR",
+      "version": "2.5.0",
+      "file": "axora-esp32-wireless-rx-2.5.0.bin",
+      "bytes": 636304,
+      "sha256": "71ca2eeba96f3a9b6c71e5503cd5e6e0d9659bb1cfcdb395ba3385b1257f218a",
+      "unchanged": true
+    }
+  ],
+  "checks": [
+    "Unchanged partition table and flash mode versus stable OTA firmware",
+    "Official ESP-IDF application size check passed; this release distributes OTA applications only",
+    "All six gzip web assets decode; version, Menu hint and no automatic center-download verified",
+    "Native ESP32 transient ADC recovery, sustained-fault, neutral-dwell, lighting and calibration tests passed",
+    "Native Max buttons, motion profiles, HID map, wireless framing and USB backpressure checks passed",
+    "Four local Playwright suites passed, including explicit backup download and restoration of both centers and matrix"
+  ],
+  "hardwareTested": false
+}

@@ -1,20 +1,20 @@
 {
-  "version": "2.5.1",
-  "sourceCommit": "aca640b28e99febb32b5f0c6d4132cff8d024e68",
-  "builder": "local Windows, official ESP-IDF v5.5.2 (30aaf64524299d3bde422ca9a2848090d1bc5d0f), GCC 14.2.0 esp-14.2.0_20251107",
+  "version": "2.5.2",
+  "sourceCommit": "6b26c47be07e394ef7308d8e19d22ebca03af458",
+  "builder": "GitHub Actions self-hosted Windows runner AXORA-ARKRUPC, official ESP-IDF v5.5.2, GCC 14.2.0",
   "ci": {
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/45809508845",
-    "status": "not started: GitHub account billing/spending restriction; local build and tests used instead"
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/45836343700",
+    "status": "success"
   },
   "records": [
     {
       "device": "AXORA / Pro / Max",
-      "version": "2.5.1",
-      "file": "axora-max-tx-2.5.1.bin",
-      "bytes": 997328,
+      "version": "2.5.2",
+      "file": "axora-max-tx-2.5.2.bin",
+      "bytes": 997808,
       "capacity": 1048576,
-      "free": 51248,
-      "sha256": "3fe2944e89bd1a720e28e47af589df669a073ab92c76824a76ead465e8ac1d65",
+      "free": 50768,
+      "sha256": "3229a8f01ff45320c1b684704734c830b562929bfe01f3282e03f374f4759185",
       "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
     },
     {
@@ -27,12 +27,15 @@
     }
   ],
   "checks": [
-    "Unchanged partition table and flash mode versus stable OTA firmware",
-    "Official ESP-IDF application size check passed; this release distributes OTA applications only",
-    "All six gzip web assets decode; version, Menu hint and no automatic center-download verified",
-    "Native ESP32 transient ADC recovery, sustained-fault, neutral-dwell, lighting and calibration tests passed",
-    "Native Max buttons, motion profiles, HID map, wireless framing and USB backpressure checks passed",
-    "Four local Playwright suites passed, including explicit backup download and restoration of both centers and matrix"
+    "Native firmware/publisher regression tests with UBSan traps and BLE crypto passed",
+    "Five Playwright suites passed: existing desktop/mobile scenarios plus mobile Wi-Fi/USB draft review and discard",
+    "Inactive-profile discard regression reproduced before fix; five pending areas cycle, discard independently, and survive reload correctly",
+    "Backup restoration consumes its event before editing resumes; polling preserves subsequent center drafts",
+    "No persistent device writes during draft review/discard; cached settings and center cancellation work without another identity fetch",
+    "Official builds for both roles passed; factory/OTA application consistency and both OTA slots validated",
+    "Published TX keeps the stable partition table and flash mode, hardware marker, six valid gzip web assets, and original 1 MiB capacity",
+    "Unmodified 2.5.1 updater accepts final 2.5.2 BIN and manifest for AXORA/Pro/Max and rejects the AIR image",
+    "AXORA AIR OTA binary and update manifest are unchanged"
   ],
   "hardwareTested": false
 }

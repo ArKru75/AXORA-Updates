@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.5.1",
-  "size": 997328,
-  "sha256": "3fe2944e89bd1a720e28e47af589df669a073ab92c76824a76ead465e8ac1d65",
+  "version": "2.5.2",
+  "size": 997808,
+  "sha256": "3229a8f01ff45320c1b684704734c830b562929bfe01f3282e03f374f4759185",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "aca640b28e99febb32b5f0c6d4132cff8d024e68"
+    "commit": "6b26c47be07e394ef7308d8e19d22ebca03af458"
   },
   "notes": {
-    "uk": "Для калібрування Max використовуйте кнопку «Меню», для AXORA/Pro — кнопку 1. Центри зберігаються лише в прилад; повна резервна копія містить центри й матрицю калібрування. Разовий збій зчитування датчика більше не запускає зайве підтвердження нейтралі. Тривалі несправності, мертва зона й захист центру збережені. Сумісна з AXORA AIR Bluetooth 2.5.0; пару створювати заново не потрібно.",
-    "en": "Max calibration uses the Menu button; AXORA/Pro use button 1. Saving centers writes only to the device; explicit backups include centers and the calibration matrix. A transient sensor-read failure no longer unnecessarily rearms neutral. Sustained-fault protection and the actual dead zone are retained. Compatible with AXORA AIR Bluetooth 2.5.0; pairing is preserved."
+    "uk": "Виправлено мобільний перегляд і скасування незбережених змін через Wi-Fi: перехід по черзі між профілями й розділами, правильний лічильник, локальне скасування налаштувань і центрів без зайвого очікування. Скасовані зміни не повертаються після перезавантаження, решта зберігається. Виправлено втрату нової чернетки центрів після відновлення копії. Сумісна з AXORA AIR Bluetooth 2.5.0; оновлюється лише AXORA.",
+    "en": "Fixed mobile Wi-Fi review and discard of unsaved changes: cycle through profiles and sections, correct counter, and local cancellation of settings and centers without extra network requests. Discarded changes stay discarded after reload; other drafts are preserved. A delayed backup-restore event no longer clears new center edits. Compatible with AXORA AIR Bluetooth 2.5.0; only AXORA needs updating."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
