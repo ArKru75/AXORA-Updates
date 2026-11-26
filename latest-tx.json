@@ -1,22 +1,23 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.5.2",
-  "size": 997808,
-  "sha256": "3229a8f01ff45320c1b684704734c830b562929bfe01f3282e03f374f4759185",
+  "version": "2.5.3",
+  "size": 998832,
+  "sha256": "6933e52cb730d4b438dd2e4a83952ca18345f6146ef970ccf065f9eff3948de2",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "6b26c47be07e394ef7308d8e19d22ebca03af458"
+    "commit": "4b4c2159905baf2af3bc040d5005e1582e02bcd6"
   },
   "notes": {
-    "uk": "Виправлено мобільний перегляд і скасування незбережених змін через Wi-Fi: перехід по черзі між профілями й розділами, правильний лічильник, локальне скасування налаштувань і центрів без зайвого очікування. Скасовані зміни не повертаються після перезавантаження, решта зберігається. Виправлено втрату нової чернетки центрів після відновлення копії. Сумісна з AXORA AIR Bluetooth 2.5.0; оновлюється лише AXORA.",
-    "en": "Fixed mobile Wi-Fi review and discard of unsaved changes: cycle through profiles and sections, correct counter, and local cancellation of settings and centers without extra network requests. Discarded changes stay discarded after reload; other drafts are preserved. A delayed backup-restore event no longer clears new center edits. Compatible with AXORA AIR Bluetooth 2.5.0; only AXORA needs updating."
+    "uk": "Оптимізовано Bluetooth-оновлення: запис більшими порціями, швидша обробка передавання та відсутність зайвих пакетів руху під час встановлення. Перевірка цілісності, USB, калібрування й Bluetooth-пара збережені. Для всіх покращень спочатку оновіть AXORA AIR до 2.5.1, потім AXORA до 2.5.3. Повторне спарювання не потрібне.",
+    "en": "Optimized Bluetooth firmware updates with buffered flash writes, immediate transfer handling and no redundant motion packets during installation. Integrity checks, USB operation, calibration and Bluetooth pairing are preserved. For all improvements update AXORA AIR to 2.5.1 first, then AXORA to 2.5.3. No re-pairing is required."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
   },
-  "compatibleAirVersion": "2.5.0"
+  "compatibleAirVersion": "2.5.0",
+  "recommendedAirVersion": "2.5.1"
 }

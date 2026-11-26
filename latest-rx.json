@@ -1,18 +1,19 @@
 {
   "schema": 1,
   "target": "axora-esp32-wireless-rx",
-  "version": "2.5.0",
-  "size": 636304,
-  "sha256": "71ca2eeba96f3a9b6c71e5503cd5e6e0d9659bb1cfcdb395ba3385b1257f218a",
+  "version": "2.5.1",
+  "size": 637744,
+  "sha256": "130c26a6bb41db8efacbb26424b6ed0924e0c86fda93315f17d011a2396f7a49",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "ec9406519f6ff9eb9d7a6ed789d0bc8af37c90c6"
+    "commit": "4b4c2159905baf2af3bc040d5005e1582e02bcd6"
   },
   "notes": {
-    "uk": "Експериментальна Bluetooth-версія. Потрібне оновлення AXORA та AXORA AIR і створення нової Bluetooth-пари. USB і вебкалібратор збережені. ESP-NOW відсутній.",
-    "en": "Experimental Bluetooth firmware. Update both AXORA and AXORA AIR and create a new Bluetooth pair. USB and the web calibrator are retained. ESP-NOW is removed."
-  }
+    "uk": "Прискорення передавання оновлень AXORA через Bluetooth: тимчасовий швидкісний режим із поверненням до звичайного після завершення або помилки, швидша обробка пакетів. Збережена пара та USB працюють як раніше. Сумісна з попередніми Bluetooth-прошивками AXORA; для всіх покращень оновіть AXORA до 2.5.3.",
+    "en": "Faster AXORA updates over Bluetooth: temporary high-speed transfer with normal-mode restoration on completion or failure, and immediate packet handling. Existing pairing and USB operation are preserved. Compatible with previous AXORA Bluetooth firmware; update AXORA to 2.5.3 for all improvements."
+  },
+  "compatibleAxoraVersion": "2.5.0"
 }
