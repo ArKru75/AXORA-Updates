@@ -1,21 +1,22 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.5.0",
-  "size": 996944,
-  "sha256": "ecdb6e567bf983891c8748e0a1ebb9ae106ac5825668238c369d6e533888ee15",
+  "version": "2.5.1",
+  "size": 997328,
+  "sha256": "3fe2944e89bd1a720e28e47af589df669a073ab92c76824a76ead465e8ac1d65",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "ec9406519f6ff9eb9d7a6ed789d0bc8af37c90c6"
+    "commit": "aca640b28e99febb32b5f0c6d4132cff8d024e68"
   },
   "notes": {
-    "uk": "Експериментальна Bluetooth-версія. Потрібне оновлення AXORA та AXORA AIR і створення нової Bluetooth-пари. USB і вебкалібратор збережені. ESP-NOW відсутній.",
-    "en": "Experimental Bluetooth firmware. Update both AXORA and AXORA AIR and create a new Bluetooth pair. USB and the web calibrator are retained. ESP-NOW is removed."
+    "uk": "Для калібрування Max використовуйте кнопку «Меню», для AXORA/Pro — кнопку 1. Центри зберігаються лише в прилад; повна резервна копія містить центри й матрицю калібрування. Разовий збій зчитування датчика більше не запускає зайве підтвердження нейтралі. Тривалі несправності, мертва зона й захист центру збережені. Сумісна з AXORA AIR Bluetooth 2.5.0; пару створювати заново не потрібно.",
+    "en": "Max calibration uses the Menu button; AXORA/Pro use button 1. Saving centers writes only to the device; explicit backups include centers and the calibration matrix. A transient sensor-read failure no longer unnecessarily rearms neutral. Sustained-fault protection and the actual dead zone are retained. Compatible with AXORA AIR Bluetooth 2.5.0; pairing is preserved."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
-  }
+  },
+  "compatibleAirVersion": "2.5.0"
 }
