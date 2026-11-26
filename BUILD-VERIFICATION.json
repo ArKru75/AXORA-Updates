@@ -1,22 +1,22 @@
 {
-  "version": "2.5.3",
+  "version": "2.6.0",
   "airVersion": "2.5.1",
-  "sourceCommit": "4b4c2159905baf2af3bc040d5005e1582e02bcd6",
+  "sourceCommit": "42ebe42f0acdd568762071e45b9562368d9035e5",
   "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
   "ci": {
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/45858751990",
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/45873284058",
     "status": "success"
   },
   "records": [
     {
-      "device": "AXORA / Pro / Max",
+      "device": "AXORA / AXORA Pro",
       "role": "tx",
-      "version": "2.5.3",
-      "file": "axora-max-tx-2.5.3.bin",
-      "bytes": 998832,
+      "version": "2.6.0",
+      "file": "axora-max-tx-2.6.0.bin",
+      "bytes": 990400,
       "capacity": 1048576,
-      "free": 49744,
-      "sha256": "6933e52cb730d4b438dd2e4a83952ca18345f6146ef970ccf065f9eff3948de2",
+      "free": 58176,
+      "sha256": "24cc1cd4572cbe5fbe81eb0c0cda6365abb7da8940523c40cde0e8d428797d1b",
       "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
     },
     {
@@ -32,14 +32,40 @@
     }
   ],
   "hardwareTested": false,
+  "airRepublished": false,
+  "models": [
+    {
+      "id": 0,
+      "name": "AXORA",
+      "buttons": 4,
+      "leds": 7,
+      "pins": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "actions": [
+        "Escape",
+        "Fit",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AXORA Pro",
+      "buttons": 15,
+      "leds": 7,
+      "input": "PCF8575, existing former Max wiring"
+    }
+  ],
   "checks": [
-    "Native regressions, actual buffered updater with real SHA-256 and simulated flash, allocation, write, image-validation and boot-selection failure tests passed",
-    "996-byte input blocks for a 997808-byte image: 244 flash writes instead of 1002; byte-identical stored image",
-    "PHY request refusal, busy retry, 1M fallback, late completion restoration and rollover policy tests passed",
-    "Five Playwright suites passed, including mobile Wi-Fi/USB drafts, centers, backups, profiles and AIR",
-    "Both official firmware builds and OTA/factory consistency checks passed; no ESP-NOW entry points in the linked ELF",
-    "Byte-identical partition tables and flash headers versus previous compatible releases; both OTA slot capacities preserved",
-    "All gzip web assets decode, TX hardware marker and 2.5.3 UI version retained",
-    "BLE GATT UUIDs, message bounds, pairing records and encryption framing remain unchanged; either update order is supported"
+    "Native regressions, HID bits, all four-button combinations, Pro port decoding, saved model and brightness migration passed",
+    "Seven different rainbow positions tested for both models; all twelve existing arrow overlays visually inspected",
+    "Five Playwright suites passed including four-key row at 320/390/1280px, USB/AIR startup, English/Ukrainian, old backup migration and mobile drafts",
+    "Both official firmware builds passed; public AIR BIN and latest-rx.json left byte-identical to published 2.5.1",
+    "TX partition table and flash header unchanged; factory/OTA applications byte-identical; all six gzip assets decode and all product/arrow WebP bytes are embedded",
+    "Project name, hardware marker, BLE service, framing, pairing and OTA partitions remain compatible with existing web updaters"
   ]
 }
