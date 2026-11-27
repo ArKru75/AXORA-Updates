@@ -1,0 +1,4 @@
+# Keep signed firmware, PDFs and archives byte-identical on Windows/Linux.
+*.bin binary
+*.pdf binary
+*.zip binary

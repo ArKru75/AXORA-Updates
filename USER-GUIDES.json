@@ -1,0 +1,30 @@
+{
+  "firmware": {
+    "AXORA": "2.9.2",
+    "AXORA AIR": "2.7.0"
+  },
+  "files": [
+    {
+      "language": "uk",
+      "file": "AXORA-User-Guide-UK.pdf",
+      "pages": 6,
+      "bytes": 674066,
+      "sha256": "c5c32e12904dbd2b50622ca23b4d83464f410b7d5e82b6dba7b93a1dbdae4ce2"
+    },
+    {
+      "language": "en",
+      "file": "AXORA-User-Guide-EN.pdf",
+      "pages": 6,
+      "bytes": 659114,
+      "sha256": "9130536b11f70373879f624d18314450bd6d1d07fe8daa19654decd4caf87622"
+    }
+  ],
+  "checks": [
+    "Content cross-checked with current calibrator, controller, phone Wi-Fi policy and AIR code",
+    "All twelve rendered pages visually reviewed",
+    "Ukrainian and English: six pages, font embedding, content, links and page bounds verified",
+    "No numeric IP addresses, legacy models or unnecessary firmware terminology"
+  ],
+  "sourceCommit": "8c80c24056c7013255d8861ff376245eb2e566fb",
+  "sourcePath": "docs/user-guide/build_guides.py"
+}
