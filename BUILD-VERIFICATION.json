@@ -1,22 +1,22 @@
 {
-  "version": "2.7.2",
+  "version": "2.7.3",
   "airVersion": "2.6.2",
-  "sourceCommit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c",
+  "sourceCommit": "804a79595472bb024ac2cb493e26b6eaf1889006",
   "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
   "ci": {
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/45989850363",
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/45999726495",
     "status": "success"
   },
   "records": [
     {
       "device": "AXORA / AXORA Pro",
       "role": "tx",
-      "version": "2.7.2",
-      "file": "axora-max-tx-2.7.2.bin",
-      "bytes": 999392,
+      "version": "2.7.3",
+      "file": "axora-max-tx-2.7.3.bin",
+      "bytes": 999680,
       "capacity": 1048576,
-      "free": 49184,
-      "sha256": "e415a74a194b612dcf9c1186bbfde56c52bad7ac86bc5e0cffa8103f8077eaec",
+      "free": 48896,
+      "sha256": "841160503ac82e56e31bfda7e4c9170ca11b2b4b7cf6354d17e687e878f61c85",
       "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
     },
     {
@@ -59,13 +59,13 @@
       "input": "PCF8575, existing former Max wiring"
     }
   ],
+  "unchangedAirSourceCommit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c",
   "checks": [
     "Native UBSan, BLE crypto/OTA and all six Playwright suites passed",
-    "True effective control state includes cube pause; explicit modes cancel preview immediately; navigation restores CAD and respects later manual choices",
-    "Live USB/Bluetooth badges in calibrator and AIR; Bluetooth appears only when linked; cyan pause and mobile layout verified",
-    "Both models require a long mode hold in both directions; short mouse-mode key sends configured native 3DxWare action",
-    "Independent persistent button timing 0..1500 ms, zero disables, failed save rollback, explicit save/discard, per-device drafts and backups verified",
-    "Centers, brightness previews and mobile drafts survive navigation changes; Ukrainian/English, desktop/mobile passed",
-    "Original OTA partitions, chip/project identities, pairing/settings records, SHA256 and factory/OTA equality retained"
+    "Four mouse direction illustrations match firmware axes 4,3,1,0; independent inversion bits, explicit save and discard retained",
+    "Side mouse test is always visible; narrow layouts stack it below settings without horizontal overflow",
+    "CAD/Mouse settings labels, header version placement and accessible inversion controls verified in Ukrainian and English",
+    "Button delay hidden and disabled in normal mode; draft review reopens Expert mode without discarding changes",
+    "Original OTA partitions, chip/project identity, SHA256 and factory/OTA equality retained; AIR 2.6.2 unchanged"
   ]
 }

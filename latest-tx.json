@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.7.2",
-  "size": 999392,
-  "sha256": "e415a74a194b612dcf9c1186bbfde56c52bad7ac86bc5e0cffa8103f8077eaec",
+  "version": "2.7.3",
+  "size": 999680,
+  "sha256": "841160503ac82e56e31bfda7e4c9170ca11b2b4b7cf6354d17e687e878f61c85",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c"
+    "commit": "804a79595472bb024ac2cb493e26b6eaf1889006"
   },
   "notes": {
-    "uk": "Панель показує фактичний CAD / Миша / Пауза, включно з тестовим кубом; Пауза голуба. При виході з Миші чи Налаштувань автоматично вмикається CAD. Маркер показує USB або активний Bluetooth. У Кнопки додано збереження затримки 0–1500 мс. Фізична 2 на AXORA / 4 на Pro перемикає режими довгим натисканням в обидва боки; коротке передає призначення 3DxWare. Калібрування, налаштування та пара зберігаються.",
-    "en": "The panel shows actual CAD / Mouse / Pause state, including cube preview; Pause is light blue. Leaving Mouse or Settings enables CAD automatically. The badge shows USB or active Bluetooth. Buttons now includes a saved 0–1500 ms delay. Physical 2 on AXORA / 4 on Pro toggles modes with a long hold in both directions; a short press sends its 3DxWare assignment. Calibration, settings and pairing are preserved."
+    "uk": "Напрямки миші тепер мають ті самі зображення рухів і перемикачі Навпаки, що й CAD. Перевірка миші постійно видима збоку. Пункти меню: Налаштування CAD та Налаштування миші. Пауза ручки після кнопки доступна лише в експертному режимі. Версія перенесена під маркер USB/Bluetooth у шапці; дублювання статусу в розділах прибрано. Калібрування, налаштування й Bluetooth-пара зберігаються. AIR залишається 2.6.2.",
+    "en": "Mouse directions now use the same movement illustrations and Reverse switches as CAD. The mouse test is always visible beside the settings. Sections are named CAD settings and Mouse settings. Handle pause after a button is available in Expert mode only. The version is below the USB/Bluetooth badge in the header, without duplicated section status. Calibration, settings and Bluetooth pairing are preserved. AIR remains 2.6.2."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"

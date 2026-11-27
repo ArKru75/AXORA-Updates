@@ -1,0 +1,71 @@
+{
+  "version": "2.7.2",
+  "airVersion": "2.6.2",
+  "sourceCommit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c",
+  "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "ci": {
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/45989850363",
+    "status": "success"
+  },
+  "records": [
+    {
+      "device": "AXORA / AXORA Pro",
+      "role": "tx",
+      "version": "2.7.2",
+      "file": "axora-max-tx-2.7.2.bin",
+      "bytes": 999392,
+      "capacity": 1048576,
+      "free": 49184,
+      "sha256": "e415a74a194b612dcf9c1186bbfde56c52bad7ac86bc5e0cffa8103f8077eaec",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
+    },
+    {
+      "device": "AXORA AIR",
+      "role": "rx",
+      "version": "2.6.2",
+      "file": "axora-esp32-wireless-rx-2.6.2.bin",
+      "bytes": 638016,
+      "capacity": 1310720,
+      "free": 672704,
+      "sha256": "1eb7a671a4d8ed53571a2403d6dcf84c83461cec8854ac1b80b858729502546b",
+      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533"
+    }
+  ],
+  "hardwareTested": false,
+  "models": [
+    {
+      "id": 0,
+      "name": "AXORA",
+      "buttons": 4,
+      "leds": 7,
+      "pins": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "actions": [
+        "Escape",
+        "Fit",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AXORA Pro",
+      "buttons": 15,
+      "leds": 7,
+      "input": "PCF8575, existing former Max wiring"
+    }
+  ],
+  "checks": [
+    "Native UBSan, BLE crypto/OTA and all six Playwright suites passed",
+    "True effective control state includes cube pause; explicit modes cancel preview immediately; navigation restores CAD and respects later manual choices",
+    "Live USB/Bluetooth badges in calibrator and AIR; Bluetooth appears only when linked; cyan pause and mobile layout verified",
+    "Both models require a long mode hold in both directions; short mouse-mode key sends configured native 3DxWare action",
+    "Independent persistent button timing 0..1500 ms, zero disables, failed save rollback, explicit save/discard, per-device drafts and backups verified",
+    "Centers, brightness previews and mobile drafts survive navigation changes; Ukrainian/English, desktop/mobile passed",
+    "Original OTA partitions, chip/project identities, pairing/settings records, SHA256 and factory/OTA equality retained"
+  ]
+}
