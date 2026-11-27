@@ -1,0 +1,71 @@
+{
+  "version": "2.7.3",
+  "airVersion": "2.6.2",
+  "sourceCommit": "804a79595472bb024ac2cb493e26b6eaf1889006",
+  "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "ci": {
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/45999726495",
+    "status": "success"
+  },
+  "records": [
+    {
+      "device": "AXORA / AXORA Pro",
+      "role": "tx",
+      "version": "2.7.3",
+      "file": "axora-max-tx-2.7.3.bin",
+      "bytes": 999680,
+      "capacity": 1048576,
+      "free": 48896,
+      "sha256": "841160503ac82e56e31bfda7e4c9170ca11b2b4b7cf6354d17e687e878f61c85",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
+    },
+    {
+      "device": "AXORA AIR",
+      "role": "rx",
+      "version": "2.6.2",
+      "file": "axora-esp32-wireless-rx-2.6.2.bin",
+      "bytes": 638016,
+      "capacity": 1310720,
+      "free": 672704,
+      "sha256": "1eb7a671a4d8ed53571a2403d6dcf84c83461cec8854ac1b80b858729502546b",
+      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533"
+    }
+  ],
+  "hardwareTested": false,
+  "models": [
+    {
+      "id": 0,
+      "name": "AXORA",
+      "buttons": 4,
+      "leds": 7,
+      "pins": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "actions": [
+        "Escape",
+        "Fit",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AXORA Pro",
+      "buttons": 15,
+      "leds": 7,
+      "input": "PCF8575, existing former Max wiring"
+    }
+  ],
+  "unchangedAirSourceCommit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c",
+  "checks": [
+    "Native UBSan, BLE crypto/OTA and all six Playwright suites passed",
+    "Four mouse direction illustrations match firmware axes 4,3,1,0; independent inversion bits, explicit save and discard retained",
+    "Side mouse test is always visible; narrow layouts stack it below settings without horizontal overflow",
+    "CAD/Mouse settings labels, header version placement and accessible inversion controls verified in Ukrainian and English",
+    "Button delay hidden and disabled in normal mode; draft review reopens Expert mode without discarding changes",
+    "Original OTA partitions, chip/project identity, SHA256 and factory/OTA equality retained; AIR 2.6.2 unchanged"
+  ]
+}

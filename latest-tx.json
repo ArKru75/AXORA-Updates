@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.7.3",
-  "size": 999680,
-  "sha256": "841160503ac82e56e31bfda7e4c9170ca11b2b4b7cf6354d17e687e878f61c85",
+  "version": "2.8.0",
+  "size": 1001312,
+  "sha256": "ec838a471c4bb885ba23dfb31b2be31d6a2f26d535a1bcdbc199a27aac57bc52",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "804a79595472bb024ac2cb493e26b6eaf1889006"
+    "commit": "a6feb4c8c859ae6b6a19235826795971b0caf7ec"
   },
   "notes": {
-    "uk": "Напрямки миші тепер мають ті самі зображення рухів і перемикачі Навпаки, що й CAD. Перевірка миші постійно видима збоку. Пункти меню: Налаштування CAD та Налаштування миші. Пауза ручки після кнопки доступна лише в експертному режимі. Версія перенесена під маркер USB/Bluetooth у шапці; дублювання статусу в розділах прибрано. Калібрування, налаштування й Bluetooth-пара зберігаються. AIR залишається 2.6.2.",
-    "en": "Mouse directions now use the same movement illustrations and Reverse switches as CAD. The mouse test is always visible beside the settings. Sections are named CAD settings and Mouse settings. Handle pause after a button is available in Expert mode only. The version is below the USB/Bluetooth badge in the header, without duplicated section status. Calibration, settings and Bluetooth pairing are preserved. AIR remains 2.6.2."
+    "uk": "Нові жести миші: легкий поворот ліворуч/праворуч — лівий/правий клік після повернення в центр; сильний — фіксація кнопки, повторний легкий — відпускання. Натискання ручки вниз перемикає фіксацію середньої кнопки (натискання на колесо). Усі фізичні кнопки знову працюють через 3DxWare. У калібраторі видно зафіксовані кнопки. Нахили керують курсором, зміщення — прокручуванням. Калібрування, налаштування й пара зберігаються; AIR залишається 2.6.2.",
+    "en": "New mouse gestures: a gentle left/right twist clicks the left/right button on returning to center; a firm twist latches it, and a gentle twist in the same direction releases it. Pressing the handle down toggles the middle button latch (scroll-wheel press). All physical buttons use 3DxWare again. The calibrator shows latched buttons. Tilt moves the pointer; slide scrolls. Calibration, settings and pairing are preserved; AIR remains 2.6.2."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
