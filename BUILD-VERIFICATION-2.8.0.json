@@ -1,0 +1,73 @@
+{
+  "version": "2.8.0",
+  "airVersion": "2.6.2",
+  "sourceCommit": "a6feb4c8c859ae6b6a19235826795971b0caf7ec",
+  "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "ci": {
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46009772945",
+    "status": "success"
+  },
+  "records": [
+    {
+      "device": "AXORA / AXORA Pro",
+      "role": "tx",
+      "version": "2.8.0",
+      "file": "axora-max-tx-2.8.0.bin",
+      "bytes": 1001312,
+      "capacity": 1048576,
+      "free": 47264,
+      "sha256": "ec838a471c4bb885ba23dfb31b2be31d6a2f26d535a1bcdbc199a27aac57bc52",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
+    },
+    {
+      "device": "AXORA AIR",
+      "role": "rx",
+      "version": "2.6.2",
+      "file": "axora-esp32-wireless-rx-2.6.2.bin",
+      "bytes": 638016,
+      "capacity": 1310720,
+      "free": 672704,
+      "sha256": "1eb7a671a4d8ed53571a2403d6dcf84c83461cec8854ac1b80b858729502546b",
+      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533"
+    }
+  ],
+  "hardwareTested": false,
+  "models": [
+    {
+      "id": 0,
+      "name": "AXORA",
+      "buttons": 4,
+      "leds": 7,
+      "pins": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "actions": [
+        "Escape",
+        "Fit",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AXORA Pro",
+      "buttons": 15,
+      "leds": 7,
+      "input": "PCF8575, existing former Max wiring"
+    }
+  ],
+  "unchangedAirSourceCommit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c",
+  "checks": [
+    "Native UBSan, BLE crypto/OTA and all six Playwright suites passed",
+    "Gentle left/right twist clicks on neutral; firm twist latches without a preliminary click; gentle matching twist releases",
+    "Downward press toggles middle latch once per press, without changing pointer/scroll behavior; combined button masks and held dragging verified",
+    "Noise, invalid input, gesture suppression and neutral arming verified; mode/pause reset releases actual auxiliary HID state",
+    "All physical 4/15 buttons send saved native 3DxWare assignments in Mouse mode; short/long mode key behavior retained",
+    "Live latch feedback, gesture guidance, save/discard/backups, Ukrainian/English and 320–1280px browser layout verified",
+    "STATE extends original 15 fields with one latch mask within radio response capacity; original OTA partitions, project identity and factory/OTA equality retained",
+    "AIR 2.6.2 binary and radio HID frame layout unchanged; calibration, button mapping and MouseSettings storage layout preserved"
+  ]
+}

@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.8.0",
-  "size": 1001312,
-  "sha256": "ec838a471c4bb885ba23dfb31b2be31d6a2f26d535a1bcdbc199a27aac57bc52",
+  "version": "2.8.1",
+  "size": 1002160,
+  "sha256": "eda64ea40410379f80ad4a041a9fbae7647592c258416a2203b0388a36b01f65",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "a6feb4c8c859ae6b6a19235826795971b0caf7ec"
+    "commit": "30a0fb8317709716709f9d40101559a62d8f15c5"
   },
   "notes": {
-    "uk": "Нові жести миші: легкий поворот ліворуч/праворуч — лівий/правий клік після повернення в центр; сильний — фіксація кнопки, повторний легкий — відпускання. Натискання ручки вниз перемикає фіксацію середньої кнопки (натискання на колесо). Усі фізичні кнопки знову працюють через 3DxWare. У калібраторі видно зафіксовані кнопки. Нахили керують курсором, зміщення — прокручуванням. Калібрування, налаштування й пара зберігаються; AIR залишається 2.6.2.",
-    "en": "New mouse gestures: a gentle left/right twist clicks the left/right button on returning to center; a firm twist latches it, and a gentle twist in the same direction releases it. Pressing the handle down toggles the middle button latch (scroll-wheel press). All physical buttons use 3DxWare again. The calibrator shows latched buttons. Tilt moves the pointer; slide scrolls. Calibration, settings and pairing are preserved; AIR remains 2.6.2."
+    "uk": "Виправлено розпізнавання легкого повороту та відпускання зафіксованих кнопок. Підвищено початкове зусилля й час підтвердження фіксації; у Налаштуваннях миші додано повзунок Зусилля фіксації. Повторний поворот у той самий бік відпускає вже зафіксовану кнопку навіть при сильному жесті, без повторного затискання. У напрямках є поворот навколо вертикалі з перемикачем Навпаки. Допускається невеликий залишковий поворот після повернення. Параметри, калібрування й пара зберігаються; AIR залишається 2.6.2.",
+    "en": "Fixes gentle-twist recognition and release of latched mouse buttons. Raises the default latch strength and confirmation time; Mouse settings now includes a Latch strength slider. A repeat twist in the same direction releases a latched button even when firm, without immediately latching it again. Directions now includes vertical twist with a Reverse switch. Allows a small residual twist on return. Settings, calibration and pairing are preserved; AIR remains 2.6.2."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"

@@ -1,22 +1,22 @@
 {
-  "version": "2.8.0",
+  "version": "2.8.1",
   "airVersion": "2.6.2",
-  "sourceCommit": "a6feb4c8c859ae6b6a19235826795971b0caf7ec",
+  "sourceCommit": "30a0fb8317709716709f9d40101559a62d8f15c5",
   "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
   "ci": {
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/46009772945",
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46013315271",
     "status": "success"
   },
   "records": [
     {
       "device": "AXORA / AXORA Pro",
       "role": "tx",
-      "version": "2.8.0",
-      "file": "axora-max-tx-2.8.0.bin",
-      "bytes": 1001312,
+      "version": "2.8.1",
+      "file": "axora-max-tx-2.8.1.bin",
+      "bytes": 1002160,
       "capacity": 1048576,
-      "free": 47264,
-      "sha256": "ec838a471c4bb885ba23dfb31b2be31d6a2f26d535a1bcdbc199a27aac57bc52",
+      "free": 46416,
+      "sha256": "eda64ea40410379f80ad4a041a9fbae7647592c258416a2203b0388a36b01f65",
       "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
     },
     {
@@ -62,12 +62,12 @@
   "unchangedAirSourceCommit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c",
   "checks": [
     "Native UBSan, BLE crypto/OTA and all six Playwright suites passed",
-    "Gentle left/right twist clicks on neutral; firm twist latches without a preliminary click; gentle matching twist releases",
-    "Downward press toggles middle latch once per press, without changing pointer/scroll behavior; combined button masks and held dragging verified",
-    "Noise, invalid input, gesture suppression and neutral arming verified; mode/pause reset releases actual auxiliary HID state",
-    "All physical 4/15 buttons send saved native 3DxWare assignments in Mouse mode; short/long mode key behavior retained",
-    "Live latch feedback, gesture guidance, save/discard/backups, Ukrainian/English and 320–1280px browser layout verified",
-    "STATE extends original 15 fields with one latch mask within radio response capacity; original OTA partitions, project identity and factory/OTA equality retained",
-    "AIR 2.6.2 binary and radio HID frame layout unchanged; calibration, button mapping and MouseSettings storage layout preserved"
+    "Reproduced 2.8.0 stuck latch after 14% residual twist; both sides now release on a fresh matching gesture, including a firm repeat, without re-latching",
+    "Default latch threshold 125% and 180ms confirmation separate ordinary/brief twists from deliberate holds; independent saved 70..250% slider verified",
+    "MouseSettings stays 16 bytes; reserved byte zero preserves legacy settings; optional sixth MOUSECFG field, bounds, persistence and failed write rollback tested",
+    "Explicit save/discard, device drafts, six-field backups and legacy five-field backups, Ukrainian/English and mobile layout verified",
+    "Vertical twist Reverse switch uses independent inversion bit 16; both-direction click/latch/release and unchanged middle toggle tested, saved guidance matches actual mapping",
+    "Middle toggle, cursor/scroll, native physical button assignments and mode/pause release retained",
+    "Original OTA partitions, project identity, SHA256 and factory/OTA equality retained; AIR 2.6.2 binary unchanged"
   ]
 }
