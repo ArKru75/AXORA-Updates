@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "target": "axora-esp32-wireless-rx",
-  "version": "2.6.0",
-  "size": 637856,
-  "sha256": "b6561e30b6105324a06652b267a04be114ff64f73f0b27d3ad11eadc832404a4",
+  "version": "2.6.1",
+  "size": 637904,
+  "sha256": "f6da2d58d68375bab6e0b075badecf1d23cd19adb0e242f253626ce41074bf61",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "8501004136a65e68ea6dc392e861a3fcad1ea383"
+    "commit": "e8d8007cc3fcb1f54cdf1d6cf37bbc9dd47bd526"
   },
   "notes": {
-    "uk": "Підтримка горизонтального прокручування нового режиму миші AXORA 2.7.0. Збережено Bluetooth-пару, попередній формат радіопакетів, рухи CAD, кліки та оновлення по радіоканалу. Лічильник прокручування не блокує енергозбереження. Старі рухи не повторюються після розриву зв’язку.",
-    "en": "Adds horizontal scrolling for the redesigned mouse mode in AXORA 2.7.0. Preserves Bluetooth pairing, the radio packet layout, CAD movement, mouse clicks and wireless updates. Scroll counters do not prevent idle power saving. Stale movement is discarded after a connection loss."
+    "uk": "Виправлено горизонтальне прокручування: порожні повідомлення миші більше не займають канал перед прокруткою вбік. Кліки, відпускання й накопичені рухи повторюються коректно, якщо USB зайнятий. Збережено Bluetooth-пару, рухи CAD та вебоновлення. Рекомендовано AXORA 2.7.1.",
+    "en": "Fixes horizontal scrolling: empty mouse reports no longer occupy the endpoint ahead of horizontal scroll. Clicks, releases and accumulated movement retry correctly when USB is busy. Preserves Bluetooth pairing, CAD motion and web updates. AXORA 2.7.1 is recommended."
   },
   "compatibleAxoraVersion": "2.5.0",
-  "recommendedAxoraVersion": "2.7.0"
+  "recommendedAxoraVersion": "2.7.1"
 }

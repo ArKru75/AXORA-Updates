@@ -1,0 +1,70 @@
+{
+  "version": "2.7.0",
+  "airVersion": "2.6.0",
+  "sourceCommit": "8501004136a65e68ea6dc392e861a3fcad1ea383",
+  "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "ci": {
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/45974932560",
+    "status": "success"
+  },
+  "records": [
+    {
+      "device": "AXORA / AXORA Pro",
+      "role": "tx",
+      "version": "2.7.0",
+      "file": "axora-max-tx-2.7.0.bin",
+      "bytes": 996016,
+      "capacity": 1048576,
+      "free": 52560,
+      "sha256": "369d57b39784719cfc2b83209a116cb2dad72100b1b3a0b6c96936e6e1f7c4ea",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
+    },
+    {
+      "device": "AXORA AIR",
+      "role": "rx",
+      "version": "2.6.0",
+      "file": "axora-esp32-wireless-rx-2.6.0.bin",
+      "bytes": 637856,
+      "capacity": 1310720,
+      "free": 672864,
+      "sha256": "b6561e30b6105324a06652b267a04be114ff64f73f0b27d3ad11eadc832404a4",
+      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533"
+    }
+  ],
+  "hardwareTested": false,
+  "models": [
+    {
+      "id": 0,
+      "name": "AXORA",
+      "buttons": 4,
+      "leds": 7,
+      "pins": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "actions": [
+        "Escape",
+        "Fit",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AXORA Pro",
+      "buttons": 15,
+      "leds": 7,
+      "input": "PCF8575, existing former Max wiring"
+    }
+  ],
+  "checks": [
+    "Native regressions with UBSan, BLE crypto and OTA safety; six Playwright suites passed",
+    "Tilt pointer and translated vertical/horizontal scrolling; group lock, immediate stop, independent settings and inversion",
+    "Physical AXORA Escape/Fit/1/2 and Pro 1/2/3/4; held clicks, native remaining Pro keys, neutral guards and mode restoration",
+    "Explicit save/discard, failed save, per-device drafts, backups, Ukrainian/English and 360/390/768 px layout",
+    "Original OTA partitions, chip/project identities, SHA256 and factory/OTA equality retained",
+    "Both binaries include horizontal Consumer AC Pan; BLE HID frames stay 40 bytes; no ESP-NOW entry points"
+  ]
+}
