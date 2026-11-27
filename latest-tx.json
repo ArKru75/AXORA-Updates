@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.8.1",
-  "size": 1002160,
-  "sha256": "eda64ea40410379f80ad4a041a9fbae7647592c258416a2203b0388a36b01f65",
+  "version": "2.8.2",
+  "size": 1002720,
+  "sha256": "b9a21129162d530eb1e90a2a5e4da3ceeb473eef5cec4285b33b2032a861f642",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "30a0fb8317709716709f9d40101559a62d8f15c5"
+    "commit": "aae0ce1195dcaff265a04a852b4209b3c7d02678"
   },
   "notes": {
-    "uk": "Виправлено розпізнавання легкого повороту та відпускання зафіксованих кнопок. Підвищено початкове зусилля й час підтвердження фіксації; у Налаштуваннях миші додано повзунок Зусилля фіксації. Повторний поворот у той самий бік відпускає вже зафіксовану кнопку навіть при сильному жесті, без повторного затискання. У напрямках є поворот навколо вертикалі з перемикачем Навпаки. Допускається невеликий залишковий поворот після повернення. Параметри, калібрування й пара зберігаються; AIR залишається 2.6.2.",
-    "en": "Fixes gentle-twist recognition and release of latched mouse buttons. Raises the default latch strength and confirmation time; Mouse settings now includes a Latch strength slider. A repeat twist in the same direction releases a latched button even when firm, without immediately latching it again. Directions now includes vertical twist with a Reverse switch. Allows a small residual twist on return. Settings, calibration and pairing are preserved; AIR remains 2.6.2."
+    "uk": "Клік тепер потребує повороту приблизно до половини ходу; фіксація — максимуму з утриманням близько 0,35 с. Початкове зусилля фіксації переведено на 100%. Середня кнопка потребує глибокого окремого натискання вниз і не спрацьовує від супутнього натискання під час повороту. Базово за годинниковою — ліва кнопка, проти — права; Навпаки збережено. Швидкості, інверсії, калібрування та пара зберігаються. AIR залишається 2.6.2.",
+    "en": "Clicks now require about half travel; latching requires the maximum held for about 0.35 s. Initial latch strength is reset to 100%. Middle requires a deep, isolated downward press and cannot trigger from downward cross-talk while twisting. Default: clockwise is left, counterclockwise is right; Reverse is retained. Speeds, inversions, calibration and pairing are preserved. AIR remains 2.6.2."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
