@@ -1,22 +1,22 @@
 {
-  "version": "2.8.2",
+  "version": "2.8.3",
   "airVersion": "2.6.2",
-  "sourceCommit": "aae0ce1195dcaff265a04a852b4209b3c7d02678",
+  "sourceCommit": "fa583373c5043b2365989440ea45e9bb718af727",
   "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
   "ci": {
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/46017784233",
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46021189551",
     "status": "success"
   },
   "records": [
     {
       "device": "AXORA / AXORA Pro",
       "role": "tx",
-      "version": "2.8.2",
-      "file": "axora-max-tx-2.8.2.bin",
-      "bytes": 1002720,
+      "version": "2.8.3",
+      "file": "axora-max-tx-2.8.3.bin",
+      "bytes": 1003024,
       "capacity": 1048576,
-      "free": 45856,
-      "sha256": "b9a21129162d530eb1e90a2a5e4da3ceeb473eef5cec4285b33b2032a861f642",
+      "free": 45552,
+      "sha256": "2caed9bbb9b019200b7beb06b645fc5268f268a2183314bb2f263486c9cf9f54",
       "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
     },
     {
@@ -62,12 +62,11 @@
   "unchangedAirSourceCommit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c",
   "checks": [
     "Native UBSan, BLE crypto/OTA and all six Playwright suites passed",
-    "Reproduced middle cross-talk while twisting; middle now requires 90% depth, 200ms and 1.6x dominance, with rotation cancellation and release-to-rearm",
-    "Half-travel 50% click threshold, rejection of smaller turns and brief spikes, 350ms maximum hold with 90% hysteresis verified at boundaries",
-    "Clockwise maps to left and counterclockwise to right by default; inversion swaps click/latch/release and live saved guidance",
-    "Legacy MouseSettings records preserve pointer/scroll/inversion, adopt 100% latch threshold and save as same-size version 2; explicit old backups remain accepted",
-    "Real auxiliary HID tests cover intended deep middle, turn plus deep cross-talk, no delayed middle, combined latches and safe release",
-    "Ukrainian/English guidance, save/discard, drafts, backups and mobile layout passed",
-    "Original OTA partitions, project identity, SHA256 and factory/OTA equality retained; AIR 2.6.2 binary unchanged"
+    "Lift releases left/right/middle, cancels pending clicks and requires neutral return; small motion and short spikes do not release latches",
+    "Exclusive left/right/middle latches replace each other; other-button clicks also avoid chords; 12000 control frames verify single-bit button state",
+    "Actual auxiliary HID path verifies release-all on lift and direct left-to-right latch replacement",
+    "Mouse mode remains active after lifting; half-travel click, maximum hold, deep middle, directions, saved inversion and threshold behavior retained",
+    "Bilingual guidance, live latch indication, save/discard, drafts, backups and desktop/mobile layout passed",
+    "Settings/NVS and radio formats, original OTA partitions, project identity, SHA256 and factory/OTA equality retained; AIR 2.6.2 binary unchanged"
   ]
 }
