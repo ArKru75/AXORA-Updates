@@ -1,19 +1,20 @@
 {
   "schema": 1,
   "target": "axora-esp32-wireless-rx",
-  "version": "2.5.2",
-  "size": 637680,
-  "sha256": "1ef24dadb03144511ba5285a6fe7957cae1ac8d089fbe2e346b47c41ec479841",
+  "version": "2.6.0",
+  "size": 637856,
+  "sha256": "b6561e30b6105324a06652b267a04be114ff64f73f0b27d3ad11eadc832404a4",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "1187e5a9ef3053f59efb494b0b864d5abab0f6b0"
+    "commit": "8501004136a65e68ea6dc392e861a3fcad1ea383"
   },
   "notes": {
-    "uk": "Прибрано верхню кнопку AXORA після прапорців мови. Перевірки пари, відповіді AXORA та доступності калібратора показують зелену ✓ або червоний ✕. Основна кнопка «Відкрити AXORA» залишається й доступна лише за відповіді калібратора. Наявна Bluetooth-пара та налаштування зберігаються.",
-    "en": "Removed the AXORA header button after the language flags. Pairing, AXORA response and calibrator availability now show a green check or red cross. The main Open AXORA button remains and is enabled only when the calibrator responds. Existing Bluetooth pairing and settings are preserved."
+    "uk": "Підтримка горизонтального прокручування нового режиму миші AXORA 2.7.0. Збережено Bluetooth-пару, попередній формат радіопакетів, рухи CAD, кліки та оновлення по радіоканалу. Лічильник прокручування не блокує енергозбереження. Старі рухи не повторюються після розриву зв’язку.",
+    "en": "Adds horizontal scrolling for the redesigned mouse mode in AXORA 2.7.0. Preserves Bluetooth pairing, the radio packet layout, CAD movement, mouse clicks and wireless updates. Scroll counters do not prevent idle power saving. Stale movement is discarded after a connection loss."
   },
-  "compatibleAxoraVersion": "2.5.0"
+  "compatibleAxoraVersion": "2.5.0",
+  "recommendedAxoraVersion": "2.7.0"
 }

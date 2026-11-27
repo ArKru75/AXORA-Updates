@@ -1,0 +1,70 @@
+{
+  "version": "2.6.1",
+  "airVersion": "2.5.2",
+  "sourceCommit": "1187e5a9ef3053f59efb494b0b864d5abab0f6b0",
+  "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "ci": {
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/45889048742",
+    "status": "success"
+  },
+  "records": [
+    {
+      "device": "AXORA / AXORA Pro",
+      "role": "tx",
+      "version": "2.6.1",
+      "file": "axora-max-tx-2.6.1.bin",
+      "bytes": 990336,
+      "capacity": 1048576,
+      "free": 58240,
+      "sha256": "36490b2fce86fb4828c25ec7157fccd5ccc7940456fcb6c0d2e5b0ffdf2a911c",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
+    },
+    {
+      "device": "AXORA AIR",
+      "role": "rx",
+      "version": "2.5.2",
+      "file": "axora-esp32-wireless-rx-2.5.2.bin",
+      "bytes": 637680,
+      "capacity": 1310720,
+      "free": 673040,
+      "sha256": "1ef24dadb03144511ba5285a6fe7957cae1ac8d089fbe2e346b47c41ec479841",
+      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533"
+    }
+  ],
+  "hardwareTested": false,
+  "models": [
+    {
+      "id": 0,
+      "name": "AXORA",
+      "buttons": 4,
+      "leds": 7,
+      "pins": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "actions": [
+        "Escape",
+        "Fit",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AXORA Pro",
+      "buttons": 15,
+      "leds": 7,
+      "input": "PCF8575, existing former Max wiring"
+    }
+  ],
+  "checks": [
+    "Native and BLE regressions passed; five Playwright suites passed",
+    "AIR header has two language controls and no duplicate calibrator button; main button preserves availability guard and navigates correctly",
+    "Readiness states show green check/red cross with Ukrainian/English accessible names; desktop/mobile screenshots inspected",
+    "Both official builds fit original OTA partitions; previous chip/project identities and partition tables retained",
+    "All gzip assets decode and include the header/readiness change; TX UI version matches 2.6.1",
+    "Existing updater acceptance, SHA256, factory/OTA byte equality and no ESP-NOW entry points verified"
+  ]
+}

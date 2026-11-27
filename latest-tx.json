@@ -1,23 +1,23 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.6.1",
-  "size": 990336,
-  "sha256": "36490b2fce86fb4828c25ec7157fccd5ccc7940456fcb6c0d2e5b0ffdf2a911c",
+  "version": "2.7.0",
+  "size": 996016,
+  "sha256": "369d57b39784719cfc2b83209a116cb2dad72100b1b3a0b6c96936e6e1f7c4ea",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "1187e5a9ef3053f59efb494b0b864d5abab0f6b0"
+    "commit": "8501004136a65e68ea6dc392e861a3fcad1ea383"
   },
   "notes": {
-    "uk": "Оновлено спільну сторінку бездротового з’єднання: прибрано верхню кнопку AXORA після прапорців, стани перевірок показуються зеленою ✓ або червоним ✕. Основна кнопка відкриття калібратора збережена. Дві моделі, призначення кнопок, калібрування та Bluetooth-пара працюють як раніше. Для сторінки приймача оновіть AXORA AIR до 2.5.2.",
-    "en": "Updated the shared wireless page: removed the AXORA header button after the language flags and replaced readiness labels with green checks or red crosses. The main calibrator button remains. Both models, button assignments, calibration and Bluetooth pairing are preserved. Update AXORA AIR to 2.5.2 for its receiver page."
+    "uk": "Перший новий режим миші: нахили переміщують курсор, зміщення прокручують вертикально й горизонтально. AXORA Escape/Fit/1 та Pro 1/2/3 — кліки; AXORA 2 / Pro 4 — перемикання CAD. Окремі повзунки й зони спокою, збереження, скасування та резервні копії. CAD-профілі й Bluetooth-пара зберігаються. Для прокручування вбік через AIR спочатку оновіть її до 2.6.0.",
+    "en": "First redesigned mouse mode: tilt to move the pointer; slide to scroll vertically or horizontally. AXORA Escape/Fit/1 and Pro 1/2/3 provide clicks; AXORA 2 / Pro 4 switch CAD. Independent sliders, resting zones, save/discard and backups. CAD profiles and Bluetooth pairing are preserved. Update AIR to 2.6.0 first for horizontal scrolling over Bluetooth."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
   },
   "compatibleAirVersion": "2.5.0",
-  "recommendedAirVersion": "2.5.2"
+  "recommendedAirVersion": "2.6.0"
 }
