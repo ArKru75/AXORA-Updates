@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.9.0",
-  "size": 1010176,
-  "sha256": "6b904842c441c1b3209b367eaa3a8a87f787ee0585162ff20781d57bf08c2e1a",
+  "version": "2.9.1",
+  "size": 1011072,
+  "sha256": "1f3ee64514e1f7bca936037da19164d28d445e47aa7a911f1d184af6fb9018a8",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "3e8a5feac8dcd4aceba1057a91173495253a2125"
+    "commit": "89f1b5588ee9faba5d35110096b22924fb59bda5"
   },
   "notes": {
-    "uk": "Новий огляд стану, компактні вкладки миші на телефоні, індикатори жестів, Підключення та Допомога з довідкою без інтернету. Оновлення доступне у звичайному режимі; AXORA та AIR показані окремо. Менше службових запитів. Перевірка підпису оновлень і першого запуску. Спочатку оновіть AIR до 2.7.0. Після встановлення приймаються лише оригінальні підписані файли AXORA; старі непідписані BIN не підходять для ручного повернення. Калібрування й пара зберігаються.",
-    "en": "New status overview, compact phone mouse tabs, gesture indicators, Connections and offline Help. Updates are available in Normal mode, with separate AXORA and AIR cards. Reduced background queries. Signed updates and first-boot checks. Update AIR to 2.7.0 first. After installation only original signed AXORA files are accepted; old unsigned BINs cannot be used for a manual downgrade. Calibration and pairing are preserved."
+    "uk": "Перемикач Звичайний / Експерт виконано в стилі CAD / Миша / Пауза. В експертному режимі вибір моделі повернуто в шапку. Пояснення перевірки миші перенесено в ліву колонку; віконце залишилося закріпленим, як куб CAD, і не перекриває текст унизу. Шкала повороту має фіксований центр і відхилення ліворуч / праворуч. Клік на зображенні миші блимає зеленим, фіксація залишається помаранчевою. Короткі кліки відображаються навіть між опитуваннями. Калібрування, параметри й пара збережені. AIR 2.7.0 не змінена.",
+    "en": "Normal / Expert now uses the same segmented style as CAD / Mouse / Pause. Expert mode restores the model selector in the header. Mouse guidance is in the left column; the test stays sticky like the CAD cube and no longer covers text below. The twist track has a fixed center and left/right deflection. Clicks flash green on the mouse diagram; latches remain amber. Short clicks remain visible between polls. Calibration, settings and pairing are preserved. AIR 2.7.0 is unchanged."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"

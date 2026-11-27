@@ -1,8 +1,8 @@
-6b904842c441c1b3209b367eaa3a8a87f787ee0585162ff20781d57bf08c2e1a  axora-max-tx-2.9.0.bin
+1f3ee64514e1f7bca936037da19164d28d445e47aa7a911f1d184af6fb9018a8  axora-max-tx-2.9.1.bin
 8e9ddf9c76e830bbddcd2f35a4f4c94ea3970cc995ea602020b01dd51ab297e1  axora-esp32-wireless-rx-2.7.0.bin
-07f7b2a865acbc3f7d6f989abd694dc48f8e983cd109691a67c0b55be9ac830b  factory/axora-max-tx-2.9.0-factory.bin
+8227539a80a85aa3c545c44de493c3fc954ead25bc5d24efc4624e4baf49469d  factory/axora-max-tx-2.9.1-factory.bin
 dfbaee6df2580964a743465a1d49e50e15bf9a48b1fa92fe4641d8bafbe65ac8  factory/axora-esp32-wireless-rx-2.7.0-factory.bin
-1d9cefc3e18048f08f002658c2cc87846c0f8a0f774355b543d8953fbf3778ef  AXORA-Bluetooth-2.9.0.zip
-0b1c55274fc5f4606e83dc1f7cd2e54c21ba1944df139ee3c11e58ed96211ea7  latest-tx.json
-c59fac3797aeb8698699f4c272017f2a3f66aac70bec23e91829c3715fa1ee0c  latest-rx.json
-ebd0fc0f1981dcdc03b49b12063a854b6d12a7eef780364b46dca6d895abd2ae  BUILD-VERIFICATION.json
+0c0e7945a00be8a5dab7eb8849ed8fdab83243278183aa9617852ad32c491f5d  AXORA-Bluetooth-2.9.1.zip
+b884a01c62e4969e3cf3e067314d7dc658e27191b78a1eb3cfe7b1e92e6a7994  latest-tx.json
+0e46bfcb20e2c10852379e2b7cc6feb936288aebfd50f8943aa804cbc949ea17  latest-rx.json
+ddc9834aca7e5caf10b00ef175c12a60816fdf14f2aecc500515882415ec1645  BUILD-VERIFICATION.json

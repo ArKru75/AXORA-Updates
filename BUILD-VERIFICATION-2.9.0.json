@@ -1,0 +1,86 @@
+{
+  "version": "2.9.0",
+  "airVersion": "2.7.0",
+  "sourceCommit": "3e8a5feac8dcd4aceba1057a91173495253a2125",
+  "builder": "Local self-hosted Windows toolchain, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "channel": "experimental",
+  "ci": {
+    "status": "success",
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46052044692",
+    "sourceCommit": "3e8a5feac8dcd4aceba1057a91173495253a2125"
+  },
+  "hardwareTested": false,
+  "records": [
+    {
+      "device": "AXORA / AXORA Pro",
+      "role": "tx",
+      "version": "2.9.0",
+      "file": "axora-max-tx-2.9.0.bin",
+      "bytes": 1010176,
+      "capacity": 1048576,
+      "free": 38400,
+      "sha256": "6b904842c441c1b3209b367eaa3a8a87f787ee0585162ff20781d57bf08c2e1a",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b",
+      "signatureVerified": true,
+      "factory": {
+        "file": "factory/axora-max-tx-2.9.0-factory.bin",
+        "sha256": "07f7b2a865acbc3f7d6f989abd694dc48f8e983cd109691a67c0b55be9ac830b"
+      }
+    },
+    {
+      "device": "AXORA AIR",
+      "role": "rx",
+      "version": "2.7.0",
+      "file": "axora-esp32-wireless-rx-2.7.0.bin",
+      "bytes": 642752,
+      "capacity": 1310720,
+      "free": 667968,
+      "sha256": "8e9ddf9c76e830bbddcd2f35a4f4c94ea3970cc995ea602020b01dd51ab297e1",
+      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533",
+      "signatureVerified": true,
+      "factory": {
+        "file": "factory/axora-esp32-wireless-rx-2.7.0-factory.bin",
+        "sha256": "dfbaee6df2580964a743465a1d49e50e15bf9a48b1fa92fe4641d8bafbe65ac8"
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": 0,
+      "name": "AXORA",
+      "buttons": 4,
+      "leds": 7,
+      "pins": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "actions": [
+        "Escape",
+        "Fit",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AXORA Pro",
+      "buttons": 15,
+      "leds": 7,
+      "input": "PCF8575, existing former Max wiring"
+    }
+  ],
+  "checks": [
+    "Native UBSan and seven browser suites passed",
+    "ECDSA-P256 original signature accepted; modified/truncated/untrusted images rejected before activation",
+    "Production buffered updater: SHA, interruption, out-of-order blocks, write failures and inactive-slot safety",
+    "First-boot confirmation, legacy application guard, native rollback, watchdog recovery and valid partition lookup",
+    "Read-only mouse telemetry preserves mode, latches, settings and flash",
+    "Both languages, every section at 320/390/768/1440px, minified production JS/CSS and no horizontal overflow",
+    "Normal-mode updates, service-only model changes, explicit saves, draft review/discard and offline help",
+    "USB/Bluetooth wire layouts, four/15 buttons, seven LEDs and original OTA partitions retained",
+    "Signed factory/application equality, embedded new UI, capacities and SHA-256 verified"
+  ],
+  "pendingHardwareChecks": "See docs/COMMERCIAL_RELEASE_CHECKLIST.md in source repository. No device was flashed."
+}
