@@ -1,30 +1,30 @@
 {
-  "version": "2.9.1",
+  "version": "2.9.2",
   "airVersion": "2.7.0",
-  "sourceCommit": "89f1b5588ee9faba5d35110096b22924fb59bda5",
+  "sourceCommit": "157065b1db9ef71bbf5445f283064a67de0b4b5f",
   "builder": "Local self-hosted Windows toolchain, official ESP-IDF v5.5.2, GCC 14.2.0",
   "channel": "experimental",
   "ci": {
     "status": "success",
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/46058639687",
-    "sourceCommit": "89f1b5588ee9faba5d35110096b22924fb59bda5"
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46061900113",
+    "sourceCommit": "157065b1db9ef71bbf5445f283064a67de0b4b5f"
   },
   "hardwareTested": false,
   "records": [
     {
       "device": "AXORA / AXORA Pro",
       "role": "tx",
-      "version": "2.9.1",
-      "file": "axora-max-tx-2.9.1.bin",
-      "bytes": 1011072,
+      "version": "2.9.2",
+      "file": "axora-max-tx-2.9.2.bin",
+      "bytes": 1011104,
       "capacity": 1048576,
-      "free": 37504,
-      "sha256": "1f3ee64514e1f7bca936037da19164d28d445e47aa7a911f1d184af6fb9018a8",
+      "free": 37472,
+      "sha256": "5cdb533794990f698630747b2e3d712648bf96fa8152b67a859f942fd4361948",
       "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b",
       "signatureVerified": true,
       "factory": {
-        "file": "factory/axora-max-tx-2.9.1-factory.bin",
-        "sha256": "8227539a80a85aa3c545c44de493c3fc954ead25bc5d24efc4624e4baf49469d"
+        "file": "factory/axora-max-tx-2.9.2-factory.bin",
+        "sha256": "659cf169f853d13774841c0ec32a2f921545538aafb8a321a584f58a28e7ebd8"
       }
     },
     {
@@ -72,15 +72,13 @@
     }
   ],
   "checks": [
-    "Native UBSan, mouse HID/gesture, BLE crypto/OTA and seven browser suites passed",
-    "Segmented Normal/Expert buttons preserve selection, ordinary-mode locks and automatic draft review; Expert restores header model selection",
-    "Mouse panel retains desktop sticky behavior; all guidance stays in the left column before/after scrolling",
-    "Twist marker: zero at center, both signs, endpoint clamping and accessible signed values",
-    "Real short-click event sequence survives the 40 ms HID pulse; green feedback expires without repeat, amber latches take priority",
-    "Maximum packed mouse feedback still fits the 19-value, 128-byte reply; HID, STATE and settings formats unchanged",
-    "Bilingual desktop/phone, 320–1440px layouts, local drafts, explicit saves and support privacy passed",
-    "Signed BIN and factory equality, original partition table, capacities, embedded revised UI and SHA-256 verified",
-    "Existing signed AIR 2.7.0 binary retained byte-for-byte; no receiver reflash required"
+    "Native UBSan, firmware/publisher, mouse, Bluetooth crypto/OTA and seven browser suites passed",
+    "Production minified header: Ukrainian/English, Normal/Expert at 320/390/672/673/768/1024/1440px; no overlap or horizontal scrolling",
+    "Header identity and connection stay above distinct device and interface control groups; neutral interface selection, colored live device state",
+    "Interface-level and language changes do not send device-mode commands; Expert model selection and Normal locks retained",
+    "All existing views, phone Wi-Fi drafts, save/discard, calibration, mouse feedback, pairing and updates regression checks passed",
+    "Signed BIN and factory equality, original partition table, capacities, embedded two-row header, manufacturer signature and SHA-256 verified",
+    "Original signed AIR 2.7.0 application and factory retained byte-for-byte; no receiver reflash required"
   ],
   "pendingHardwareChecks": "See docs/COMMERCIAL_RELEASE_CHECKLIST.md in source repository. No device was flashed.",
   "unchangedAirSourceCommit": "3e8a5feac8dcd4aceba1057a91173495253a2125"

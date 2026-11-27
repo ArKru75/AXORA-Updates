@@ -1,0 +1,87 @@
+{
+  "version": "2.9.1",
+  "airVersion": "2.7.0",
+  "sourceCommit": "89f1b5588ee9faba5d35110096b22924fb59bda5",
+  "builder": "Local self-hosted Windows toolchain, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "channel": "experimental",
+  "ci": {
+    "status": "success",
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46058639687",
+    "sourceCommit": "89f1b5588ee9faba5d35110096b22924fb59bda5"
+  },
+  "hardwareTested": false,
+  "records": [
+    {
+      "device": "AXORA / AXORA Pro",
+      "role": "tx",
+      "version": "2.9.1",
+      "file": "axora-max-tx-2.9.1.bin",
+      "bytes": 1011072,
+      "capacity": 1048576,
+      "free": 37504,
+      "sha256": "1f3ee64514e1f7bca936037da19164d28d445e47aa7a911f1d184af6fb9018a8",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b",
+      "signatureVerified": true,
+      "factory": {
+        "file": "factory/axora-max-tx-2.9.1-factory.bin",
+        "sha256": "8227539a80a85aa3c545c44de493c3fc954ead25bc5d24efc4624e4baf49469d"
+      }
+    },
+    {
+      "device": "AXORA AIR",
+      "role": "rx",
+      "version": "2.7.0",
+      "file": "axora-esp32-wireless-rx-2.7.0.bin",
+      "bytes": 642752,
+      "capacity": 1310720,
+      "free": 667968,
+      "sha256": "8e9ddf9c76e830bbddcd2f35a4f4c94ea3970cc995ea602020b01dd51ab297e1",
+      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533",
+      "signatureVerified": true,
+      "factory": {
+        "file": "factory/axora-esp32-wireless-rx-2.7.0-factory.bin",
+        "sha256": "dfbaee6df2580964a743465a1d49e50e15bf9a48b1fa92fe4641d8bafbe65ac8"
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": 0,
+      "name": "AXORA",
+      "buttons": 4,
+      "leds": 7,
+      "pins": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "actions": [
+        "Escape",
+        "Fit",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AXORA Pro",
+      "buttons": 15,
+      "leds": 7,
+      "input": "PCF8575, existing former Max wiring"
+    }
+  ],
+  "checks": [
+    "Native UBSan, mouse HID/gesture, BLE crypto/OTA and seven browser suites passed",
+    "Segmented Normal/Expert buttons preserve selection, ordinary-mode locks and automatic draft review; Expert restores header model selection",
+    "Mouse panel retains desktop sticky behavior; all guidance stays in the left column before/after scrolling",
+    "Twist marker: zero at center, both signs, endpoint clamping and accessible signed values",
+    "Real short-click event sequence survives the 40 ms HID pulse; green feedback expires without repeat, amber latches take priority",
+    "Maximum packed mouse feedback still fits the 19-value, 128-byte reply; HID, STATE and settings formats unchanged",
+    "Bilingual desktop/phone, 320–1440px layouts, local drafts, explicit saves and support privacy passed",
+    "Signed BIN and factory equality, original partition table, capacities, embedded revised UI and SHA-256 verified",
+    "Existing signed AIR 2.7.0 binary retained byte-for-byte; no receiver reflash required"
+  ],
+  "pendingHardwareChecks": "See docs/COMMERCIAL_RELEASE_CHECKLIST.md in source repository. No device was flashed.",
+  "unchangedAirSourceCommit": "3e8a5feac8dcd4aceba1057a91173495253a2125"
+}

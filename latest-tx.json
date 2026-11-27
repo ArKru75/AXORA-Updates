@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.9.1",
-  "size": 1011072,
-  "sha256": "1f3ee64514e1f7bca936037da19164d28d445e47aa7a911f1d184af6fb9018a8",
+  "version": "2.9.2",
+  "size": 1011104,
+  "sha256": "5cdb533794990f698630747b2e3d712648bf96fa8152b67a859f942fd4361948",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "89f1b5588ee9faba5d35110096b22924fb59bda5"
+    "commit": "157065b1db9ef71bbf5445f283064a67de0b4b5f"
   },
   "notes": {
-    "uk": "Перемикач Звичайний / Експерт виконано в стилі CAD / Миша / Пауза. В експертному режимі вибір моделі повернуто в шапку. Пояснення перевірки миші перенесено в ліву колонку; віконце залишилося закріпленим, як куб CAD, і не перекриває текст унизу. Шкала повороту має фіксований центр і відхилення ліворуч / праворуч. Клік на зображенні миші блимає зеленим, фіксація залишається помаранчевою. Короткі кліки відображаються навіть між опитуваннями. Калібрування, параметри й пара збережені. AIR 2.7.0 не змінена.",
-    "en": "Normal / Expert now uses the same segmented style as CAD / Mouse / Pause. Expert mode restores the model selector in the header. Mouse guidance is in the left column; the test stays sticky like the CAD cube and no longer covers text below. The twist track has a fixed center and left/right deflection. Clicks flash green on the mouse diagram; latches remain amber. Short clicks remain visible between polls. Calibration, settings and pairing are preserved. AIR 2.7.0 is unchanged."
+    "uk": "Новий заголовок калібратора у два рядки. Зверху: лого, модель, інструкція, прапорці мови та підключення з версією. Нижче: кольорове керування CAD / Миша / Пауза і окремий спокійний перемикач Звичайний / Експерт. Вибір моделі доступний в експертному режимі. На телефоні обидва перемикачі на всю ширину, без перекриття. Калібрування, налаштування й пара зберігаються. AIR 2.7.0 без змін; оновлювати її не потрібно. Після встановлення перезавантажте сторінку.",
+    "en": "New two-row calibrator header. Logo, model, guide, language flags and connection / version are on top. Colored CAD / Mouse / Pause controls and a separate neutral Normal / Expert switch are below. Model selection remains available in Expert. Both switches fill the phone width without overlap. Calibration, settings and pairing are preserved. AIR 2.7.0 is unchanged and needs no update. Reload the page after installation."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
