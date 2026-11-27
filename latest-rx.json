@@ -1,20 +1,26 @@
 {
   "schema": 1,
   "target": "axora-esp32-wireless-rx",
-  "version": "2.6.2",
-  "size": 638016,
-  "sha256": "1eb7a671a4d8ed53571a2403d6dcf84c83461cec8854ac1b80b858729502546b",
+  "version": "2.7.0",
+  "size": 642752,
+  "sha256": "8e9ddf9c76e830bbddcd2f35a4f4c94ea3970cc995ea602020b01dd51ab297e1",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c"
+    "commit": "3e8a5feac8dcd4aceba1057a91173495253a2125"
   },
   "notes": {
-    "uk": "Маркер у верхній панелі AXORA AIR показує Bluetooth лише при активному бездротовому з’єднанні; при прямому налаштуванні через USB — USB. Оновлено мобільну панель. Збережено пару, рухи CAD, кнопки, прокручування та вебоновлення. Для нових станів і затримки кнопок оновіть AXORA до 2.7.2.",
-    "en": "The AXORA AIR header shows Bluetooth only for an active wireless connection, or USB during direct USB configuration. Updated mobile header. Preserves pairing, CAD movement, buttons, scrolling and web updates. Update AXORA to 2.7.2 for live control state and adjustable button delay."
+    "uk": "Спрощений екран зв’язку, діагностика в окремому блоці, зрозуміліший пошук AXORA та версія в шапці. Підписані оновлення й перевірка першого запуску. Пара зберігається. Після встановлення використовуйте тільки оригінальні підписані файли AXORA AIR.",
+    "en": "Simplified connection screen, optional diagnostic details, clearer AXORA discovery and header version. Signed updates and first-boot checks. Pairing is preserved. After installation use only original signed AXORA AIR files."
   },
   "compatibleAxoraVersion": "2.5.0",
-  "recommendedAxoraVersion": "2.7.2"
+  "recommendedAxoraVersion": "2.9.0",
+  "signature": {
+    "format": "axora-signed-v1",
+    "algorithm": "ECDSA-P256-SHA256",
+    "trailerBytes": 128,
+    "publicKeySha256": "5c348fd981d3b1f43cd8181af4f6593d8080712f46575a58365213d8360f6872"
+  }
 }

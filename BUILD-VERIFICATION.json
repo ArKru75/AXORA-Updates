@@ -1,37 +1,49 @@
 {
-  "version": "2.8.3",
-  "airVersion": "2.6.2",
-  "sourceCommit": "fa583373c5043b2365989440ea45e9bb718af727",
-  "builder": "GitHub Actions self-hosted Windows, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "version": "2.9.0",
+  "airVersion": "2.7.0",
+  "sourceCommit": "3e8a5feac8dcd4aceba1057a91173495253a2125",
+  "builder": "Local self-hosted Windows toolchain, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "channel": "experimental",
   "ci": {
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/46021189551",
-    "status": "success"
+    "status": "success",
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46052044692",
+    "sourceCommit": "3e8a5feac8dcd4aceba1057a91173495253a2125"
   },
+  "hardwareTested": false,
   "records": [
     {
       "device": "AXORA / AXORA Pro",
       "role": "tx",
-      "version": "2.8.3",
-      "file": "axora-max-tx-2.8.3.bin",
-      "bytes": 1003024,
+      "version": "2.9.0",
+      "file": "axora-max-tx-2.9.0.bin",
+      "bytes": 1010176,
       "capacity": 1048576,
-      "free": 45552,
-      "sha256": "2caed9bbb9b019200b7beb06b645fc5268f268a2183314bb2f263486c9cf9f54",
-      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b"
+      "free": 38400,
+      "sha256": "6b904842c441c1b3209b367eaa3a8a87f787ee0585162ff20781d57bf08c2e1a",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b",
+      "signatureVerified": true,
+      "factory": {
+        "file": "factory/axora-max-tx-2.9.0-factory.bin",
+        "sha256": "07f7b2a865acbc3f7d6f989abd694dc48f8e983cd109691a67c0b55be9ac830b"
+      }
     },
     {
       "device": "AXORA AIR",
       "role": "rx",
-      "version": "2.6.2",
-      "file": "axora-esp32-wireless-rx-2.6.2.bin",
-      "bytes": 638016,
+      "version": "2.7.0",
+      "file": "axora-esp32-wireless-rx-2.7.0.bin",
+      "bytes": 642752,
       "capacity": 1310720,
-      "free": 672704,
-      "sha256": "1eb7a671a4d8ed53571a2403d6dcf84c83461cec8854ac1b80b858729502546b",
-      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533"
+      "free": 667968,
+      "sha256": "8e9ddf9c76e830bbddcd2f35a4f4c94ea3970cc995ea602020b01dd51ab297e1",
+      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533",
+      "signatureVerified": true,
+      "factory": {
+        "file": "factory/axora-esp32-wireless-rx-2.7.0-factory.bin",
+        "sha256": "dfbaee6df2580964a743465a1d49e50e15bf9a48b1fa92fe4641d8bafbe65ac8"
+      }
     }
   ],
-  "hardwareTested": false,
   "models": [
     {
       "id": 0,
@@ -59,14 +71,16 @@
       "input": "PCF8575, existing former Max wiring"
     }
   ],
-  "unchangedAirSourceCommit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c",
   "checks": [
-    "Native UBSan, BLE crypto/OTA and all six Playwright suites passed",
-    "Lift releases left/right/middle, cancels pending clicks and requires neutral return; small motion and short spikes do not release latches",
-    "Exclusive left/right/middle latches replace each other; other-button clicks also avoid chords; 12000 control frames verify single-bit button state",
-    "Actual auxiliary HID path verifies release-all on lift and direct left-to-right latch replacement",
-    "Mouse mode remains active after lifting; half-travel click, maximum hold, deep middle, directions, saved inversion and threshold behavior retained",
-    "Bilingual guidance, live latch indication, save/discard, drafts, backups and desktop/mobile layout passed",
-    "Settings/NVS and radio formats, original OTA partitions, project identity, SHA256 and factory/OTA equality retained; AIR 2.6.2 binary unchanged"
-  ]
+    "Native UBSan and seven browser suites passed",
+    "ECDSA-P256 original signature accepted; modified/truncated/untrusted images rejected before activation",
+    "Production buffered updater: SHA, interruption, out-of-order blocks, write failures and inactive-slot safety",
+    "First-boot confirmation, legacy application guard, native rollback, watchdog recovery and valid partition lookup",
+    "Read-only mouse telemetry preserves mode, latches, settings and flash",
+    "Both languages, every section at 320/390/768/1440px, minified production JS/CSS and no horizontal overflow",
+    "Normal-mode updates, service-only model changes, explicit saves, draft review/discard and offline help",
+    "USB/Bluetooth wire layouts, four/15 buttons, seven LEDs and original OTA partitions retained",
+    "Signed factory/application equality, embedded new UI, capacities and SHA-256 verified"
+  ],
+  "pendingHardwareChecks": "See docs/COMMERCIAL_RELEASE_CHECKLIST.md in source repository. No device was flashed."
 }
