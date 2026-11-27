@@ -1,23 +1,23 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.7.1",
-  "size": 996848,
-  "sha256": "3d26e3169b04ad435f8868562c9e04e99e449b207db5244cd5de0aa638e200fc",
+  "version": "2.7.2",
+  "size": 999392,
+  "sha256": "e415a74a194b612dcf9c1186bbfde56c52bad7ac86bc5e0cffa8103f8077eaec",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "e8d8007cc3fcb1f54cdf1d6cf37bbc9dd47bd526"
+    "commit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c"
   },
   "notes": {
-    "uk": "Виправлено прокручування малими зміщеннями; у AIR 2.6.1 усунено блокування прокрутки вбік. Замість списку й дублюючої кнопки — одна панель CAD / Миша / Пауза. Розділ Миша вмикає мишу автоматично. Після будь-якої CAD-кнопки ручка має паузу 300 мс, щоб мікрорух не переривав команду. Кліки й перетягування миші не блокуються. Налаштування та пара зберігаються.",
-    "en": "More responsive small scrolling; AIR 2.6.1 fixes horizontal scroll blocking. One CAD / Mouse / Pause panel replaces the dropdown and duplicate button. Opening Mouse enables it automatically. Every CAD key pauses handle motion for 300 ms so a slight nudge does not interrupt its command. Mouse clicks and dragging are unaffected. Settings and pairing are preserved."
+    "uk": "Панель показує фактичний CAD / Миша / Пауза, включно з тестовим кубом; Пауза голуба. При виході з Миші чи Налаштувань автоматично вмикається CAD. Маркер показує USB або активний Bluetooth. У Кнопки додано збереження затримки 0–1500 мс. Фізична 2 на AXORA / 4 на Pro перемикає режими довгим натисканням в обидва боки; коротке передає призначення 3DxWare. Калібрування, налаштування та пара зберігаються.",
+    "en": "The panel shows actual CAD / Mouse / Pause state, including cube preview; Pause is light blue. Leaving Mouse or Settings enables CAD automatically. The badge shows USB or active Bluetooth. Buttons now includes a saved 0–1500 ms delay. Physical 2 on AXORA / 4 on Pro toggles modes with a long hold in both directions; a short press sends its 3DxWare assignment. Calibration, settings and pairing are preserved."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
   },
   "compatibleAirVersion": "2.5.0",
-  "recommendedAirVersion": "2.6.1"
+  "recommendedAirVersion": "2.6.2"
 }

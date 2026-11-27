@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "target": "axora-esp32-wireless-rx",
-  "version": "2.6.1",
-  "size": 637904,
-  "sha256": "f6da2d58d68375bab6e0b075badecf1d23cd19adb0e242f253626ce41074bf61",
+  "version": "2.6.2",
+  "size": 638016,
+  "sha256": "1eb7a671a4d8ed53571a2403d6dcf84c83461cec8854ac1b80b858729502546b",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "e8d8007cc3fcb1f54cdf1d6cf37bbc9dd47bd526"
+    "commit": "cd4e8147d1c0cc3a3ed7d2c1691f41650ffcb70c"
   },
   "notes": {
-    "uk": "Виправлено горизонтальне прокручування: порожні повідомлення миші більше не займають канал перед прокруткою вбік. Кліки, відпускання й накопичені рухи повторюються коректно, якщо USB зайнятий. Збережено Bluetooth-пару, рухи CAD та вебоновлення. Рекомендовано AXORA 2.7.1.",
-    "en": "Fixes horizontal scrolling: empty mouse reports no longer occupy the endpoint ahead of horizontal scroll. Clicks, releases and accumulated movement retry correctly when USB is busy. Preserves Bluetooth pairing, CAD motion and web updates. AXORA 2.7.1 is recommended."
+    "uk": "Маркер у верхній панелі AXORA AIR показує Bluetooth лише при активному бездротовому з’єднанні; при прямому налаштуванні через USB — USB. Оновлено мобільну панель. Збережено пару, рухи CAD, кнопки, прокручування та вебоновлення. Для нових станів і затримки кнопок оновіть AXORA до 2.7.2.",
+    "en": "The AXORA AIR header shows Bluetooth only for an active wireless connection, or USB during direct USB configuration. Updated mobile header. Preserves pairing, CAD movement, buttons, scrolling and web updates. Update AXORA to 2.7.2 for live control state and adjustable button delay."
   },
   "compatibleAxoraVersion": "2.5.0",
-  "recommendedAxoraVersion": "2.7.1"
+  "recommendedAxoraVersion": "2.7.2"
 }
