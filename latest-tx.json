@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.9.6",
-  "size": 1027600,
-  "sha256": "e33663d1886231b188492d5abcd1c138e08678ad92b9eaab7e09a52d667e74bd",
+  "version": "2.9.7",
+  "size": 1031408,
+  "sha256": "ebad0696efd8216714f57d2944ab881b309f60b6e6d1b240edc03429afce59a3",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "17290eed86125123093ea24b8c40d4d02b0b112f"
+    "commit": "9efce4e5f970310bf15dc8b043ed74ba89bf3c0f"
   },
   "notes": {
-    "uk": "У «Центрах датчиків» поточні значення поза допуском від збереженого центру підсвічуються червоним. Позначення зникає при поверненні в норму. Виправлено блокування фонового логотипа політикою безпеки. Для фону через AIR оновіть також AIR до 2.7.1. Перезавантажте сторінку. Калібрування, налаштування та пара зберігаються.",
-    "en": "Sensor-center rows turn red when live readings leave the saved center tolerance and clear when back in range. Fixed the security policy blocking the background logo. Update AIR to 2.7.1 for the background over AIR, then reload the page. Calibration, settings and pairing are preserved."
+    "uk": "У «Центрах датчиків» показано точні причини невдалої перевірки: номер датчика, фактичні значення, допустимі межі та рекомендації. Збережено результати саме невдалого вимірювання, окремо від поточних показань. Помилка зникає після успішної перевірки. Українська й англійська, USB, AIR та Wi-Fi. Калібрування й пара зберігаються. AIR 2.7.1 без змін; після оновлення перезавантажте сторінку.",
+    "en": "Sensor centers now explains failed checks with sensor numbers, measured values, limits and appropriate advice. The rejected measurement is retained separately from live readings. The report clears after successful verification. Available in Ukrainian and English over USB, AIR and Wi-Fi. Calibration and pairing are preserved. AIR 2.7.1 is unchanged; reload the page after updating."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"

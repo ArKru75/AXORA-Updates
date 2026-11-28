@@ -16,7 +16,7 @@
     "en": "Fixed the page security policy so the calibrator background logo displays over AXORA AIR. Update AXORA to 2.9.6 for live sensor-center range highlighting. Pairing is preserved. Reload the browser page after updating."
   },
   "compatibleAxoraVersion": "2.5.0",
-  "recommendedAxoraVersion": "2.9.6",
+  "recommendedAxoraVersion": "2.9.7",
   "signature": {
     "format": "axora-signed-v1",
     "algorithm": "ECDSA-P256-SHA256",
