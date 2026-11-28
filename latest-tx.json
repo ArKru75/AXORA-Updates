@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.9.3",
-  "size": 1015104,
-  "sha256": "1a5b272f7e5f6296b5072673559694134544e45222dc5922c7898d54010205af",
+  "version": "2.9.4",
+  "size": 1015232,
+  "sha256": "c5b5a0959eac483b79f88aaae08a97fe679d522de9d31b68606b7a58fb6a6d06",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "bf514776000b94f32322f8b26a5407a7c0be1038"
+    "commit": "aa786a2ecfdf7e17520beacbf01d8b2813ffea7a"
   },
   "notes": {
-    "uk": "Список незбережених змін дозволяє відкрити або скасувати правки одного розділу. У миші спочатку видно дві швидкості; додаткові параметри зібрані в «Точне налаштування». Кнопка «Відпустити всі кнопки» знімає фіксації без зміни режиму та налаштувань. Натисніть число біля повзунка для точного введення або початкового значення цього параметра; збереження залишається окремою дією. У перевірці рухів використано малюнки напрямків із CAD. Тексти українською й англійською узгоджені. Калібрування, параметри, кнопки та пара зберігаються. AIR 2.7.0 без змін. Після встановлення перезавантажте сторінку.",
-    "en": "Review changes lists each pending section with Open and Discard actions. Mouse initially shows two speeds; Fine tuning groups advanced controls. Release all buttons clears latches without changing mode or settings. Click a slider value for precise entry or that parameter’s default; Save remains separate. Motion test uses the same direction artwork as CAD. Ukrainian/English labels and messages are aligned. Calibration, settings, buttons and pairing are preserved. AIR 2.7.0 is unchanged. Reload the page after installation."
+    "uk": "«Допомога» остання в меню на комп’ютері та телефоні. Додано посилання на магазин AXORA і Telegram для зв’язку. Після встановлення перезавантажте сторінку. Налаштування, калібрування та пара збережені. AIR 2.7.0 без змін.",
+    "en": "Help is last in the desktop and phone menus. Added links to the AXORA shop and Telegram contact. Reload the page after installation. Settings, calibration and pairing are preserved. AIR 2.7.0 is unchanged."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
