@@ -1,25 +1,25 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.9.5",
-  "size": 1026976,
-  "sha256": "033a8147fd62649b44f9a56aa89036dc10d9c52afd67050049820e0b8a6cf9b5",
+  "version": "2.9.6",
+  "size": 1027600,
+  "sha256": "e33663d1886231b188492d5abcd1c138e08678ad92b9eaab7e09a52d667e74bd",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "3a60210c123563581abbd644a91cc12d58a4c1be"
+    "commit": "17290eed86125123093ea24b8c40d4d02b0b112f"
   },
   "notes": {
-    "uk": "Погоджений логотип AXORA додано як легкий фон калібратора. На телефоні фон слабший. Зображення вбудоване й працює без інтернету через USB, AXORA AIR і Wi-Fi. Після встановлення перезавантажте сторінку. Налаштування, калібрування та пара збережені. AIR 2.7.0 без змін.",
-    "en": "Added the approved AXORA symbol as a subtle calibrator background, lighter on phones. The embedded image works offline over USB, AXORA AIR and Wi-Fi. Reload the page after installation. Settings, calibration and pairing are preserved. AIR 2.7.0 is unchanged."
+    "uk": "У «Центрах датчиків» поточні значення поза допуском від збереженого центру підсвічуються червоним. Позначення зникає при поверненні в норму. Виправлено блокування фонового логотипа політикою безпеки. Для фону через AIR оновіть також AIR до 2.7.1. Перезавантажте сторінку. Калібрування, налаштування та пара зберігаються.",
+    "en": "Sensor-center rows turn red when live readings leave the saved center tolerance and clear when back in range. Fixed the security policy blocking the background logo. Update AIR to 2.7.1 for the background over AIR, then reload the page. Calibration, settings and pairing are preserved."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
   },
   "compatibleAirVersion": "2.5.0",
-  "recommendedAirVersion": "2.7.0",
+  "recommendedAirVersion": "2.7.1",
   "signature": {
     "format": "axora-signed-v1",
     "algorithm": "ECDSA-P256-SHA256",

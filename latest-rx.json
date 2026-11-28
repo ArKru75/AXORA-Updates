@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "target": "axora-esp32-wireless-rx",
-  "version": "2.7.0",
-  "size": 642752,
-  "sha256": "8e9ddf9c76e830bbddcd2f35a4f4c94ea3970cc995ea602020b01dd51ab297e1",
+  "version": "2.7.1",
+  "size": 642768,
+  "sha256": "a5bd24300626602af98751ad008062666161ffb872c7408b9e522ac27a40c299",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "3e8a5feac8dcd4aceba1057a91173495253a2125"
+    "commit": "17290eed86125123093ea24b8c40d4d02b0b112f"
   },
   "notes": {
-    "uk": "Спрощений екран зв’язку, діагностика в окремому блоці, зрозуміліший пошук AXORA та версія в шапці. Підписані оновлення й перевірка першого запуску. Пара зберігається. Після встановлення використовуйте тільки оригінальні підписані файли AXORA AIR.",
-    "en": "Simplified connection screen, optional diagnostic details, clearer AXORA discovery and header version. Signed updates and first-boot checks. Pairing is preserved. After installation use only original signed AXORA AIR files."
+    "uk": "Виправлено політику безпеки сторінки: фоновий логотип калібратора тепер відображається і через AXORA AIR. Для підсвічування центрів датчиків оновіть AXORA до 2.9.6. Пара зберігається. Після оновлення перезавантажте сторінку браузера.",
+    "en": "Fixed the page security policy so the calibrator background logo displays over AXORA AIR. Update AXORA to 2.9.6 for live sensor-center range highlighting. Pairing is preserved. Reload the browser page after updating."
   },
   "compatibleAxoraVersion": "2.5.0",
-  "recommendedAxoraVersion": "2.9.5",
+  "recommendedAxoraVersion": "2.9.6",
   "signature": {
     "format": "axora-signed-v1",
     "algorithm": "ECDSA-P256-SHA256",
