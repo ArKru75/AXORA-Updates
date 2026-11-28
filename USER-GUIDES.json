@@ -8,23 +8,25 @@
       "language": "uk",
       "file": "AXORA-User-Guide-UK.pdf",
       "pages": 6,
-      "bytes": 674066,
-      "sha256": "c5c32e12904dbd2b50622ca23b4d83464f410b7d5e82b6dba7b93a1dbdae4ce2"
+      "bytes": 679565,
+      "sha256": "5b07f2cf23a22317a41d65c16e6b713c84305164c7db0d583838322a1a596438"
     },
     {
       "language": "en",
       "file": "AXORA-User-Guide-EN.pdf",
       "pages": 6,
-      "bytes": 659114,
-      "sha256": "9130536b11f70373879f624d18314450bd6d1d07fe8daa19654decd4caf87622"
+      "bytes": 664776,
+      "sha256": "f244ed53d520afb3301d72468c2ff836a2e83cea2844eabca06c5a759a1aad87"
     }
   ],
   "checks": [
     "Content cross-checked with current calibrator, controller, phone Wi-Fi policy and AIR code",
     "All twelve rendered pages visually reviewed",
     "Ukrainian and English: six pages, font embedding, content, links and page bounds verified",
+    "Device names use inline wordmarks throughout; address links and literal Wi-Fi network name remain readable",
+    "Cover model captions retain button counts and omit light counts",
     "No numeric IP addresses, legacy models or unnecessary firmware terminology"
   ],
-  "sourceCommit": "8c80c24056c7013255d8861ff376245eb2e566fb",
+  "sourceCommit": "33c0c63f7eac684e6bf4aefa5d7badc9c90b6550",
   "sourcePath": "docs/user-guide/build_guides.py"
 }
