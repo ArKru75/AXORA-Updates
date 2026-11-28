@@ -1,6 +1,6 @@
 {
   "firmware": {
-    "AXORA": "2.9.2",
+    "AXORA": "2.9.3",
     "AXORA AIR": "2.7.0"
   },
   "files": [
@@ -8,15 +8,15 @@
       "language": "uk",
       "file": "AXORA-User-Guide-UK.pdf",
       "pages": 6,
-      "bytes": 679565,
-      "sha256": "5b07f2cf23a22317a41d65c16e6b713c84305164c7db0d583838322a1a596438"
+      "bytes": 679723,
+      "sha256": "67a4f99916c3bef9cf5a2a4976d375b9b9709dfa377449454af706a903cc5a3e"
     },
     {
       "language": "en",
       "file": "AXORA-User-Guide-EN.pdf",
       "pages": 6,
-      "bytes": 664776,
-      "sha256": "f244ed53d520afb3301d72468c2ff836a2e83cea2844eabca06c5a759a1aad87"
+      "bytes": 664896,
+      "sha256": "d758a54747bdc4c59ecf40afa279f05a03e2ad3b9b874b9d40d7cf3814de4f92"
     }
   ],
   "checks": [
@@ -27,6 +27,6 @@
     "Cover model captions retain button counts and omit light counts",
     "No numeric IP addresses, legacy models or unnecessary firmware terminology"
   ],
-  "sourceCommit": "33c0c63f7eac684e6bf4aefa5d7badc9c90b6550",
+  "sourceCommit": "bf514776000b94f32322f8b26a5407a7c0be1038",
   "sourcePath": "docs/user-guide/build_guides.py"
 }

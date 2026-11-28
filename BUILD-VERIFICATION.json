@@ -1,30 +1,30 @@
 {
-  "version": "2.9.2",
+  "version": "2.9.3",
   "airVersion": "2.7.0",
-  "sourceCommit": "157065b1db9ef71bbf5445f283064a67de0b4b5f",
+  "sourceCommit": "bf514776000b94f32322f8b26a5407a7c0be1038",
   "builder": "Local self-hosted Windows toolchain, official ESP-IDF v5.5.2, GCC 14.2.0",
   "channel": "experimental",
   "ci": {
     "status": "success",
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/46061900113",
-    "sourceCommit": "157065b1db9ef71bbf5445f283064a67de0b4b5f"
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46091541866",
+    "sourceCommit": "bf514776000b94f32322f8b26a5407a7c0be1038"
   },
   "hardwareTested": false,
   "records": [
     {
       "device": "AXORA / AXORA Pro",
       "role": "tx",
-      "version": "2.9.2",
-      "file": "axora-max-tx-2.9.2.bin",
-      "bytes": 1011104,
+      "version": "2.9.3",
+      "file": "axora-max-tx-2.9.3.bin",
+      "bytes": 1015104,
       "capacity": 1048576,
-      "free": 37472,
-      "sha256": "5cdb533794990f698630747b2e3d712648bf96fa8152b67a859f942fd4361948",
+      "free": 33472,
+      "sha256": "1a5b272f7e5f6296b5072673559694134544e45222dc5922c7898d54010205af",
       "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b",
       "signatureVerified": true,
       "factory": {
-        "file": "factory/axora-max-tx-2.9.2-factory.bin",
-        "sha256": "659cf169f853d13774841c0ec32a2f921545538aafb8a321a584f58a28e7ebd8"
+        "file": "factory/axora-max-tx-2.9.3-factory.bin",
+        "sha256": "562f36d655f95fcba6b829aa98a326fb97d034b420ebf6bbdb4eb542afca1c8c"
       }
     },
     {
@@ -72,12 +72,13 @@
     }
   ],
   "checks": [
-    "Native UBSan, firmware/publisher, mouse, Bluetooth crypto/OTA and seven browser suites passed",
-    "Production minified header: Ukrainian/English, Normal/Expert at 320/390/672/673/768/1024/1440px; no overlap or horizontal scrolling",
-    "Header identity and connection stay above distinct device and interface control groups; neutral interface selection, colored live device state",
-    "Interface-level and language changes do not send device-mode commands; Expert model selection and Normal locks retained",
-    "All existing views, phone Wi-Fi drafts, save/discard, calibration, mouse feedback, pairing and updates regression checks passed",
-    "Signed BIN and factory equality, original partition table, capacities, embedded two-row header, manufacturer signature and SHA-256 verified",
+    "Native UBSan, firmware/publisher, mouse, Bluetooth crypto/OTA and eight browser suites passed",
+    "Production MOUSEUP command: all three holds released, mode/settings/flash unchanged, malformed and busy requests rejected, neutral required before rearming",
+    "Production minified UI: exact numeric edits, ranges/steps, keyboard entry, per-parameter defaults and cancel preserve explicit Save semantics",
+    "Six pending areas, direct navigation, selective/offline discard and reload; no unrelated draft loss or unintended flash writes",
+    "Compact Mouse view, extra parameters under Fine tuning, failed/successful release feedback and existing gesture/drag behavior passed",
+    "Motion cards reuse CAD direction artwork with accessible names; Ukrainian/English layouts and dialogs at 320/390/768/1440px passed",
+    "Signed BIN/factory equality, original partition table, capacity, revised embedded assets and SHA-256 verified",
     "Original signed AIR 2.7.0 application and factory retained byte-for-byte; no receiver reflash required"
   ],
   "pendingHardwareChecks": "See docs/COMMERCIAL_RELEASE_CHECKLIST.md in source repository. No device was flashed.",

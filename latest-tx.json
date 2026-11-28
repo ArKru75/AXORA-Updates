@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.9.2",
-  "size": 1011104,
-  "sha256": "5cdb533794990f698630747b2e3d712648bf96fa8152b67a859f942fd4361948",
+  "version": "2.9.3",
+  "size": 1015104,
+  "sha256": "1a5b272f7e5f6296b5072673559694134544e45222dc5922c7898d54010205af",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "157065b1db9ef71bbf5445f283064a67de0b4b5f"
+    "commit": "bf514776000b94f32322f8b26a5407a7c0be1038"
   },
   "notes": {
-    "uk": "Новий заголовок калібратора у два рядки. Зверху: лого, модель, інструкція, прапорці мови та підключення з версією. Нижче: кольорове керування CAD / Миша / Пауза і окремий спокійний перемикач Звичайний / Експерт. Вибір моделі доступний в експертному режимі. На телефоні обидва перемикачі на всю ширину, без перекриття. Калібрування, налаштування й пара зберігаються. AIR 2.7.0 без змін; оновлювати її не потрібно. Після встановлення перезавантажте сторінку.",
-    "en": "New two-row calibrator header. Logo, model, guide, language flags and connection / version are on top. Colored CAD / Mouse / Pause controls and a separate neutral Normal / Expert switch are below. Model selection remains available in Expert. Both switches fill the phone width without overlap. Calibration, settings and pairing are preserved. AIR 2.7.0 is unchanged and needs no update. Reload the page after installation."
+    "uk": "Список незбережених змін дозволяє відкрити або скасувати правки одного розділу. У миші спочатку видно дві швидкості; додаткові параметри зібрані в «Точне налаштування». Кнопка «Відпустити всі кнопки» знімає фіксації без зміни режиму та налаштувань. Натисніть число біля повзунка для точного введення або початкового значення цього параметра; збереження залишається окремою дією. У перевірці рухів використано малюнки напрямків із CAD. Тексти українською й англійською узгоджені. Калібрування, параметри, кнопки та пара зберігаються. AIR 2.7.0 без змін. Після встановлення перезавантажте сторінку.",
+    "en": "Review changes lists each pending section with Open and Discard actions. Mouse initially shows two speeds; Fine tuning groups advanced controls. Release all buttons clears latches without changing mode or settings. Click a slider value for precise entry or that parameter’s default; Save remains separate. Motion test uses the same direction artwork as CAD. Ukrainian/English labels and messages are aligned. Calibration, settings, buttons and pairing are preserved. AIR 2.7.0 is unchanged. Reload the page after installation."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
