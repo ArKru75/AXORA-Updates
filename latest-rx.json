@@ -16,7 +16,7 @@
     "en": "Simplified connection screen, optional diagnostic details, clearer AXORA discovery and header version. Signed updates and first-boot checks. Pairing is preserved. After installation use only original signed AXORA AIR files."
   },
   "compatibleAxoraVersion": "2.5.0",
-  "recommendedAxoraVersion": "2.9.4",
+  "recommendedAxoraVersion": "2.9.5",
   "signature": {
     "format": "axora-signed-v1",
     "algorithm": "ECDSA-P256-SHA256",

@@ -1,0 +1,83 @@
+{
+  "version": "2.9.4",
+  "airVersion": "2.7.0",
+  "sourceCommit": "aa786a2ecfdf7e17520beacbf01d8b2813ffea7a",
+  "builder": "Local self-hosted Windows toolchain, official ESP-IDF v5.5.2, GCC 14.2.0",
+  "channel": "experimental",
+  "ci": {
+    "status": "success",
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46095779586",
+    "sourceCommit": "aa786a2ecfdf7e17520beacbf01d8b2813ffea7a"
+  },
+  "hardwareTested": false,
+  "records": [
+    {
+      "device": "AXORA / AXORA Pro",
+      "role": "tx",
+      "version": "2.9.4",
+      "file": "axora-max-tx-2.9.4.bin",
+      "bytes": 1015232,
+      "capacity": 1048576,
+      "free": 33344,
+      "sha256": "c5b5a0959eac483b79f88aaae08a97fe679d522de9d31b68606b7a58fb6a6d06",
+      "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b",
+      "signatureVerified": true,
+      "factory": {
+        "file": "factory/axora-max-tx-2.9.4-factory.bin",
+        "sha256": "5a29f96d18492709c1468be212098a21399e4012d4c8af7bb399e530e65f4fd1"
+      }
+    },
+    {
+      "device": "AXORA AIR",
+      "role": "rx",
+      "version": "2.7.0",
+      "file": "axora-esp32-wireless-rx-2.7.0.bin",
+      "bytes": 642752,
+      "capacity": 1310720,
+      "free": 667968,
+      "sha256": "8e9ddf9c76e830bbddcd2f35a4f4c94ea3970cc995ea602020b01dd51ab297e1",
+      "partitionTableSha256": "5534824ec37c47594bd05710029df9db87d092c13a3c9c35967773cbd3930533",
+      "signatureVerified": true,
+      "factory": {
+        "file": "factory/axora-esp32-wireless-rx-2.7.0-factory.bin",
+        "sha256": "dfbaee6df2580964a743465a1d49e50e15bf9a48b1fa92fe4641d8bafbe65ac8"
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": 0,
+      "name": "AXORA",
+      "buttons": 4,
+      "leds": 7,
+      "pins": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "actions": [
+        "Escape",
+        "Fit",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AXORA Pro",
+      "buttons": 15,
+      "leds": 7,
+      "input": "PCF8575, existing former Max wiring"
+    }
+  ],
+  "checks": [
+    "Native UBSan, firmware/publisher, Bluetooth crypto/OTA and eight browser suites passed",
+    "Production minified UI: Help is last in desktop and mobile navigation; verified shop and Telegram URLs, new-tab behavior and disabled external links on phone Wi-Fi",
+    "Ukrainian and English layouts at 320/390/768/1440px passed",
+    "Signed BIN/factory equality, original partition table, capacity, embedded contacts and SHA-256 verified",
+    "Original signed AIR 2.7.0 application and factory retained byte-for-byte; no receiver reflash required"
+  ],
+  "pendingHardwareChecks": "See docs/COMMERCIAL_RELEASE_CHECKLIST.md in source repository. No device was flashed.",
+  "unchangedAirSourceCommit": "3e8a5feac8dcd4aceba1057a91173495253a2125"
+}

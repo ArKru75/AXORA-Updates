@@ -1,30 +1,30 @@
 {
-  "version": "2.9.4",
+  "version": "2.9.5",
   "airVersion": "2.7.0",
-  "sourceCommit": "aa786a2ecfdf7e17520beacbf01d8b2813ffea7a",
+  "sourceCommit": "3a60210c123563581abbd644a91cc12d58a4c1be",
   "builder": "Local self-hosted Windows toolchain, official ESP-IDF v5.5.2, GCC 14.2.0",
   "channel": "experimental",
   "ci": {
     "status": "success",
-    "url": "https://github.com/ArKru75/AXORA/actions/runs/46095779586",
-    "sourceCommit": "aa786a2ecfdf7e17520beacbf01d8b2813ffea7a"
+    "url": "https://github.com/ArKru75/AXORA/actions/runs/46096911055",
+    "sourceCommit": "3a60210c123563581abbd644a91cc12d58a4c1be"
   },
   "hardwareTested": false,
   "records": [
     {
       "device": "AXORA / AXORA Pro",
       "role": "tx",
-      "version": "2.9.4",
-      "file": "axora-max-tx-2.9.4.bin",
-      "bytes": 1015232,
+      "version": "2.9.5",
+      "file": "axora-max-tx-2.9.5.bin",
+      "bytes": 1026976,
       "capacity": 1048576,
-      "free": 33344,
-      "sha256": "c5b5a0959eac483b79f88aaae08a97fe679d522de9d31b68606b7a58fb6a6d06",
+      "free": 21600,
+      "sha256": "033a8147fd62649b44f9a56aa89036dc10d9c52afd67050049820e0b8a6cf9b5",
       "partitionTableSha256": "d1c0e9d02fa9d26cd2e1984e7b5dd20157204f501ddc83ce82229e5f3175ee8b",
       "signatureVerified": true,
       "factory": {
-        "file": "factory/axora-max-tx-2.9.4-factory.bin",
-        "sha256": "5a29f96d18492709c1468be212098a21399e4012d4c8af7bb399e530e65f4fd1"
+        "file": "factory/axora-max-tx-2.9.5-factory.bin",
+        "sha256": "46e0e41f53fae47391461285405f4ae30f1cf63dd45104da3e6b63d5ada3db64"
       }
     },
     {
@@ -73,9 +73,10 @@
   ],
   "checks": [
     "Native UBSan, firmware/publisher, Bluetooth crypto/OTA and eight browser suites passed",
-    "Production minified UI: Help is last in desktop and mobile navigation; verified shop and Telegram URLs, new-tab behavior and disabled external links on phone Wi-Fi",
-    "Ukrainian and English layouts at 320/390/768/1440px passed",
-    "Signed BIN/factory equality, original partition table, capacity, embedded contacts and SHA-256 verified",
+    "Production minified UI: desktop/mobile layouts, control interaction, dialogs and sticky mouse/cube views passed",
+    "Approved logo visually checked against the preview on desktop and phone; embedded WebP integrity verified in the actual compiled stylesheet",
+    "Background is non-interactive, leaves main scrolling unchanged and requires no additional HTTP or radio asset request",
+    "Signed BIN/factory equality, original partition table, capacity and SHA-256 verified",
     "Original signed AIR 2.7.0 application and factory retained byte-for-byte; no receiver reflash required"
   ],
   "pendingHardwareChecks": "See docs/COMMERCIAL_RELEASE_CHECKLIST.md in source repository. No device was flashed.",

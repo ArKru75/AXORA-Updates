@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "target": "axora-max-tx",
-  "version": "2.9.4",
-  "size": 1015232,
-  "sha256": "c5b5a0959eac483b79f88aaae08a97fe679d522de9d31b68606b7a58fb6a6d06",
+  "version": "2.9.5",
+  "size": 1026976,
+  "sha256": "033a8147fd62649b44f9a56aa89036dc10d9c52afd67050049820e0b8a6cf9b5",
   "transport": "ble",
   "experimental": true,
   "source": {
     "repository": "ArKru75/AXORA",
     "branch": "codex/axora-bluetooth",
-    "commit": "aa786a2ecfdf7e17520beacbf01d8b2813ffea7a"
+    "commit": "3a60210c123563581abbd644a91cc12d58a4c1be"
   },
   "notes": {
-    "uk": "«Допомога» остання в меню на комп’ютері та телефоні. Додано посилання на магазин AXORA і Telegram для зв’язку. Після встановлення перезавантажте сторінку. Налаштування, калібрування та пара збережені. AIR 2.7.0 без змін.",
-    "en": "Help is last in the desktop and phone menus. Added links to the AXORA shop and Telegram contact. Reload the page after installation. Settings, calibration and pairing are preserved. AIR 2.7.0 is unchanged."
+    "uk": "Погоджений логотип AXORA додано як легкий фон калібратора. На телефоні фон слабший. Зображення вбудоване й працює без інтернету через USB, AXORA AIR і Wi-Fi. Після встановлення перезавантажте сторінку. Налаштування, калібрування та пара збережені. AIR 2.7.0 без змін.",
+    "en": "Added the approved AXORA symbol as a subtle calibrator background, lighter on phones. The embedded image works offline over USB, AXORA AIR and Wi-Fi. Reload the page after installation. Settings, calibration and pairing are preserved. AIR 2.7.0 is unchanged."
   },
   "hardware": {
     "maxButtons": "pcf8575-p07-v1"
